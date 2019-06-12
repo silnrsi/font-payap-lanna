@@ -1,0 +1,11 @@
+#!/bin/sh
+# Script for calling multiple routines on a project, typically prior to committing to a repository.
+
+echo "Checking and normalizing Regular..."
+# Do this before meta sync so we minimize problems in the Bold
+psfnormalize -p checkfix=fix source/masters/Payap-Lanna-Regular.ufo  -p scrlevel=V -l source/logs
+
+echo "Syncing glyph orders, psnames, and other metadata to other UFOs..."
+psfsyncmasters source/Payap-Lanna.designspace -p scrlevel=V   -l source/logs
+
+echo "preflight completed!"
