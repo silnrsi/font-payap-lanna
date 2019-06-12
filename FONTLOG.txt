@@ -1,0 +1,28 @@
+FONTLOG for the Payap Lanna fonts
+
+This file provides detailed information on the Payap Lanna Font Software. This information should be distributed along with the Payap Lanna and any derivative works.
+
+Basic Font Information
+
+Payap Lanna is a Unicode typeface family that supports Tai Tham in the Lanna style. 
+
+
+ChangeLog
+==========
+
+12 June 2019 version 0.001
+- Initial design foundations
+
+Acknowledgements
+=================
+
+If you make modifications be sure to add your name (N), email (E), web-address (if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Becca Spalinger 
+D: Typeface Designer
+
+N: Martin Hosken
+E: martin_hosken@sil.org
+D: Font Engineer - Graphite and build
+
+-----
