@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1A62_u1A76" format="2">
+  <anchor x="-229" y="931" name="UD"/>
+  <anchor x="-214" y="413" name="_U"/>
+  <anchor x="-214" y="413" name="_UD"/>
+  <outline>
+    <contour>
+      <point x="440" y="1024" type="line" smooth="yes"/>
+      <point x="440" y="1038" type="line" smooth="yes"/>
+      <point x="-221" y="709" type="line" smooth="yes"/>
+      <point x="-302" y="747" type="line" smooth="yes"/>
+      <point x="-221" y="616" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="442" y="832" type="line" smooth="yes"/>
+      <point x="442" y="844" type="line" smooth="yes"/>
+      <point x="-219" y="517" type="line" smooth="yes"/>
+      <point x="-262" y="491" type="line" smooth="yes"/>
+      <point x="-219" y="422" type="line" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

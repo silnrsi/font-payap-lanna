@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1A75" format="2">
+  <anchor x="-168" y="745" name="UD"/>
+  <anchor x="-168" y="416" name="_U"/>
+  <anchor x="-168" y="416" name="_UD"/>
+  <outline>
+    <contour>
+      <point x="-165" y="416" type="line" smooth="yes"/>
+      <point x="-179" y="416" type="line" smooth="yes"/>
+      <point x="-241" y="669" type="line" smooth="yes"/>
+      <point x="-232" y="677"/>
+      <point x="-225" y="684"/>
+      <point x="-217" y="688" type="curve" smooth="yes"/>
+      <point x="-172" y="701" type="line" smooth="yes"/>
+      <point x="-142" y="701"/>
+      <point x="-118" y="691"/>
+      <point x="-96" y="669" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

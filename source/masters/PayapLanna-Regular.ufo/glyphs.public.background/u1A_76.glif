@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1A76" format="2">
+  <anchor x="-139" y="767" name="UD"/>
+  <anchor x="-139" y="440" name="_U"/>
+  <anchor x="-139" y="440" name="_UD"/>
+  <outline>
+    <contour>
+      <point x="358" y="743" type="line" smooth="yes"/>
+      <point x="358" y="757" type="line" smooth="yes"/>
+      <point x="-203" y="470" type="line" smooth="yes"/>
+      <point x="-265" y="509" type="line" smooth="yes"/>
+      <point x="-203" y="397" type="line" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>
