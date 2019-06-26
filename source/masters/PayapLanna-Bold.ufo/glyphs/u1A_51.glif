@@ -4,10 +4,4 @@
   <unicode hex="1A51"/>
   <outline>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>-t</string>
-    </dict>
-  </lib>
 </glyph>

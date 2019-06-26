@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A51" format="2">
-  <advance width="963"/>
+  <advance width="973"/>
   <unicode hex="1A51"/>
   <outline>
     <contour>
@@ -93,10 +93,4 @@
       <point x="610" y="1221"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>-t</string>
-    </dict>
-  </lib>
 </glyph>
