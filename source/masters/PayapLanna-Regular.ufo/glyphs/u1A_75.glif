@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A75" format="2">
   <unicode hex="1A75"/>
-  <outline/>
+  <outline>
+    <contour>
+      <point x="-223" y="694" type="curve"/>
+      <point x="-194" y="427" type="line"/>
+      <point x="-185" y="420"/>
+      <point x="-173" y="415"/>
+      <point x="-162" y="415" type="curve" smooth="yes"/>
+      <point x="-157" y="415"/>
+      <point x="-153" y="416"/>
+      <point x="-148" y="418" type="curve"/>
+      <point x="-103" y="670" type="line"/>
+      <point x="-120" y="691"/>
+      <point x="-147" y="702"/>
+      <point x="-177" y="702" type="curve" smooth="yes"/>
+      <point x="-192" y="702"/>
+      <point x="-207" y="700"/>
+    </contour>
+  </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>50</integer>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A45.sub" format="2">
-  <advance width="1"/>
-  <outline/>
+  <advance width="50"/>
+  <outline>
+    <contour>
+      <point x="15" y="-200" type="curve" smooth="yes"/>
+      <point x="185" y="-200"/>
+      <point x="327" y="-75"/>
+      <point x="327" y="79" type="curve" smooth="yes"/>
+      <point x="327" y="231"/>
+      <point x="197" y="364"/>
+      <point x="27" y="364" type="curve" smooth="yes"/>
+      <point x="-149" y="364"/>
+      <point x="-301" y="238"/>
+      <point x="-301" y="85" type="curve" smooth="yes"/>
+      <point x="-301" y="-69"/>
+      <point x="-161" y="-200"/>
+    </contour>
+    <contour>
+      <point x="31" y="-123" type="curve" smooth="yes"/>
+      <point x="-105" y="-123"/>
+      <point x="-220" y="-7"/>
+      <point x="-220" y="88" type="curve" smooth="yes"/>
+      <point x="-220" y="205"/>
+      <point x="-141" y="297"/>
+      <point x="11" y="297" type="curve" smooth="yes"/>
+      <point x="130" y="297"/>
+      <point x="244" y="183"/>
+      <point x="244" y="66" type="curve" smooth="yes"/>
+      <point x="244" y="-69"/>
+      <point x="151" y="-123"/>
+    </contour>
+  </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
