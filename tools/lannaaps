@@ -79,8 +79,14 @@ def ldiaaps(g, anchors, b, mid):
         addAnchor(anchors, g, '_LD', mid, b.ymax + args.gap)
     addAnchor(anchors, g, 'LD', mid, b.ymin)
 
+rudias = ["u1A58", "u1A7A", "u1A7B"]
+@some
+def ruaps(g, anchors, b, mid):
+    addAnchor(anchors, g, "_UR", g.width, 0)
+
 baseaps(bases)
 udiaaps(udias)
 ldiaaps(ldias)
+ruaps(rudias)
 font.save(args.outfile)
 
