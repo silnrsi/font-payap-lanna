@@ -1,0 +1,86 @@
+#!/usr/bin/python3
+
+import defcon
+import argparse
+from collections import namedtuple
+
+BBox = namedtuple("BBox", ["xmin", "ymin", "xmax", "ymax"])
+
+def tohex(num) :
+    return "u%04X" % num
+
+def addAnchor(anchors, g, name, x, y):
+    if name not in anchors:
+        anchors[name] = defcon.objects.anchor.Anchor(None, {'name': name, 'x': x, 'y': y})
+
+def height(g):
+    b = g.bounds
+    return b[3] - b[1]
+
+def some(f):
+    def fun(glyphs):
+        for n in glyphs:
+            try:
+                g = font[n]
+            except KeyError:
+                continue
+            if not len(g):
+                continue
+            anchors = dict((a.name, a) for a in g.anchors)
+            b = BBox(*g.bounds)
+            mid = 0.5 * (b.xmin + b.xmax)
+            f(g, anchors, b, mid)
+            g.anchors = [v for k, v in sorted(anchors.items())]
+    return fun
+
+parser = argparse.ArgumentParser()
+parser.add_argument("infile", help="Input UFO")
+parser.add_argument("outfile", nargs="?", help="Output UFO")
+parser.add_argument("-g","--gap",default=100,help="Default diacritic gap")
+args = parser.parse_args()
+
+font = defcon.objects.font.Font(args.infile)
+udiah = font['u1A20'].bounds[3] + args.gap
+udiahigh = udiah + height(font['u1A65']) + args.gap
+ldiah = -args.gap
+ldialow = ldiah - height(font['u1A45.sub']) - args.gap
+
+bases = []
+bases.extend(map(tohex, range(0x1A20, 0x1A55)))
+bases.extend(("u1A36_u1A63", "u1A31_u1A2C", "u1A3E_u1A5B", "u1A33_u1A5B", "u1A53.alt",
+              "circledash", "u1A63", "u1A64"))
+lowbases = ["u1A2B", "u1A42", "u1A44", "u1A4D"]
+tallbases = ["u1A22", "u1A24", "u1A2A", "u1A38", "u1A3A", "u1A3C", "u1A40", "u1A50", "u1A53"]
+
+@some
+def baseaps(g, anchors, b, mid):
+    addAnchor(anchors, g, 'U', mid, udiah)
+    addAnchor(anchors, g, 'L', mid, 0)
+    addAnchor(anchors, g, 'UR', g.width, udiah)
+    addAnchor(anchors, g, 'LR', g.width, 0)
+
+udias = ["u1A62", "u1A65", "u1A66", "u1A67", "u1A68", "u1A6B", "u1A73", "u1A74", "u1A75", "u1A76"]
+@some
+def udiaaps(g, anchors, b, mid):
+    addAnchor(anchors, g, '_U', mid, b.ymin)
+    addAnchor(anchors, g, 'UD', mid, b.ymax + args.gap)
+    addAnchor(anchors, g, '_UD', mid, b.ymin)
+
+tallldias = ["u1A25.sub", "u1A2C.sub", "u1A30.sub", "u1A38.sub", "u1A3A.sub", "u1A3F.sub",
+             "u1A43.sub", "u1A47.sub", "u1A48.sub", "u1A5B", "u1A6D"]
+ldias = ["u1A69", "u1A6A", "u1A5B", "u1A6C", "u1A6D"]
+ldias.extend(map(lambda x: "u%04X.sub" % x, range(0x1A20, 0x1A4D)))
+@some
+def ldiaaps(g, anchors, b, mid):
+    if g.name in tallldias :
+        addAnchor(anchors, g, '_LR', g.width, b.ymax + args.gap)
+    else :
+        addAnchor(anchors, g, '_L', mid, b.ymax + args.gap)
+        addAnchor(anchors, g, '_LD', mid, b.ymax + args.gap)
+    addAnchor(anchors, g, 'LD', mid, b.ymin)
+
+baseaps(bases)
+udiaaps(udias)
+ldiaaps(ldias)
+font.save(args.outfile)
+

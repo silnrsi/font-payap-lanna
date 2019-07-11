@@ -1,0 +1,192 @@
+/*
+    Title:  Lanna.gdl
+    Author: M. Hosken
+    Description:    Lanna Unicode graphite rules
+    License:    Open Font License 1.1
+
+0.01    MJPH    23-MAY-2008     Original
+*/
+
+#define opt(x)  [x]?
+#define opt2(x) [opt(x) x]?
+#define opt3(x) [opt2(x) x]?
+#define opt4(x) [opt3(x) x]?
+#define opt5(x) [opt4(x) x]?
+#define opt6(x) [opt5(x) x]?
+#define opt7(x) [opt6(x) x]?
+
+#define pass_lig        1
+#define pass_pre        2
+#define pass_reorder    3
+#define pass_render     4
+
+#define BW_WORD     10
+#define BW_SYLL     15
+#define BW_CHAR     30
+#define BW_CLIP     40
+#define BW_NEVER    50
+
+#define ANY ANYGlyph
+
+Bidi = 0;
+
+table(glyph);
+ANY = (glyphid(0 .. MAXGLYPH)){breakweight = -BW_CHAR};
+cSymbol {breakweight = BW_WORD};
+//cConsLig = (g1a53 g1a54)
+//cConsNarrow = (g1a21, g1a22, g1a23, g1a24, g1a26, g1a27, g1a29, g1a2a, g1a2d, g1a2e, g1a2f,
+//        g1a30, g1a33, g1a34, g1a35, g1a36, g1a37, g1a38, g1a39, g1a3a, g1a3b, g1a3c, g1a3e,
+//        g1a40, g1a41, g1a42, g1a43, g1a44, g1a45, g1a46, g1a4a)
+//cConsVowel = (g1a4d, g1a4e, g1a50, g1a51, g1a52)
+//cConsWide = (g1a20, g1a25, g1a28, g1a2b, g1a2c, g1a31, g1a32, g1a3d, g1a3f, g1a43, g1a47,
+//             g1a48, g1a4b, g1a4c, g1a53, g1a54)
+//cConsUFinal = (g1a58, g1a59, g1a5a)
+//cTon e = (g1a75, g1a76)
+//cVowelUDia = (g1a62, g1a65, g1a66, g1a67, g1a68, g1a6b, g1a73, g1a74)
+//cVowelLDia = (g1a69, g1a6a, g1a6c, g1a6d)
+//cConsLFinal = (g1a5b, g1a5c, g1a5d, g1a5e)
+//cVowelPre = (g1a6e, g1a6f, g1a70, g1a71, g1a72)
+cCons = (cConsNarrow cConsWide cConsVowel cConsLig g_dottedcircle g1a36_1a63 g1a31_1a2c){breakweight = -BW_SYLL};
+cuDia = (cVowelUDia cConsUFinal cTone){breakweight = -BW_NEVER};
+clDia = (csub cVowelLDia cConsLFinal g1a56 clow){breakweight = -BW_NEVER};
+cDia = (cuDia clDia g1a55 g1a5b g1a7b);
+cNarrow = (cConsNarrow g1a63);
+cSpace = (g_space){breakweight = BW_WORD};
+cNeedsLow = (g1a2e g1a4a g1a4c clig1A36_sub clig1A3E_sub);
+#if HAS_g1a49_1a36_sub_1a45_sub
+cNeedsLow += (g1a49_1a36_sub_1a45_sub);
+#endif
+
+#ifdef HAS_clig1A5B
+cNeedsLow += (clig1A5B)
+#endif
+
+#ifdef HAS_clow
+crlow = clow;
+crlow -= (g1a69, g1a6a);
+#endif
+
+endtable;
+
+table(substitution);
+
+pass(pass_lig);
+
+g1a60 cno_sub > _ csub:(1 b) / _ opt2(cBadCombiningOrder) _=b;
+
+#ifdef HAS_clig1A2C
+    g1a2c g1a60 g1a2c > g1a31_1a2c:(1 2 3) _ _;
+#endif
+
+#ifdef HAS_clig1A5B
+    cligno_1A5B g1a5b > clig1A5B:(1 2) _;
+#endif
+
+//cligno_u1A5B g1a5b > cligu1A5B:(1 2) _;
+// g1a2e g1a5b > g1a2e_1a5b:(1 2) _;
+
+endpass;
+
+pass(pass_pre);
+_ cVowelPre > @v:v _ / _ ^ cCons opt7(cDia) _=v;
+
+#ifdef HAS_clig1A5B
+    _ cVowelPre > @v:v _ / _ ^ clig1A5B opt7(cDia) _=v;
+#endif
+
+cVowelPre _ > @1 g_dottedcircle:1 / _ _;
+_ g1a74 > @m:m _ / _ cTone? g1a63 _=m;
+endpass;
+
+pass(pass_reorder);
+
+_ g1a55 > @r:r _ / _ ^ cCons opt5(cDia) _=r;
+
+#ifdef HAS_clig1A63
+    cligno_1A63 g1a63 > clig1A63:(1 a) _ / ^ _ opt5(cDia) _=a;
+#endif
+
+// cno_small > csmall / cNarrow opt5(cDia) _;
+// cno_right > cright / cuDia opt5(cDia) _;
+
+endpass;
+
+pass(pass_render);
+
+// cno_big > cbig / _ opt4(cuDia) clDia;
+#ifdef HAS_chigh
+    cno_high > chigh / cuDia opt3(clDia) _;
+#endif
+#ifdef HAS_clow
+    cno_low > clow / clDia ^ opt4(cuDia) _;
+    cno_low > clow / cNeedsLow opt4(cuDia) _;
+#endif
+
+#ifdef HAS_ctall
+    cno_tall > ctall / _ ^ cCons opt2(clDia) cuDia opt2(clDia) (cuDia cTone);
+#endif
+
+#ifdef HAS_cthin
+    (cno_thin cno_tall) > (cthin ctall) / _ ^ cTallLeft;
+#endif
+
+#ifdef HAS_clig1A76
+    cligno_1A76 g1a76 > _ clig1A76$1:1 {insert = 0} / _ ^ opt3(clDia) _;
+#endif
+
+_ g1a74 > @m:m _ / _ cTone? g1a63 _=m;
+// g1a62 g1a75 > _ g1a62_1a75:1 / _ ^ opt3(clDia) _;
+// cno_right > cright / cuDia ^ opt3(clDia) _;
+
+#define reorder_lig(x, y, z) x##_sub z > y##_sub:(1 a) _ / ^ _ opt2(cuDia) _=a; \
+    z x##_sub > _ y##_sub:(1 a) / ^ _ opt2(cuDia) _=a;
+
+#ifdef HAS_clig1A36_sub
+g1a36_sub g1a49;        // don't ligate a full sequence
+reorder_lig(cligno_1A36, clig1A36, g1a36_sub)
+#endif
+
+#ifdef HAS_clig1A38_sub
+reorder_lig(cligno_1A38, clig1A38, g1a38_sub)
+#endif
+
+#ifdef HAS_clig1A3E_sub
+g1a3e_sub g1a49;
+// g1a49 g1a3e_sub g1a6c > @1 g1a6c_1a3e_sub:(2 3) _;
+reorder_lig(cligno_1A3E, clig1A3E, g1a3e_sub)
+#endif
+
+#ifdef HAS_clig1A45_sub
+reorder_lig(cligno_1A45, clig1A45, g1a45_sub)
+#ifdef HAS_g1a49_1a36_sub_1a45_sub
+g1a49 g1a45_sub g1a36_sub > g1a49_1a36_sub_1a45_sub:(1 a b) _ _ / ^ _ opt2(cuDia) _=a opt2(cuDia) _=b;
+#endif
+#endif
+
+endpass;
+
+endtable;
+
+table(positioning)
+pass(1)
+
+//(clDia cuDia) {insert = 0};
+g1a74 {attach {to = @1; at = URS; with = UAM}} / cTakesURDia opt4(cnTakesURDia) _ ^ opt(cTone) g1a63;
+cLRDia {attach {to = @1; at = LRS; with = LRM}} / cTakesLRDia opt4((cnTakesLRDia cLRDia)) _;
+cURDia {attach {to = @1; at = URS; with = URM}} / cTakesURDia opt4(cnTakesURDia) _;
+cLDia {attach {to = @1; at = LS; with = LM}} / cTakesLDia opt4(cnTakesLDia) _;
+cUDia {attach {to = @1; at = US; with = UM}} / cTakesUDia opt4(cnTakesUDia) _;
+
+endpass
+
+#if 0
+#ifdef HAS_g1a48_sub_low
+pass(2)
+crlow {shift.y = @d.position.y + @d.LRDS.y - @c.position.y - @c.LRS.y; \
+      shift.x = (@d.position.x + @d.LRDS.x > @c.position.x + @c.LRS.x) ? (@d.position.x + @d.LRDS.x - @c.position.x - @c.LRS.x) : 0m} \
+      / cCons=c opt4((cuDia clDia)) clDia=d opt4(cuDia) _ ;
+endpass
+#endif
+#endif
+
+endtable

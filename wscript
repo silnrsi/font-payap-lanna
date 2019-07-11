@@ -17,14 +17,15 @@ BUILDLABEL = "alpha"
 fontfamily=APPNAME
 
 
-for weight in ('-Regular','-Bold') :
-    font(target = fontfamily + weight + ".ttf",
-         source = "source/masters/" + fontfamily + weight + ".ufo",
-         graphite = gdl('generated/' + fontfamily + '.gdl',
-                        master='source/' + fontfamily + '.gdl',
+for weight in ('-Regular',): #'-Bold') :
+    n = fontfamily + weight
+    font(target = n + ".ttf",
+         source = create("source/" + n + ".ufo", cmd("../tools/lannaaps ${SRC} ${TGT}", "source/masters/" + n + ".ufo")),
+         graphite = gdl('generated/' + n + '.gdl',
+                        master='source/lanna.gdl',
                         make_params="-l lastcomp --autodefines",
                         params='-v2 -d -q -e gdlerr' + weight + '.txt' ),
-         ap = 'source/' + fontfamily + '.xml',
+         ap = 'source/' + n + '.xml',
          #ap_params = '-e "L=LD;U=UD;UR=URD"',       # LR != LRD
          #opentype = fea(create("srcs/{}.fea".format(f), cmd("psfmakefea -i ${SRC[2]} -c ${SRC[1]} -o ${TGT} ${SRC[0]}",
          #                                                   ['source/{}.xml'.format(f), 'source/khun_classes.xml', 'source/khun.feap'])),
