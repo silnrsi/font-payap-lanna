@@ -9,9 +9,9 @@ BBox = namedtuple("BBox", ["xmin", "ymin", "xmax", "ymax"])
 def tohex(num) :
     return "u%04X" % num
 
-def addAnchor(anchors, g, name, x, y):
-    if name not in anchors:
-        anchors[name] = defcon.objects.anchor.Anchor(None, {'name': name, 'x': x, 'y': y})
+def addAnchor(a, g, name, x, y):
+    if name not in a:
+        a[name] = defcon.objects.anchor.Anchor(None, {'name': name, 'x': x, 'y': y})
 
 def height(g):
     b = g.bounds
@@ -53,36 +53,36 @@ lowbases = ["u1A2B", "u1A42", "u1A44", "u1A4D"]
 tallbases = ["u1A22", "u1A24", "u1A2A", "u1A38", "u1A3A", "u1A3C", "u1A40", "u1A50", "u1A53"]
 
 @some
-def baseaps(g, anchors, b, mid):
-    addAnchor(anchors, g, 'U', mid, udiah)
-    addAnchor(anchors, g, 'L', mid, 0)
-    addAnchor(anchors, g, 'UR', g.width, udiah)
-    addAnchor(anchors, g, 'LR', g.width, 0)
+def baseaps(g, a, b, mid):
+    addAnchor(a, g, 'U', mid, udiah)
+    addAnchor(a, g, 'L', mid, 0)
+    addAnchor(a, g, 'UR', g.width, udiah)
+    addAnchor(a, g, 'LR', g.width, 0)
 
 udias = ["u1A62", "u1A65", "u1A66", "u1A67", "u1A68", "u1A6B", "u1A73", "u1A74", "u1A75", "u1A76"]
 @some
-def udiaaps(g, anchors, b, mid):
-    addAnchor(anchors, g, '_U', mid, b.ymin)
-    addAnchor(anchors, g, 'UD', mid, b.ymax + args.gap)
-    addAnchor(anchors, g, '_UD', mid, b.ymin)
+def udiaaps(g, a, b, mid):
+    addAnchor(a, g, '_U', mid, b.ymin)
+    addAnchor(a, g, 'UD', mid, b.ymax + args.gap)
+    addAnchor(a, g, '_UD', mid, b.ymin)
 
 tallldias = ["u1A25.sub", "u1A2C.sub", "u1A30.sub", "u1A38.sub", "u1A3A.sub", "u1A3F.sub",
              "u1A43.sub", "u1A47.sub", "u1A48.sub", "u1A5B", "u1A6D"]
 ldias = ["u1A69", "u1A6A", "u1A5B", "u1A6C", "u1A6D"]
 ldias.extend(map(lambda x: "u%04X.sub" % x, range(0x1A20, 0x1A4D)))
 @some
-def ldiaaps(g, anchors, b, mid):
+def ldiaaps(g, a, b, mid):
     if g.name in tallldias :
-        addAnchor(anchors, g, '_LR', g.width, b.ymax + args.gap)
+        addAnchor(a, g, '_LR', g.width, b.ymax + args.gap)
     else :
-        addAnchor(anchors, g, '_L', mid, b.ymax + args.gap)
-        addAnchor(anchors, g, '_LD', mid, b.ymax + args.gap)
-    addAnchor(anchors, g, 'LD', mid, b.ymin)
+        addAnchor(a, g, '_L', mid, b.ymax + args.gap)
+        addAnchor(a, g, '_LD', mid, b.ymax + args.gap)
+    addAnchor(a, g, 'LD', mid, b.ymin)
 
 rudias = ["u1A58", "u1A7A", "u1A7B"]
 @some
-def ruaps(g, anchors, b, mid):
-    addAnchor(anchors, g, "_UR", g.width, 0)
+def ruaps(g, a, b, mid):
+    addAnchor(a, g, "_UR", g.width, 0)
 
 baseaps(bases)
 udiaaps(udias)
