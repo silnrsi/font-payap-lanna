@@ -4,16 +4,6 @@
 <dict>
   <key>colon</key>
   <string>colon.glif</string>
-  <key>colon.calt0</key>
-  <string>colon.calt0.glif</string>
-  <key>colon.calt1</key>
-  <string>colon.calt1.glif</string>
-  <key>colon.calt2</key>
-  <string>colon.calt2.glif</string>
-  <key>colon.calt3</key>
-  <string>colon.calt3.glif</string>
-  <key>colon.calt4</key>
-  <string>colon.calt4.glif</string>
   <key>comma</key>
   <string>comma.glif</string>
   <key>dottedcircle</key>
