@@ -171,7 +171,7 @@ table(positioning)
 pass(1)
 
 //(clDia cuDia) {insert = 0};
-g1a74 {attach {to = @1; at = URS; with = UAM}} / cTakesURDia opt4(cnTakesURDia) _ ^ opt(cTone) g1a63;
+g1a74 {attach {to = @1; at = URS; with = URM}} / cTakesURDia opt4(cnTakesURDia) _ ^ opt(cTone) g1a63;
 cLRDia {attach {to = @1; at = LRS; with = LRM}} / cTakesLRDia opt4((cnTakesLRDia cLRDia)) _;
 cURDia {attach {to = @1; at = URS; with = URM}} / cTakesURDia opt4(cnTakesURDia) _;
 cLDia {attach {to = @1; at = LS; with = LM}} / cTakesLDia opt4(cnTakesLDia) _;
