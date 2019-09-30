@@ -1,0 +1,37 @@
+#!/usr/bin/python3
+
+from fontTools.ttLib import TTFont
+
+class TestFont:
+    def __init__(self, font):
+        self.font = font
+        self.glyphs = font.getGlyphSet()
+        self.makevars()
+
+    def makelist(self, chars, template="u{:04X}"):
+        return [c for c in chars if template.format(c) in self.glyphs]
+
+    def makevars(self):
+        self.cons = self.makelist(range(0x1A20, 0x1A4D))
+        self.subs = self.makelist(range(0x1A20, 0x1A4D), "u{:04X}.sub")
+        self.uvowel = self.makelist(range(0x1A65, 0x1A69))
+        self.lvowel = self.makelist(range(0x1A69, 0x1A6B))
+        self.pvowel = self.makelist(range(0x1A6E, 0x1A73))
+        self.avowel = self.makelist([0x1A61, 0x1A63])
+
+    def makestringlist(self, pre, vals, post):
+        return [pre + chr(c) + post for c in vals]
+
+    def makestrings(self):
+        res = []
+        res.extend(self.makestringlist("", self.cons, ""))
+        for c in [""] + [chr(c) for c in self.uvowel]:
+            res.extend(self.makestringlist("\u1A20\u1A60", self.subs, c))
+        return "\n".join(res)
+
+if __name__ == "__main__":
+    import sys
+    f = TTFont(sys.argv[1])
+    t = TestFont(f)
+    print(t.makestrings())
+
