@@ -73,7 +73,7 @@ ldias.extend(map(lambda x: "u%04X.sub" % x, range(0x1A20, 0x1A4D)))
 @some
 def ldiaaps(g, a, b, mid):
     if g.name in tallldias :
-        addAnchor(a, g, '_LR', g.width, b.ymax + args.gap)
+        addAnchor(a, g, '_LR', 0, args.gap)
     else :
         addAnchor(a, g, '_L', mid, b.ymax + args.gap)
         addAnchor(a, g, '_LD', mid, b.ymax + args.gap)
