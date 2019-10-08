@@ -8,8 +8,6 @@
     <string>comma.glif</string>
     <key>dottedcircle</key>
     <string>dottedcircle.glif</string>
-    <key>noglyph1</key>
-    <string>noglyph1.glif</string>
     <key>parenleft</key>
     <string>parenleft.glif</string>
     <key>parenright</key>
@@ -184,6 +182,8 @@
     <string>u1A_45.sub.glif</string>
     <key>u1A45.sub.low</key>
     <string>u1A_45.sub.low.glif</string>
+    <key>u1A45_u1A3F.sub</key>
+    <string>u1A_45_u1A_3F_.sub.glif</string>
     <key>u1A46</key>
     <string>u1A_46.glif</string>
     <key>u1A46.sub</key>

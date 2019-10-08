@@ -4,14 +4,19 @@
   <dict>
     <key>com.schriftgestaltung.Glyphs.fontUserData</key>
     <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>EB6B647B-773B-44D0-8C01-9EF94D842C7F</key>
+        <dict/>
+      </dict>
       <key>com.schriftgestaltung.Glyphs.groupsNotInFeature</key>
       <array/>
     </dict>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1262</string>
+    <string>1267</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
     <array>
-      <string>/u1A26/u1A37/u1A4F/u1A23/u1A2D/u1A3B/u1A53/u1A48/u1A49/u1A55</string>
+      <string>/u1A26/u1A37/u1A4F/u1A23/u1A2D/u1A3B/u1A53/u1A32/u1A48/u1A49/u1A55</string>
       <string>/u1A4E/u1A53/u1A3B/u1A26/u1A4D/u1A2B    /u1A26.sub    /u1A29.sub    /u1A33.sub  /u1A2A/u1A33/u1A4A/u1A26/u1A29/u1A55 
 </string>
       <string>/u1A31_u1A2C  /u1A23/u1A24/u1A29/u1A2A/u1A2C/u1A3B/u1A3C/u1A48/u1A4F  /u1A50  /u1A51  /u1A52  /u1A55   /u1A55.tall 
@@ -20,15 +25,16 @@
       <string>
 /u1A6E/u1A3F/u1A2E/u1A3B_u1A5B/u1A20/u1A43  /u1A3D.sub/u1A49_u1A36.sub_u1A45.sub/u1A37    /u1A31.sub     /u1A49_u1A36.sub/u1A32/u1A46/u1A23  /u1A37.sub    /u1A49.sub   /u1A32.sub   /u1A24/u1A47/u1A6F 
 /u1A3D  /u1A20.sub  /u1A31/u1A49/u1A54/u1A49_u1A3E.sub/u1A53  /u1A46.sub/u1A48  /u1A23.sub</string>
-      <string>/u1A27/u1A32/u1A35/u1A3D/u1A45/u1A48/u1A29/u1A48/u1A47/u1A6E/u1A6F 
+      <string>/u1A27/u1A32/u1A35/u1A3D/u1A45/u1A28/u1A48/u1A29/u1A48/u1A47/u1A6E/u1A6F 
  /u1A33.sub   /u1A45.sub.low   /u1A26.sub   /u1A27.sub    /u1A32.sub   /u1A35.sub   /u1A45.sub</string>
       <string>/u1A55/u1A70/u1A71  /u1A72  /u1A55.tall/u1A70.thin/u1A71.thin/u1A72.thin/u1A51</string>
-      <string>/u1A31_u1A2C/u1A36_u1A63/u1A2F/u1A4B/u1A21/u1A22/u1A25/u1A28/u1A30/u1A36/u1A47.sub 
-/u1A3F/u1A48/u1A41/u1A44/u1A2D/u1A2E/u1A42/u1A3B_u1A5B/u1A4C/u1A49  /u1A57   /u1A61/u1A63/u1A63_u1A74/u1A64/u1A6D/u1A41.alt</string>
       <string>/u1A2A/u1A3A/u1A3E_u1A5B/u1A42/u1A44/u1A4A/u1A4C/u1A53/u1A4E/u1A4F/u1A50/u1A70</string>
-      <string>/u1A20/u1A23/u1A32/u1A36/u1A63/u1A6E/u1A37/u1A3E/u1A45/u1A46/u1A49  /u1A26.sub   /u1A27.sub   /u1A3F.sub  /u1A45.sub  /u1A62  /u1A65  /u1A69  /u1A6A  /u1A74  /u1A75  /u1A76   /u1A62_u1A76   /u1A7B   </string>
-      <string>/u1A62_u1A76  /u1A4E   /u1A6B  /u1A7A/u1A61  /u1A65   /u1A62_u1A76</string>
-      <string>/u1A4E</string>
+      <string>/u1A20/u1A23/u1A32/u1A36/u1A63/u1A6E/u1A37/u1A3E/u1A45/u1A46/u1A49  /u1A26.sub   /u1A27.sub   /u1A3F.sub  /u1A45.sub  /u1A62  /u1A65  /u1A69  /u1A6A  /u1A74  /u1A75  /u1A76   /u1A62_u1A76   /u1A7B   /u1A61/u1A32  </string>
+      <string>/u1A2D/u1A2E/u1A34/u1A39/u1A2D/u1A3A/u1A40/u1A4B/u1A52</string>
+      <string>/u1A21/u1A22/u1A28  /u1A32/u1A47.sub  /u1A32/u1A47.sub.low  /u1A32/u1A57  /u1A32/u1A3F.sub</string>
+      <string>/u1A64</string>
+      <string>/u1A83</string>
+      <string>/u1A6A.low</string>
     </array>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <true/>
@@ -4670,6 +4676,7 @@
       <string>u1A6C_u1A3E.sub</string>
       <string>u1A6C_u1A3F.sub</string>
       <string>noglyph1</string>
+      <string>u1A45_u1A3F.sub</string>
     </array>
     <key>public.postscriptNames</key>
     <dict>
