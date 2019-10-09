@@ -10,6 +10,6 @@ psfnormalize -p checkfix=fix source/masters/PayapLanna-Regular.ufo -p scrlevel=V
 psfnormalize -p checkfix=fix source/masters/PayapLanna-Bold.ufo -p scrlevel=V
 
 echo "Syncing glyph orders, psnames, and other metadata to other UFOs..."
-psfsyncmasters source/masters/PayapLannaGlyphs.designspace -p scrlevel=V
+psfsyncmasters source/PayapLannaGlyphs.designspace -p scrlevel=V
 
 echo "preflight completed!"
