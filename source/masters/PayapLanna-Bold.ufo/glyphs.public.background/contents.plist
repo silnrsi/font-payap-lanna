@@ -1,26 +1,26 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-  <dict>
-    <key>colon</key>
-    <string>colon.glif</string>
-    <key>comma</key>
-    <string>comma.glif</string>
-    <key>parenleft</key>
-    <string>parenleft.glif</string>
-    <key>parenright</key>
-    <string>parenright.glif</string>
-    <key>period</key>
-    <string>period.glif</string>
-    <key>quotedblleft</key>
-    <string>quotedblleft.glif</string>
-    <key>quotedblright</key>
-    <string>quotedblright.glif</string>
-    <key>quoteleft</key>
-    <string>quoteleft.glif</string>
-    <key>quoteright</key>
-    <string>quoteright.glif</string>
-    <key>slash</key>
-    <string>slash.glif</string>
-  </dict>
+<dict>
+  <key>colon</key>
+  <string>colon.glif</string>
+  <key>comma</key>
+  <string>comma.glif</string>
+  <key>parenleft</key>
+  <string>parenleft.glif</string>
+  <key>parenright</key>
+  <string>parenright.glif</string>
+  <key>period</key>
+  <string>period.glif</string>
+  <key>quotedblleft</key>
+  <string>quotedblleft.glif</string>
+  <key>quotedblright</key>
+  <string>quotedblright.glif</string>
+  <key>quoteleft</key>
+  <string>quoteleft.glif</string>
+  <key>quoteright</key>
+  <string>quoteright.glif</string>
+  <key>slash</key>
+  <string>slash.glif</string>
+</dict>
 </plist>

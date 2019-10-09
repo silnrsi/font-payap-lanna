@@ -35,7 +35,7 @@ http://scripts.sil.org/OFL
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2019/10/09 11:52:45</string>
+  <string>2019/10/09 12:00:14</string>
   <key>openTypeHheaAscender</key>
   <integer>1955</integer>
   <key>openTypeHheaDescender</key>
@@ -108,7 +108,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameSampleText</key>
   <string>sampletext to be added</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Lanna Bold: 2019</string>
+  <string>SIL International: Payap Lanna Bold: 2019</string>
   <key>openTypeNameVersion</key>
   <string>Version 0.001</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -119,11 +119,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>4</integer>
     <integer>7</integer>
     <integer>8</integer>
-  </array>
-  <key>openTypeOS2FamilyClass</key>
-  <array>
-    <integer>0</integer>
-    <integer>0</integer>
   </array>
   <key>openTypeOS2Panose</key>
   <array>
@@ -215,7 +210,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>1970</integer>
   </array>
   <key>postscriptFontName</key>
-  <string>Lanna-Bold</string>
+  <string>PayapLanna-Bold</string>
   <key>postscriptFullName</key>
   <string>Lanna</string>
   <key>postscriptStemSnapH</key>
@@ -226,8 +221,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>-110</integer>
   <key>postscriptUnderlineThickness</key>
   <integer>80</integer>
-  <key>postscriptWeightName</key>
-  <string>Normal</string>
   <key>styleMapFamilyName</key>
   <string>Lanna</string>
   <key>styleMapStyleName</key>
