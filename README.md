@@ -2,6 +2,8 @@
 
 Payap Lanna is a Unicode font family that supports Tai Tham in the Lanna style.
 
+### Project status [![Build Status](http://build.palaso.org/app/rest/builds/buildType:Fonts_PayapLanna/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_PayapLanna&guest=1)
+
 *Font design and engineering is still going on so this font is not yet ready for use or distribution yet.*
 
 It is inspired but not derived from the Udom font family by Charin Jamjitt. 
