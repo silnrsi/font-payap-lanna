@@ -1,0 +1,19 @@
+#!/bin/bash
+# Script for calling multiple routines on a project, typically prior to committing to a repository.
+# FontForge-specific version
+
+# Stop on any errors
+set -e
+
+psffixffglifs source/masters/PayapLanna-Regular.ufo -p checkfix=fix &
+psffixffglifs source/masters/PayapLanna-Bold.ufo -p checkfix=fix &
+wait
+
+echo "Checking and normalizing Regular..."
+# Do this before meta sync so we minimize problems in the Bold
+psfnormalize -p checkfix=fix source/masters/PayapLanna-Regular.ufo  -p scrlevel=V -l source/logs
+
+echo "Syncing glyph orders, psnames, and other metadata to other UFOs..."
+psfsyncmasters source/PayapLanna.designspace -p scrlevel=V   -l source/logs
+
+echo "preflightff completed!"
