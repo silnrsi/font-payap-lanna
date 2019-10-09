@@ -1,5 +1,5 @@
 Copyright (c) 2019, SIL International (www.sil.org)
-with Reserved Font Name "Lanna" and "Payap".
+with Reserved Font Name "Payap" and "Lanna".
 
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
