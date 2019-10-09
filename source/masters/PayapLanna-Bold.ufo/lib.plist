@@ -16,7 +16,8 @@
     <string>1267</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
     <array>
-      <string>/u1A26/u1A37/u1A4F/u1A23/u1A2D/u1A3B/u1A53/u1A32/u1A48/u1A49/u1A55</string>
+      <string>/u1A26/u1A37/u1A4F/u1A23/u1A2D/u1A3B/u1A53/u1A32/u1A48/u1A49/u1A55 
+/u1A26/u1A37/u1A4F/u1A23/u1A2D/u1A3B/u1A53/u1A32/u1A48/u1A49/u1A55</string>
       <string>/u1A4E/u1A53/u1A3B/u1A26/u1A4D/u1A2B    /u1A26.sub    /u1A29.sub    /u1A33.sub  /u1A2A/u1A33/u1A4A/u1A26/u1A29/u1A55 
 </string>
       <string>/u1A31_u1A2C  /u1A23/u1A24/u1A29/u1A2A/u1A2C/u1A3B/u1A3C/u1A48/u1A4F  /u1A50  /u1A51  /u1A52  /u1A55   /u1A55.tall 
@@ -33,8 +34,6 @@
       <string>/u1A2D/u1A2E/u1A34/u1A39/u1A2D/u1A3A/u1A40/u1A4B/u1A52</string>
       <string>/u1A21/u1A22/u1A28  /u1A32/u1A47.sub  /u1A32/u1A47.sub.low  /u1A32/u1A57  /u1A32/u1A3F.sub</string>
       <string>/u1A64</string>
-      <string>/u1A83</string>
-      <string>/u1A6A.low</string>
     </array>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <true/>
