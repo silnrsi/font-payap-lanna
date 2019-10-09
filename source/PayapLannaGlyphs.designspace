@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="3">
 <axes>
-        <axis default="400.0" maximum="700.0" minimum="300.0" name="weight" tag="wght">
+        <axis default="400.0" maximum="700.0" minimum="400.0" name="weight" tag="wght">
             <map input="400.0" output="400.0" />
             <map input="700.0" output="700.0" />
             <labelname xml:lang="en">Weight</labelname>
@@ -36,7 +36,7 @@
         </source>
     </sources>
     <instances>
-        <instance familyname="Payap Lanna" stylename="Regular" filename="instances/PayapLanna-Regular.ufo"  name="Payap Lanna Regular" postscriptfontname="Payap-Lanna-Regular" stylemapfamilyname="Payap Lanna" stylemapstylename="regular">
+        <instance familyname="Payap Lanna" filename="instances/PayapLanna-Regular.ufo"  name="Payap Lanna Regular" postscriptfontname="PayapLanna-Regular" stylemapfamilyname="Payap Lanna" stylemapstylename="regular" stylename="Regular">
             <location>
                 <dimension name="weight" xvalue="400.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -45,7 +45,16 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Payap Lanna" filename="instances/PayapLanna-Bold.ufo" name="Payap Lanna Bold" stylemapfamilyname="Payap Lanna" stylemapstylename="bold" stylename="Bold">
+        <instance familyname="Payap Lanna" filename="instances/PayapLanna-SemiBold.ufo"  name="Payap Lanna SemiBold" postscriptfontname="PayapLanna-SemiBold" stylename="SemiBold">
+            <location>
+                <dimension name="weight" xvalue="550.000000" />
+                <dimension name="width" xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
+            </location>
+            <info />
+            <kerning />
+        </instance>
+        <instance familyname="Payap Lanna" filename="instances/PayapLanna-Bold.ufo" name="Payap Lanna Bold" postscriptfontname="PayapLanna-Bold" stylemapfamilyname="Payap Lanna" stylemapstylename="bold" stylename="Bold">
             <location>
                 <dimension name="weight" xvalue="700.000000" />
                 <dimension name="width" xvalue="100.000000" />

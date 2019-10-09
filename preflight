@@ -1,15 +1,12 @@
 #!/bin/sh
 # Script for calling multiple routines on a project, typically prior to committing to a repository.
 
-# Produce individual UFOs from Glyphs file
-psfglyphs2ufo --nofea source/masters/PayapLanna.glyphs source/masters
-
 echo "Checking and normalizing Regular..."
 # Do this before meta sync so we minimize problems in the Bold
 psfnormalize -p checkfix=fix source/masters/PayapLanna-Regular.ufo -p scrlevel=V
 psfnormalize -p checkfix=fix source/masters/PayapLanna-Bold.ufo -p scrlevel=V
 
 echo "Syncing glyph orders, psnames, and other metadata to other UFOs..."
-psfsyncmasters source/masters/PayapLannaGlyphs.designspace -p scrlevel=V
+psfsyncmasters source/PayapLanna.designspace -p scrlevel=V
 
 echo "preflight completed!"

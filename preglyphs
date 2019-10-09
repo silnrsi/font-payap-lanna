@@ -2,5 +2,4 @@
 # script to convert .ufo to .glyphs file for GUI editing
 
 echo "Generating glyphs file from current designspace and UFOs"
-psfufo2glyphs source/Payap-Lanna.designspace source/Payap-Lanna.glyphs -l source/logs/Payap-Lanna_psfufo2glyphs.log
-
+psfufo2glyphs source/PayapLannaGlyphs.designspace source/masters/PayapLanna.glyphs
