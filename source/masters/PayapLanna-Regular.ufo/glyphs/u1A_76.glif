@@ -3,30 +3,30 @@
   <unicode hex="1A76"/>
   <outline>
     <contour>
-      <point x="-327" y="550" type="curve"/>
-      <point x="-321" y="554"/>
-      <point x="-313" y="559"/>
-      <point x="-303" y="557" type="curve"/>
-      <point x="-280" y="538"/>
-      <point x="-253" y="507"/>
-      <point x="-215" y="487" type="curve"/>
-      <point x="-26" y="546"/>
-      <point x="184" y="673"/>
-      <point x="401" y="873" type="curve"/>
-      <point x="408" y="862"/>
-      <point x="410" y="850"/>
-      <point x="407" y="836" type="curve"/>
-      <point x="210" y="599"/>
-      <point x="-81" y="422"/>
-      <point x="-245" y="394" type="curve"/>
-      <point x="-275" y="422"/>
-      <point x="-310" y="497"/>
+      <point x="-217" y="550" type="curve"/>
+      <point x="-211" y="554"/>
+      <point x="-203" y="559"/>
+      <point x="-193" y="557" type="curve"/>
+      <point x="-170" y="538"/>
+      <point x="-143" y="507"/>
+      <point x="-105" y="487" type="curve"/>
+      <point x="84" y="546"/>
+      <point x="294" y="673"/>
+      <point x="511" y="873" type="curve"/>
+      <point x="518" y="862"/>
+      <point x="520" y="850"/>
+      <point x="517" y="836" type="curve"/>
+      <point x="320" y="599"/>
+      <point x="29" y="422"/>
+      <point x="-135" y="394" type="curve"/>
+      <point x="-165" y="422"/>
+      <point x="-200" y="497"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>50</integer>
+      <integer>300</integer>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

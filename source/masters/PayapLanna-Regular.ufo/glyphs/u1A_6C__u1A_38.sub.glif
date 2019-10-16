@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A6C_u1A38.sub" format="2">
-  <outline/>
+  <outline>
+    <component base="u1A6C" xOffset="-721" yOffset="-491"/>
+    <component base="u1A38.sub.low"/>
+  </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>979</integer>
+      <integer>276</integer>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

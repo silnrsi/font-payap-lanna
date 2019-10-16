@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A49_u1A3E.sub" format="2">
-  <advance width="1373"/>
-  <outline/>
+  <advance width="1388"/>
+  <outline>
+    <component base="u1A49"/>
+    <component base="u1A3E.sub" xOffset="454" yOffset="64"/>
+  </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
