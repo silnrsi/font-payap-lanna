@@ -1,9 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A7C" format="2">
   <unicode hex="1A7C"/>
-  <outline/>
+  <outline>
+    <contour>
+      <point x="363" y="1071" type="curve"/>
+      <point x="370" y="1065"/>
+      <point x="374" y="1055"/>
+      <point x="372" y="1048" type="curve"/>
+      <point x="355" y="1034"/>
+      <point x="341" y="1015"/>
+      <point x="341" y="992" type="curve" smooth="yes"/>
+      <point x="341" y="943"/>
+      <point x="418" y="874"/>
+      <point x="418" y="823" type="curve" smooth="yes"/>
+      <point x="418" y="782"/>
+      <point x="385" y="761"/>
+      <point x="348" y="761" type="curve" smooth="yes"/>
+      <point x="278" y="761"/>
+      <point x="234" y="829"/>
+      <point x="204" y="829" type="curve" smooth="yes"/>
+      <point x="192" y="829"/>
+      <point x="185" y="821"/>
+      <point x="185" y="806" type="curve" smooth="yes"/>
+      <point x="185" y="766"/>
+      <point x="235" y="677"/>
+      <point x="247" y="597" type="curve"/>
+      <point x="199" y="684"/>
+      <point x="113" y="756"/>
+      <point x="113" y="824" type="curve" smooth="yes"/>
+      <point x="113" y="876"/>
+      <point x="156" y="897"/>
+      <point x="186" y="897" type="curve" smooth="yes"/>
+      <point x="246" y="897"/>
+      <point x="300" y="822"/>
+      <point x="333" y="822" type="curve" smooth="yes"/>
+      <point x="346" y="822"/>
+      <point x="351" y="828"/>
+      <point x="351" y="837" type="curve" smooth="yes"/>
+      <point x="351" y="863"/>
+      <point x="299" y="931"/>
+      <point x="299" y="972" type="curve" smooth="yes"/>
+      <point x="299" y="1025"/>
+      <point x="337" y="1056"/>
+    </contour>
+    <component base="u1A7A" xOffset="-100"/>
+  </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>300</integer>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

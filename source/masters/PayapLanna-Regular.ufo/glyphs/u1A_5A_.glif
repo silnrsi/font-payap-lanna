@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A5A" format="2">
   <unicode hex="1A5A"/>
-  <outline/>
+  <outline>
+    <component base="u1A3B.sub" yOffset="1200"/>
+  </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>500</integer>
+      <integer>778</integer>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A6C_u1A3E.sub" format="2">
   <outline>
-    <component base="u1A6C" xOffset="300"/>
+    <component base="u1A6C" xOffset="240" yOffset="70"/>
     <component base="u1A3E.sub" xOffset="-100" yOffset="330"/>
   </outline>
   <lib>
