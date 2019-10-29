@@ -1,0 +1,11 @@
+\begin[class=fontproof]{document}
+
+\setTestFont["Payap Lanna", features="+clig,+kern",size="18pt"]
+
+\section{Lanna waterfall}
+
+\proof[size="10pt, 24pt, 48pt"]{﻿ᨻᩱ​ᩋ᩠ᩅᩯ᩵​ᨠ᩠ᩅᨯ​ᨹᩬᩴ᩵​ᨷᩣ᩠᩶ᨶᨾᩮᩨᩬᨦ​
+ᩉ᩠ᩃᩢᨦ​ᨧᩣ᩠ᨠ​ᨴᩦ᩵​ᩉ᩠ᨾᩬᩴ​ᩅᩁᩪᨾ᩠ᨶᩯ​ᨾᩣ​ᨹ᩠ᩅᩯ​ᨯᩱ᩶​ᨷᩴ᩵​ᨻᩬᩴ​ᨾ᩠ᨶᩮᩥ​ᨴᩮᩢᩣ᩵ᨯᩱ ᩁᩮᩢᩣ​ᨲ᩠ᨦᩢ᩶ᨧᩱ​ᨠ᩠ᨸᩢ​ᨲ᩠ᨠᩫᩃ᩠ᨦᩫ​ᨠ᩠ᨶᩢ​ᩅᩣ᩵​ᨧᩡ​ᩋᩬᨠ​ᩋ᩠ᩅᩯ᩵​ᨹᩬᩴ᩵​ᨷᩣ᩠᩶ᨶ​ᨾᩮᩨᩬᨦ ᨲᩣᩴ​ᩉ᩠ᨾᩪ᩵​ᩉ᩠ᨶᩦ᩶ }
+
+
+\end{document}
