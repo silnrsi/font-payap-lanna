@@ -24,7 +24,7 @@ for weight in ('-Regular',): #'-Bold') :
          graphite = gdl('generated/' + n + '.gdl',
                         master='source/lanna.gdl',
                         make_params="-l lastcomp --autodefines",
-                        params='-v2 -d -q -e gdlerr' + weight + '.txt' ),
+                        params='-v4 -d -q -e gdlerr' + weight + '.txt' ),
          ap = 'source/' + n + '.xml',
          #ap_params = '-e "L=LD;U=UD;UR=URD"',       # LR != LRD
          #opentype = fea(create("srcs/{}.fea".format(f), cmd("psfmakefea -i ${SRC[2]} -c ${SRC[1]} -o ${TGT} ${SRC[0]}",

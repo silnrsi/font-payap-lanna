@@ -131,7 +131,7 @@ pass(pass_render);
 #endif
 
 #ifdef HAS_clig1A76
-    cligno_1A76 g1a76 > _ clig1A76$1:1 {insert = 0} / _ ^ opt3(clDia) _;
+    cligno_1A76 g1a76 > _ clig1A76$1:1 / _ ^ opt3(clDia) _;
 #endif
 
 _ g1a74 > @m:m _ / _ cTone? g1a63 _=m;
