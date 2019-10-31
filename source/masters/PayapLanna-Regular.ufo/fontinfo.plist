@@ -35,7 +35,7 @@ http://scripts.sil.org/OFL
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2019/10/22 18:17:13</string>
+  <string>2019/10/31 17:03:00</string>
   <key>openTypeHheaAscender</key>
   <integer>1955</integer>
   <key>openTypeHheaDescender</key>
@@ -232,7 +232,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>0</integer>
   <key>versionMinor</key>
-  <integer>5</integer>
+  <integer>6</integer>
   <key>xHeight</key>
   <integer>802</integer>
 </dict>
