@@ -20,7 +20,7 @@ fontfamily=APPNAME
 for weight in ('-Regular',): #'-Bold') :
     n = fontfamily + weight
     font(target = n + ".ttf",
-         source = create("source/" + n + ".ufo", cmd("../tools/lannaaps ${SRC} ${TGT}", "source/masters/" + n + ".ufo")),
+         source = create("source/" + n + ".ufo", cmd("../tools/lannaaps -g 50 ${SRC} ${TGT}", "source/masters/" + n + ".ufo")),
          graphite = gdl('generated/' + n + '.gdl',
                         master='source/lanna.gdl',
                         make_params="-l lastcomp --autodefines",
@@ -31,7 +31,7 @@ for weight in ('-Regular',): #'-Bold') :
          #                                                   ['source/{}.xml'.format(f), 'source/khun_classes.xml', 'source/khun.feap'])),
          #               no_make=1),
          #        woff = woff(),
-         fret = fret(),
+         fret = fret(params='-r -a source/' + n + '.xml'),
          version = VERSION,
          script = 'lana',
          classes = 'source/lanna_classes.xml')

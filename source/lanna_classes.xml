@@ -57,5 +57,11 @@
 <class name="cTallLeft">
     u1A24 u1A2A u1A3A u1A3C u1A50 u1A52 u1A55
 </class>
+
+<class name="cTallLDias">
+    u1A45_u1A3F.sub u1A48.sub_u1A45.sub u1A6C_u1A38.sub u1A6C_u1A3F.sub
+    u1A25.sub u1A2C.sub u1A30.sub u1A38.sub u1A3A.sub u1A3F.sub u1A3F.sub.low
+    u1A43.sub u1A47.sub u1A48.sub u1A57 u1A5B u1A6D
+</class>
 </classes>
 
