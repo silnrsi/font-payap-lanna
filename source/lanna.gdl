@@ -177,7 +177,8 @@ cURDia {attach {to = @1; at = URS; with = URM}} / cTakesURDia opt4(cnTakesURDia)
 cLDia {attach {to = @1; at = LS; with = LM}} / cTakesLDia opt4(cnTakesLDia) _;
 cUDia {attach {to = @1; at = US; with = UM}} / cTakesUDia opt4((cnTakesUDia cTallLDias)) _;
 cUDDia {attach {to = @1; at = UDS; with = UDM}} / cTakesUDDia opt4(cnTakesUDDia) _;
-
+cLDDia {attach {to = @1; at = LDS; with = LDM}; advance.x=0m} / cTakesLDDia opt4(cnTakesLDDia) _;
+cUTDia {attach {to = @1; at = UTS; with = UTM}} / cTakesUTDia opt4(cnTakesUTDia) cUDia opt4(cnTakesUTDia) _;
 endpass
 
 #if 0

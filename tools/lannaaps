@@ -48,13 +48,14 @@ ldialow = ldiah - height(font['u1A45.sub']) - args.gap
 
 bases = []
 bases.extend("u{:04X}".format(x) for x in range(0x1A20, 0x1A55))
-bases.extend(("u1A36_u1A63", "u1A33_u1A5B", "u1A53.alt", "circledash", "u1A63", "u1A64"))
+bases.extend(("u1A36_u1A63", "u1A33_u1A5B", "u1A53.alt", "circledash", "u25CC", "u1A63", "u1A64"))
 extras_lowbases = ["u1A31_u1A2C", "u1A3E_u1A5B", "u1A49_u1A36.sub", "u1A49_u1A36.sub_u1A45.sub",
-                   "u1A49_u1A3E.sub"]
+                   "u1A49_u1A3E.sub", "u1A3B_u1A5B"]
+extras_lowbases.extend("u{:04X}".format(x) for x in range(0x1A80, 0x1A9A))
 bases.extend(extras_lowbases)
 lowbases = ["u1A2E", "u1A42", "u1A44", "u1A4A", "u1A4C", "u1A4D", "u1A4E"] + extras_lowbases
 tallbases = ["u1A22", "u1A24", "u1A2A", "u1A38", "u1A3A", "u1A3C", "u1A40", "u1A50", "u1A53",
-             "u1A31_u1A2C"]
+             "u1A31_u1A2C", "u1A52", "u1A4E"]
 
 @some
 def baseaps(g, a, b, mid):
@@ -64,16 +65,23 @@ def baseaps(g, a, b, mid):
     addAnchor(a, g, 'L', m, b.ymin if g.name in lowbases else 0)
     addAnchor(a, g, 'UR', g.width, udiah)
     addAnchor(a, g, 'LR', g.width, 0)
+    if g.name in tallbases:
+        addAnchor(a, g, 'UT', m, b.ymax)
+
+tonlyBases = ["u1A55", "u1A55.tall"]
+@some 
+def tonly(g, a, b, mid):
+    addAnchor(a, g, 'UT', mid, b.ymax)
 
 udias = ["u1A59", "u1A5A", "u1A5C", "u1A5D", "u1A5E",
-         "u1A62", "u1A65", "u1A66", "u1A67", "u1A68", "u1A6B", "u1A73", "u1A74", 
-         "u1A75", "u1A76", "u1A77", "U1A78", "u1A75.high", "u1A76.high", "u1A74_u1A76", "u1A62.large",
+         "u1A62", "u1A65", "u1A66", "u1A67", "u1A68", "u1A6B", "u1A73", "u1A74", "u1A74.high",
+         "u1A75", "u1A76", "u1A77", "u1A78", "u1A75.high", "u1A76.high", "u1A74_u1A76", "u1A62.large",
          "u1A62_u1A76"]
 @some
 def udiaaps(g, a, b, mid):
-    addAnchor(a, g, '_U', mid, b.ymin - args.gap)
+    for n in ('U', 'UD', 'UT'):
+        addAnchor(a, g, '_'+n, mid, b.ymin - args.gap)
     addAnchor(a, g, 'UD', mid, b.ymax)
-    addAnchor(a, g, '_UD', mid, b.ymin - args.gap)
 
 extras_ldias = ["u1A45_u1A3F.sub", "u1A48.sub_u1A45.sub", "u1A6C_u1A38.sub", "u1A6C_u1A3F.sub"]
 extras_ldias.extend("u{:04X}.sub.low".format(x) for x in range(0x1A20, 0x1A4D))
@@ -98,8 +106,11 @@ rudias = ["u1A58", "u1A7A", "u1A7B", "u1A7A.high", "u1A7C"]
 @some
 def ruaps(g, a, b, mid):
     addAnchor(a, g, "_UR", mid, b.ymin - args.gap)
+    # remove me
+    g.width = b.xmax + args.gap
 
 baseaps(bases)
+tonly(tonlyBases)
 udiaaps(udias)
 ldiaaps(ldias)
 ruaps(rudias)
