@@ -60,18 +60,20 @@ tallbases = ["u1A22", "u1A24", "u1A2A", "u1A38", "u1A3A", "u1A3C", "u1A40", "u1A
 @some
 def baseaps(g, a, b, mid):
     m = 0.5 * (b.xmin + g.width)
-    #addAnchor(a, g, 'U', mid, b.ymax if g.name in tallbases else udiah)
-    addAnchor(a, g, 'U', m, udiah)
-    addAnchor(a, g, 'L', m, b.ymin if g.name in lowbases else 0)
-    addAnchor(a, g, 'UR', g.width, udiah)
-    addAnchor(a, g, 'LR', g.width, 0)
+    #addAnchor(a, g, 'A', mid, b.ymax if g.name in tallbases else udiah)
+    addAnchor(a, g, 'A', m, udiah)
+    addAnchor(a, g, 'B', m, b.ymin if g.name in lowbases else 0)
+    addAnchor(a, g, 'BR', g.width, udiah)
+    addAnchor(a, g, 'BR', g.width, 0)
+    addAnchor(a, g, 'L', b.xmin, 0)
+    addAnchor(a, g, 'R', b.xmax, 0)
     if g.name in tallbases:
-        addAnchor(a, g, 'UT', m, b.ymax)
+        addAnchor(a, g, 'AT', m, b.ymax)
 
 tonlyBases = ["u1A55", "u1A55.tall"]
 @some 
 def tonly(g, a, b, mid):
-    addAnchor(a, g, 'UT', mid, b.ymax)
+    addAnchor(a, g, 'AT', mid, b.ymax)
 
 udias = ["u1A59", "u1A5A", "u1A5C", "u1A5D", "u1A5E",
          "u1A62", "u1A65", "u1A66", "u1A67", "u1A68", "u1A6B", "u1A73", "u1A74", "u1A74.high",
@@ -79,9 +81,9 @@ udias = ["u1A59", "u1A5A", "u1A5C", "u1A5D", "u1A5E",
          "u1A62_u1A76"]
 @some
 def udiaaps(g, a, b, mid):
-    for n in ('U', 'UD', 'UT'):
+    for n in ('A', 'AD', 'AT'):
         addAnchor(a, g, '_'+n, mid, b.ymin - args.gap)
-    addAnchor(a, g, 'UD', mid, b.ymax)
+    addAnchor(a, g, 'AD', mid, b.ymax)
 
 extras_ldias = ["u1A45_u1A3F.sub", "u1A48.sub_u1A45.sub", "u1A6C_u1A38.sub", "u1A6C_u1A3F.sub"]
 extras_ldias.extend("u{:04X}.sub.low".format(x) for x in range(0x1A20, 0x1A4D))
@@ -94,18 +96,18 @@ ldias.extend("u{:04X}.sub".format(x) for x in range(0x1A20, 0x1A4D))
 @some
 def ldiaaps(g, a, b, mid):
     if g.name.replace(".low", "") not in tallldias :
-        addAnchor(a, g, '_L', mid, b.ymax + args.gap)
-        addAnchor(a, g, '_LD', mid, b.ymax + args.gap)
+        addAnchor(a, g, '_B', mid, b.ymax + args.gap)
+        addAnchor(a, g, '_BD', mid, b.ymax + args.gap)
     else:
-        addAnchor(a, g, 'UR', b.xmax, b.ymax)
+        addAnchor(a, g, 'AR', b.xmax, b.ymax)
     if g.name == "u1A5B":
-        addAnchor(a, g, '_LR', b.xmax, b.ymax + args.gap)
-    addAnchor(a, g, 'LD', mid, b.ymin)
+        addAnchor(a, g, '_BR', b.xmax, b.ymax + args.gap)
+    addAnchor(a, g, 'BD', mid, b.ymin)
 
 rudias = ["u1A58", "u1A7A", "u1A7B", "u1A7A.high", "u1A7C"]
 @some
 def ruaps(g, a, b, mid):
-    addAnchor(a, g, "_UR", mid, b.ymin - args.gap)
+    addAnchor(a, g, "_AR", mid, b.ymin - args.gap)
     # remove me
     g.width = b.xmax + args.gap
 
