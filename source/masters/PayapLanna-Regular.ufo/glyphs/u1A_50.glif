@@ -2,6 +2,12 @@
 <glyph name="u1A50" format="2">
   <advance width="965"/>
   <unicode hex="1A50"/>
+  <anchor x="508" y="852" name="A"/>
+  <anchor x="508" y="1616" name="AT"/>
+  <anchor x="508" y="0" name="B"/>
+  <anchor x="965" y="852" name="BR"/>
+  <anchor x="50" y="0" name="L"/>
+  <anchor x="1319" y="0" name="R"/>
   <outline>
     <contour>
       <point x="57" y="1200" type="curve" smooth="yes"/>

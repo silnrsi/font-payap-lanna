@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A5B" format="2">
   <unicode hex="1A5B"/>
+  <anchor x="1096" y="364" name="AR"/>
+  <anchor x="563" y="-665" name="BD"/>
+  <anchor x="1096" y="414" name="_BR"/>
+  <anchor x="0" y="0" name="_X"/>
   <outline>
     <contour>
       <point x="1005" y="364" type="curve"/>

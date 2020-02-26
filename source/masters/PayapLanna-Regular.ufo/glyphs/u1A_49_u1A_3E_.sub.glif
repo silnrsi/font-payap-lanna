@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A49_u1A3E.sub" format="2">
   <advance width="1388"/>
+  <anchor x="719" y="852" name="A"/>
+  <anchor x="719" y="-626" name="B"/>
+  <anchor x="1388" y="852" name="BR"/>
+  <anchor x="50" y="0" name="L"/>
+  <anchor x="1338" y="0" name="R"/>
   <outline>
     <component base="u1A49"/>
     <component base="u1A3E.sub" xOffset="454" yOffset="64"/>

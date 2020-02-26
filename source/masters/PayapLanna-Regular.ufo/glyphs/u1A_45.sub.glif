@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A45.sub" format="2">
   <advance width="688"/>
+  <anchor x="344" y="-200" name="BD"/>
+  <anchor x="344" y="414" name="_B"/>
+  <anchor x="344" y="414" name="_BD"/>
   <outline>
     <contour>
       <point x="346" y="-200" type="curve" smooth="yes"/>

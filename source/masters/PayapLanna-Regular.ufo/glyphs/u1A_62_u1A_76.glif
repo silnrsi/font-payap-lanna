@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A62_u1A76" format="2">
+  <anchor x="152" y="1023" name="AD"/>
+  <anchor x="152" y="334" name="_A"/>
+  <anchor x="152" y="334" name="_AD"/>
+  <anchor x="152" y="334" name="_AT"/>
   <outline>
     <component base="u1A62" xOffset="20" yOffset="-50"/>
     <component base="u1A76" xOffset="-8" yOffset="150"/>

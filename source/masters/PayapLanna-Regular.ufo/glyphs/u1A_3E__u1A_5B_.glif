@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A3E_u1A5B" format="2">
   <advance width="1182"/>
+  <anchor x="616" y="852" name="A"/>
+  <anchor x="616" y="-627" name="B"/>
+  <anchor x="1182" y="852" name="BR"/>
+  <anchor x="50" y="0" name="L"/>
+  <anchor x="1132" y="0" name="R"/>
   <outline>
     <contour>
       <point x="1069" y="-245" type="curve" smooth="yes"/>

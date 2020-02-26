@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A5A" format="2">
   <unicode hex="1A5A"/>
+  <anchor x="389" y="1561" name="AD"/>
+  <anchor x="389" y="942" name="_A"/>
+  <anchor x="389" y="942" name="_AD"/>
+  <anchor x="389" y="942" name="_AT"/>
   <outline>
     <component base="u1A3B.sub" yOffset="1200"/>
   </outline>

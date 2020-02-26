@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A69.low" format="2">
+  <anchor x="148" y="-566" name="BD"/>
+  <anchor x="148" y="-236" name="_B"/>
+  <anchor x="148" y="-236" name="_BD"/>
   <outline>
     <component base="u1A69" yOffset="-400"/>
   </outline>

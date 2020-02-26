@@ -2,6 +2,11 @@
 <glyph name="u1A89" format="2">
   <advance width="845"/>
   <unicode hex="1A89"/>
+  <anchor x="448" y="852" name="A"/>
+  <anchor x="448" y="-350" name="B"/>
+  <anchor x="845" y="852" name="BR"/>
+  <anchor x="50" y="0" name="L"/>
+  <anchor x="1073" y="0" name="R"/>
   <outline>
     <contour>
       <point x="302" y="797"/>
