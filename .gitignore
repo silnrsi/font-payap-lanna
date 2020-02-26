@@ -11,6 +11,7 @@ buildlinux2/**
 bin/**
 source/temp/*
 source/backups/*
+graide/
 
 # general backup files
 *~

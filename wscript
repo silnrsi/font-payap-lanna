@@ -26,6 +26,9 @@ for weight in ('-Regular',): #'-Bold') :
                         make_params="-l lastcomp --autodefines",
                         params='-v4 -d -q -e gdlerr' + weight + '.txt' ),
          ap = 'source/' + n + '.xml',
+         opentype = fea("generated/" + n + ".fea",
+                        master = "source/lanna.feax",
+                        make_params="-L lastcomp"),
          #ap_params = '-e "L=LD;U=UD;UR=URD"',       # LR != LRD
          #opentype = fea(create("srcs/{}.fea".format(f), cmd("psfmakefea -i ${SRC[2]} -c ${SRC[1]} -o ${TGT} ${SRC[0]}",
          #                                                   ['source/{}.xml'.format(f), 'source/khun_classes.xml', 'source/khun.feap'])),

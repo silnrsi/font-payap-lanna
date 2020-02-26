@@ -66,6 +66,8 @@ crlow = clow;
 crlow -= (g1a69, g1a6a);
 #endif
 
+cSkipR = (cnTakesRDia);
+cSkipR -= (cTakesBDDia);
 endtable;
 
 table(substitution);
@@ -186,6 +188,9 @@ cBDia {attach {to = @1; at = BS; with = BM}} / cTakesBDia opt4(cnTakesBDia) _;
 cADia {attach {to = @1; at = AS; with = AM}} / cTakesADia opt4((cnTakesADia cTallLDias)) _;
 cADDia {attach {to = @1; at = ADS; with = ADM}} / cTakesADDia opt4(cnTakesADDia) _;
 cBDDia {attach {to = @1; at = BDS; with = BDM}; advance.x=0m} / cTakesBDDia opt4(cnTakesBDDia) _;
+cRDia {attach {to = @1; at = RS; with = RM}} / cTakesRDia opt4(cSkipR) _;
+//cRDia {attach {to = @1; at = RS; with = RM}} / cTakesRDia opt4(cnTakesRDia) _;
+cLDia {attach {to = @1; at = LS; with = LM}} / cTakesLDia opt4(cnTakesLDia) _;
 cATDia {attach {to = @1; at = ATS; with = ATM}} / cTakesATDia opt4((cnTakesATDia cTallLDias)) cADia opt4((cnTakesATDia cTallLDias)) _;
 endpass
 

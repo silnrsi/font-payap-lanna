@@ -1,0 +1,139 @@
+@cuDia = [@cVowelUDia @cConsUFinal @cTone];
+@clDia = [@c_sub @cVowelLDia @cConsLFinal u1A56 @c_low];
+@cDia = [@cuDia @clDia u1A55 u1A5b u1A7b];
+@cAs = [u1A63 u1A64];
+@cNeedsLow = [u1A2E u1A4A u1A4C @clig_u1A36_sub @clig_u1A3E_sub];
+
+#### GSUB
+
+lookup subs {
+    sub u1A60 @cno_sub by @c_sub;
+    sub u1A2C u1A60 u1A2C by u1A31_u1A2C;
+} subs;
+
+lookup prem {
+    sub u1A55 by u1A55;
+} prem;
+
+lookup moveam_a {
+    sub @cAs u1A74 by @cAs;
+} moveam_a;
+
+lookup moveam_b {
+    sub @cTone by u1A74 @cTone;
+    sub @cAs by u1A74 @cAs;
+} moveam_b;
+
+lookup moveam {
+    sub @cTone' lookup moveam_b @cAs' lookup moveam_a u1A74;
+    sub @cAs' lookup moveam_b u1A74' lookup moveam_a;
+} moveam;
+
+@mark_ligs_Filter = [u1A36.sub u1A3E.sub u1A3F.sub u1A76 u1A6A u1A6C];
+lookup mark_ligs {
+    lookupflag UseMarkFilteringSet @mark_ligs_Filter;
+    sub u1A36.sub u1A6A by u1A6A_u1A36.sub;
+    sub u1A36.sub u1A6C by u1A6C_u1A36.sub;
+    sub u1A38.sub u1A6C by u1A6C_u1A38.sub;
+    sub u1A3E.sub u1A6A by u1A6A_u1A3E.sub;
+    sub u1A3E.sub u1A6C by u1A6C_u1A3E.sub;
+    sub u1A3F.sub u1A6C by u1A6C_u1A3F.sub;
+} mark_ligs;
+
+lookup base_ligs {
+    lookupflag IgnoreMarks;
+    sub u1A36 u1A63 by u1A36_u1A63;
+} base_ligs;
+
+lookup all_ligs {
+    sub @cligno_u1A76 u1A76 by @clig_u1A76;
+    sub u1A49 u1A36.sub by u1A49_u1A36.sub;
+    sub u1A49 u1A3E.sub by u1A49_u1A3E.sub;
+    sub u1A3B u1A5B by u1A3B_u1A5B;
+    sub u1A3E u1A5B by u1A3E_u1A5B;
+} all_ligs;
+
+lookup low {
+    sub @cno_low by @c_low;
+} low;
+
+@lower_Filter = [@clDia @cno_low];
+lookup lower {
+    lookupflag UseMarkFilteringSet @lower_Filter;
+    sub @cNeedsLow @cno_low' lookup low;
+    sub @clDia @cno_low' lookup low;
+} lower;
+
+languagesystem lana dflt;
+
+feature ccmp {
+    lookup subs;
+} ccmp;
+
+feature pref {
+    lookup prem;
+} pref;
+
+feature abvs {
+    lookup moveam;
+} abvs;
+
+feature rlig {
+    lookup base_ligs;
+    lookup mark_ligs;
+    lookup all_ligs;
+    lookup lower;
+} rlig;
+
+
+#### GPOS
+
+lookup tallwidths {
+do  for g = [@_X u1A7B];
+    let w = ADVx(g);
+    {
+    pos $g $w;
+    }
+} tallwidths;
+
+do  for b = [BR B A AT L R];
+    let lk = "base_"+b+"_base";
+    let bc = "@"+b;
+    let mc = "@_"+b;
+    {
+lookup $lk {
+    pos base $bc mark $mc;
+} $lk;
+    }
+
+@AD_Filter = [@AD_MarkBase @_AD];
+@BD_Filter = [@BD_MarkBase @_BD];
+do  for b = [AD BD];
+    let lk = "mark_"+b+"_mark";
+    let lf = "@"+b+"_Filter";
+    let bc = "@"+b+"_MarkBase";
+    let mc = "@_"+b;
+    {
+lookup $lk {
+    lookupflag UseMarkFilteringSet $lf;
+    pos mark $bc mark $mc;
+} $lk;
+    }
+
+feature mark {
+    lookup base_BR_base;
+    # lookup base_AR_base;
+    lookup base_B_base;
+    lookup base_A_base;
+    lookup base_L_base;
+    lookup base_R_base;
+} mark;
+
+feature mkmk {
+    lookup mark_AD_mark;
+    lookup mark_BD_mark;
+} mkmk;
+
+feature kern {
+    lookup tallwidths;
+} kern;

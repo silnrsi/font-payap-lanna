@@ -96,10 +96,16 @@ ldias.extend("u{:04X}.sub".format(x) for x in range(0x1A20, 0x1A4D))
 @some
 def ldiaaps(g, a, b, mid):
     if g.name.replace(".low", "") not in tallldias :
-        addAnchor(a, g, '_B', mid, b.ymax + args.gap)
+        if "u1A36.sub" in g.name:
+            addAnchor(a, g, '_R', b.xmax, b.ymax + args.gap)
+        elif "u1A3E.sub" in g.name:
+            addAnchor(a, g, "_L", b.xmin, b.ymax + args.gap)
+        else:
+            addAnchor(a, g, '_B', mid, b.ymax + args.gap)
         addAnchor(a, g, '_BD', mid, b.ymax + args.gap)
     else:
         addAnchor(a, g, 'AR', b.xmax, b.ymax)
+        addAnchor(a, g, '_X', g.width, 0)
     if g.name == "u1A5B":
         addAnchor(a, g, '_BR', b.xmax, b.ymax + args.gap)
     addAnchor(a, g, 'BD', mid, b.ymin)
