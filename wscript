@@ -28,6 +28,7 @@ for weight in ('-Regular',): #'-Bold') :
          ap = 'source/' + n + '.xml',
          opentype = fea("generated/" + n + ".fea",
                         master = "source/lanna.feax",
+                        params = "-m generated/"+n+".map",
                         make_params="-L lastcomp"),
          #ap_params = '-e "L=LD;U=UD;UR=URD"',       # LR != LRD
          #opentype = fea(create("srcs/{}.fea".format(f), cmd("psfmakefea -i ${SRC[2]} -c ${SRC[1]} -o ${TGT} ${SRC[0]}",

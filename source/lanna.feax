@@ -29,6 +29,30 @@ lookup moveam {
     sub @cAs' lookup moveam_b u1A74' lookup moveam_a;
 } moveam;
 
+lookup final_reorder_del {
+    sub @c_sub u1A8F by @c_sub;
+} final_reorder_del;
+
+do  for g = @c_sub;
+    let lk = "final_reorder_ins_"+g;
+    {
+lookup $lk {
+    sub @cVowelLDia by @cVowelLDia $g;
+} $lk;
+    }
+
+lookup final_reorder {
+do  for g = @c_sub;
+    let lk = "final_reorder_ins_"+g;
+    {
+    sub $g' lookup final_reorder_del u1A8F' lookup $lk @cVowelLDia';
+    }
+} final_reorder;
+
+lookup final_remove {
+    sub @c_sub' lookup final_reorder_del u1A8F';
+} final_remove;
+
 @mark_ligs_Filter = [u1A36.sub u1A3E.sub u1A3F.sub u1A76 u1A6A u1A6C];
 lookup mark_ligs {
     lookupflag UseMarkFilteringSet @mark_ligs_Filter;
@@ -64,6 +88,7 @@ lookup lower {
     sub @clDia @cno_low' lookup low;
 } lower;
 
+### GSUB Features
 languagesystem lana dflt;
 
 feature ccmp {
@@ -83,8 +108,12 @@ feature rlig {
     lookup mark_ligs;
     lookup all_ligs;
     lookup lower;
+    lookup final_remove;
 } rlig;
 
+feature expt {
+    lookup final_reorder;
+} expt;
 
 #### GPOS
 
