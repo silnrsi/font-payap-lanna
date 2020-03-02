@@ -1,6 +1,6 @@
 @cuDia = [@cVowelUDia @cConsUFinal @cTone];
 @clDia = [@c_sub @cVowelLDia @cConsLFinal u1A56 @c_low];
-@cDia = [@cuDia @clDia u1A55 u1A5b u1A7b];
+@cDia = [@cuDia @clDia u1A55 u1A5B u1A7B];
 @cAs = [u1A63 u1A64];
 @cNeedsLow = [u1A2E u1A4A u1A4C @clig_u1A36_sub @clig_u1A3E_sub];
 
