@@ -3,6 +3,7 @@
   <advance width="1022"/>
   <unicode hex="1A22"/>
   <anchor x="536" y="852" name="A"/>
+  <anchor x="1022" y="852" name="AR"/>
   <anchor x="536" y="1531" name="AT"/>
   <anchor x="536" y="0" name="B"/>
   <anchor x="1022" y="852" name="BR"/>

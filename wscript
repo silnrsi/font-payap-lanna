@@ -16,7 +16,6 @@ getufoinfo("source/masters/PayapLanna-Regular.ufo")
 BUILDLABEL = "alpha"
 fontfamily=APPNAME
 
-
 for weight in ('-Regular',): #'-Bold') :
     n = fontfamily + weight
     font(target = n + ".ttf",

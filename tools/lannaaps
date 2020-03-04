@@ -63,7 +63,7 @@ def baseaps(g, a, b, mid):
     #addAnchor(a, g, 'A', mid, b.ymax if g.name in tallbases else udiah)
     addAnchor(a, g, 'A', m, udiah)
     addAnchor(a, g, 'B', m, b.ymin if g.name in lowbases else 0)
-    addAnchor(a, g, 'BR', g.width, udiah)
+    addAnchor(a, g, 'AR', g.width, udiah)
     addAnchor(a, g, 'BR', g.width, 0)
     addAnchor(a, g, 'L', b.xmin, 0)
     addAnchor(a, g, 'R', b.xmax, 0)
