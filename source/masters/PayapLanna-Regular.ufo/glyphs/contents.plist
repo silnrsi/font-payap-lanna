@@ -112,10 +112,14 @@
   <string>u1A_35.sub.glif</string>
   <key>u1A36</key>
   <string>u1A_36.glif</string>
+  <key>u1A36.short</key>
+  <string>u1A_36.short.glif</string>
   <key>u1A36.sub</key>
   <string>u1A_36.sub.glif</string>
   <key>u1A36_u1A63</key>
   <string>u1A_36_u1A_63.glif</string>
+  <key>u1A36_u1A63.short</key>
+  <string>u1A_36_u1A_63.short.glif</string>
   <key>u1A37</key>
   <string>u1A_37.glif</string>
   <key>u1A37.sub</key>
