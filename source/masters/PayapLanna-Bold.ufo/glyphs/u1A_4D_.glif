@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A4D" format="2">
-  <advance width="686"/>
+  <advance width="1172"/>
   <unicode hex="1A4D"/>
-  <outline/>
+  <anchor x="580" y="852" name="A"/>
+  <anchor x="1111" y="852" name="AR"/>
+  <anchor x="580" y="-774" name="B"/>
+  <anchor x="1111" y="852" name="BR"/>
+  <anchor x="49" y="0" name="L"/>
+  <anchor x="1061" y="0" name="R"/>
+  <outline>
+    <component base="u1A3B"/>
+    <component base="u1A26.sub" xOffset="120" yOffset="-385"/>
+  </outline>
 </glyph>

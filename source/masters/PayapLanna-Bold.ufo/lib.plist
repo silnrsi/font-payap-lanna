@@ -16,11 +16,11 @@
   <string>1300</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/u1A26/u1A37/u1A4F/u1A23/u1A2D/u1A3B/u1A53/u1A32/u1A48/u1A49/u1A55 
+    <string>/space/u1A26/u1A26/u1A37/u1A4F/u1A4F/u1A23/u1A2D/u1A2D/u1A3B/u1A3B/u1A53/u1A53/u1A32/u1A48/u1A49/u1A55/u1A2D/space 
 /u1A26/u1A37/u1A4F/u1A23/u1A2D/u1A3B/u1A53/u1A32/u1A48/u1A49/u1A55</string>
     <string>/u1A4D/u1A4E/u1A53/u1A3B/u1A26/u1A4D/u1A2B/u1A26.sub/u1A29.sub/u1A33.sub/u1A2A/u1A33/u1A4A/u1A26/u1A29/u1A55 
 </string>
-    <string>/u1A27/u1A2B/u1A3E/u1A38/u1A40/u1A29.sub/u1A29/u1A2A/u1A2D/u1A2E/u1A44/u1A2F/u1A4F/u1A29.sub/u1A47.sub/u1A4F/u1A33.sub/u1A48/u1A47/u1A4B/u1A37/u1A3E/u1A3E_u1A5B/u1A2E/u1A47.sub.low/u1A2A</string>
+    <string>/u1A27/u1A27/u1A2B/u1A3E/u1A38/u1A40/u1A29.sub/u1A29/u1A2A/u1A2D/u1A2E/u1A44/u1A2F/u1A4F/u1A29.sub/u1A47.sub/u1A4F/u1A33.sub/u1A48/u1A48/u1A47/u1A4B/u1A37/u1A37/u1A3E/u1A3E/u1A3E_u1A5B/u1A3E_u1A5B/u1A2D/u1A2E/u1A2E/u1A47.sub.low/u1A2A</string>
     <string>/u1A27/u1A32/u1A35/u1A3D/u1A45/u1A28/u1A48/u1A29/u1A48/u1A47/u1A6E/u1A6F/u1A33.sub/u1A45.sub.low/u1A26.sub/u1A27.sub/u1A32.sub/u1A35.sub/u1A45.sub</string>
     <string>/u1A55/u1A70/u1A71/space/u1A72/space/u1A55.tall/u1A70.thin/u1A71.thin/u1A72.thin/u1A51</string>
     <string>/u1A2A/u1A3A/u1A3E_u1A5B/u1A42/u1A44/u1A4A/u1A4C/u1A53/u1A4E/u1A4F/u1A50/u1A70</string>
@@ -37,6 +37,7 @@
     <string>/u1AA5/u1AA3/u1AA4/u1AA0/u1A31/u1AA6/u1A48/u1AAC/u1AAD/u0E5B/u1AA0/u1AA1/u1AA2</string>
     <string>/u1A53/u1A7B/u1A32/space/u1A4E/u1AA2/space/u1A55/space/u1A6C_u1A3E.sub</string>
     <string>/u1A7B</string>
+    <string/>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
