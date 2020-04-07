@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A45_u1A3F.sub" format="2">
-  <advance width="156"/>
-  <outline/>
+  <advance width="282"/>
+  <anchor x="226" y="800" name="AR"/>
+  <anchor x="-215" y="-1146" name="BD"/>
+  <anchor x="282" y="0" name="_X"/>
+  <outline>
+    <component base="u1A3F.sub"/>
+    <component base="u1A45.sub" xOffset="-559" yOffset="-946"/>
+  </outline>
 </glyph>

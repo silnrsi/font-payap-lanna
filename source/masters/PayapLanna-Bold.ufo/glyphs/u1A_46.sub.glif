@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A46.sub" format="2">
-  <advance width="1"/>
-  <outline/>
+  <advance width="856"/>
+  <anchor x="475" y="-205" name="BD"/>
+  <anchor x="475" y="579" name="_B"/>
+  <anchor x="475" y="579" name="_BD"/>
+  <outline>
+    <contour>
+      <point x="418" y="180" type="curve"/>
+      <point x="693" y="239"/>
+      <point x="786" y="337"/>
+      <point x="912" y="529" type="curve"/>
+      <point x="917" y="521"/>
+      <point x="921" y="502"/>
+      <point x="919" y="493" type="curve"/>
+      <point x="849" y="366"/>
+      <point x="792" y="281"/>
+      <point x="685" y="203" type="curve" smooth="yes"/>
+      <point x="630" y="163"/>
+      <point x="554" y="127"/>
+      <point x="467" y="114" type="curve"/>
+      <point x="433" y="120"/>
+      <point x="420" y="156"/>
+    </contour>
+    <component base="u1A23.sub"/>
+  </outline>
   <lib>
     <dict>
       <key>public.markColor</key>

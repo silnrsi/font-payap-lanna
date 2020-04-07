@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A49_u1A36.sub_u1A45.sub" format="2">
-  <advance width="673"/>
+  <advance width="1388"/>
+  <anchor x="714" y="852" name="A"/>
+  <anchor x="1388" y="852" name="AR"/>
+  <anchor x="714" y="-1148" name="B"/>
+  <anchor x="1388" y="852" name="BR"/>
+  <anchor x="41" y="0" name="L"/>
+  <anchor x="1338" y="0" name="R"/>
   <outline>
-    <component base="u1A49" xScale="2.249" yScale="2.249" xOffset="-46" yOffset="505"/>
-    <component base="u1A36.sub" xScale="2.249" yScale="2.249" xOffset="1433" yOffset="157"/>
-    <component base="u1A45.sub" xScale="2.249" yScale="2.249" xOffset="1034" yOffset="505"/>
+    <component base="u1A36.sub" xOffset="537" yOffset="169"/>
+    <component base="u1A45.sub" xOffset="365" yOffset="-948"/>
+    <component base="u1A49"/>
   </outline>
   <lib>
     <dict>

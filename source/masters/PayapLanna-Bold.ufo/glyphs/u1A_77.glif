@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A77" format="2">
   <unicode hex="1A77"/>
-  <outline/>
+  <anchor x="133" y="890" name="AD"/>
+  <anchor x="133" y="373" name="_A"/>
+  <anchor x="133" y="373" name="_AD"/>
+  <anchor x="133" y="373" name="_AT"/>
+  <outline>
+    <contour>
+      <point x="260" y="555"/>
+      <point x="198" y="660"/>
+      <point x="147" y="890" type="curve"/>
+      <point x="128" y="890"/>
+      <point x="111" y="875"/>
+      <point x="104" y="861" type="curve"/>
+      <point x="78" y="691"/>
+      <point x="22" y="564"/>
+      <point x="-89" y="455" type="curve"/>
+      <point x="-83" y="436"/>
+      <point x="-52" y="427"/>
+      <point x="-11" y="427" type="curve"/>
+      <point x="45" y="485"/>
+      <point x="114" y="585"/>
+      <point x="145" y="786" type="curve"/>
+      <point x="127" y="749" type="line"/>
+      <point x="161" y="592"/>
+      <point x="212" y="511"/>
+      <point x="277" y="423" type="curve"/>
+      <point x="308" y="423"/>
+      <point x="339" y="431"/>
+      <point x="355" y="451" type="curve"/>
+    </contour>
+  </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>63</integer>
+      <integer>300</integer>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

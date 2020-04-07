@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A62_u1A76" format="2">
-  <outline/>
+  <anchor x="142" y="813" name="AD"/>
+  <anchor x="152" y="334" name="_A"/>
+  <anchor x="152" y="334" name="_AD"/>
+  <anchor x="152" y="334" name="_AT"/>
+  <outline>
+    <component base="u1A62" xOffset="230" yOffset="-20"/>
+    <component base="u1A76" xOffset="-8" yOffset="80"/>
+  </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>300</integer>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

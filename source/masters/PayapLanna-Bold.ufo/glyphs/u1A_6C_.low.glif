@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A6C.low" format="2">
-  <outline/>
+  <anchor x="244" y="-628" name="BD"/>
+  <anchor x="244" y="-239" name="_B"/>
+  <anchor x="244" y="-239" name="_BD"/>
+  <outline>
+    <component base="u1A6C" yOffset="-410"/>
+  </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>1</integer>
+      <integer>500</integer>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>
