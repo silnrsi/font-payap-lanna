@@ -99,4 +99,10 @@
       <point x="599" y="799"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>91d3</string>
+    </dict>
+  </lib>
 </glyph>
