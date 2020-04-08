@@ -16,7 +16,7 @@ getufoinfo("source/masters/PayapLanna-Regular.ufo")
 BUILDLABEL = "alpha"
 fontfamily=APPNAME
 
-for weight in ('-Regular',): #'-Bold') :
+for weight in ('-Regular','-Bold') :
     n = fontfamily + weight
     font(target = n + ".ttf",
          source = create("source/" + n + ".ufo", cmd("../tools/lannaaps -g 50 ${SRC} ${TGT}", "source/masters/" + n + ".ufo")),
