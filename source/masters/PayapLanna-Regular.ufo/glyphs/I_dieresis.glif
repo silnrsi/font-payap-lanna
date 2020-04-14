@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Idieresis" format="2">
+  <advance width="488"/>
+  <unicode hex="00CF"/>
+  <anchor x="236" y="0" name="H"/>
+  <anchor x="236" y="-80" name="L"/>
+  <anchor x="276" y="0" name="O"/>
+  <anchor x="464" y="880" name="R"/>
+  <anchor x="236" y="1352" name="U"/>
+  <outline>
+    <component base="I"/>
+    <component base="CombDiaer.LP" xOffset="648" yOffset="256"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

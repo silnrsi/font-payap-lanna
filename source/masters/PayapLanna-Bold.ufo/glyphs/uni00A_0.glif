@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni00A0" format="2">
+  <advance width="408"/>
+  <unicode hex="00A0"/>
+  <anchor x="180" y="0" name="H"/>
+  <anchor x="180" y="-80" name="L"/>
+  <anchor x="220" y="0" name="O"/>
+  <anchor x="360" y="720" name="R"/>
+  <anchor x="180" y="1096" name="U"/>
+  <outline/>
+</glyph>

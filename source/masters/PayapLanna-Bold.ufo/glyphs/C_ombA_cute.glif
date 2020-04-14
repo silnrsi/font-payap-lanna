@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombAcute" format="2">
+  <anchor x="-486" y="1146" name="U"/>
+  <anchor x="-432" y="840" name="_U"/>
+  <outline>
+    <contour>
+      <point x="-480" y="831" type="curve"/>
+      <point x="-174" y="1135" type="line"/>
+      <point x="-199" y="1178" type="line"/>
+      <point x="-223" y="1186"/>
+      <point x="-356" y="1207"/>
+      <point x="-381" y="1209" type="curve"/>
+      <point x="-550" y="866" type="line"/>
+      <point x="-538" y="856"/>
+      <point x="-500" y="834"/>
+    </contour>
+  </outline>
+</glyph>

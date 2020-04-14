@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ntilde" format="2">
+  <advance width="1063"/>
+  <unicode hex="00D1"/>
+  <anchor x="837" y="0" name="H"/>
+  <anchor x="532" y="-80" name="L"/>
+  <anchor x="532" y="1352" name="U"/>
+  <outline>
+    <component base="N"/>
+    <component base="CombTilde.LP" xOffset="944" yOffset="256"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

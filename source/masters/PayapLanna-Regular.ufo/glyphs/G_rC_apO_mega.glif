@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrCapOmega" format="2">
+  <advance width="1036"/>
+  <outline>
+    <contour>
+      <point x="936" y="609" type="curve" smooth="yes"/>
+      <point x="936" y="869"/>
+      <point x="771" y="1032"/>
+      <point x="536" y="1032" type="curve" smooth="yes"/>
+      <point x="248" y="1032"/>
+      <point x="88" y="800"/>
+      <point x="88" y="591" type="curve" smooth="yes"/>
+      <point x="88" y="401"/>
+      <point x="162" y="238"/>
+      <point x="452" y="32" type="curve"/>
+      <point x="460" y="88" type="line"/>
+      <point x="247" y="330"/>
+      <point x="216" y="409"/>
+      <point x="216" y="600" type="curve" smooth="yes"/>
+      <point x="216" y="719"/>
+      <point x="292" y="960"/>
+      <point x="510" y="960" type="curve" smooth="yes"/>
+      <point x="706" y="960"/>
+      <point x="808" y="784"/>
+      <point x="808" y="591" type="curve" smooth="yes"/>
+      <point x="808" y="409"/>
+      <point x="747" y="330"/>
+      <point x="560" y="88" type="curve"/>
+      <point x="568" y="32" type="line"/>
+      <point x="812" y="248"/>
+      <point x="936" y="401"/>
+    </contour>
+    <contour>
+      <point x="940" y="212" type="curve"/>
+      <point x="904" y="227" type="line"/>
+      <point x="867" y="125"/>
+      <point x="858" y="88"/>
+      <point x="814" y="88" type="curve" smooth="yes"/>
+      <point x="560" y="88" type="line"/>
+      <point x="560" y="0" type="line"/>
+      <point x="914" y="0" type="line"/>
+      <point x="925" y="56"/>
+      <point x="936" y="149"/>
+    </contour>
+    <contour>
+      <point x="88" y="0" type="line"/>
+      <point x="460" y="0" type="line"/>
+      <point x="460" y="88" type="line"/>
+      <point x="201" y="88" type="line" smooth="yes"/>
+      <point x="156" y="88"/>
+      <point x="142" y="133"/>
+      <point x="124" y="224" type="curve"/>
+      <point x="88" y="224" type="line"/>
+      <point x="73" y="156"/>
+      <point x="65" y="73"/>
+      <point x="64" y="21" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

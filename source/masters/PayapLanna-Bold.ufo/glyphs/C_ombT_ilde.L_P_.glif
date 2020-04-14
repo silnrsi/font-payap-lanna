@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombTilde.LP" format="2">
+  <anchor x="-431" y="1096" name="U"/>
+  <anchor x="-431" y="840" name="_U"/>
+  <outline>
+    <contour>
+      <point x="-117" y="1063" type="curve"/>
+      <point x="-178" y="1087" type="line"/>
+      <point x="-214" y="1025"/>
+      <point x="-248" y="995"/>
+      <point x="-294" y="995" type="curve" smooth="yes"/>
+      <point x="-364" y="995"/>
+      <point x="-439" y="1079"/>
+      <point x="-538" y="1079" type="curve" smooth="yes"/>
+      <point x="-635" y="1079"/>
+      <point x="-709" y="941"/>
+      <point x="-747" y="854" type="curve"/>
+      <point x="-686" y="832" type="line"/>
+      <point x="-647" y="891"/>
+      <point x="-620" y="924"/>
+      <point x="-572" y="924" type="curve" smooth="yes"/>
+      <point x="-492" y="924"/>
+      <point x="-419" y="840"/>
+      <point x="-327" y="840" type="curve" smooth="yes"/>
+      <point x="-229" y="840"/>
+      <point x="-155" y="977"/>
+    </contour>
+  </outline>
+</glyph>

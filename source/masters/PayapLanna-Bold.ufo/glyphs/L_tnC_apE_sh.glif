@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapEsh" format="2">
+  <advance width="896"/>
+  <anchor x="439" y="-80" name="L"/>
+  <anchor x="444" y="1096" name="U"/>
+  <outline>
+    <contour>
+      <point x="843" y="312" type="curve"/>
+      <point x="777" y="327" type="line"/>
+      <point x="738" y="187"/>
+      <point x="723" y="154"/>
+      <point x="656" y="154" type="curve" smooth="yes"/>
+      <point x="264" y="154" type="line"/>
+      <point x="544" y="539" type="line"/>
+      <point x="307" y="904" type="line"/>
+      <point x="636" y="904" type="line" smooth="yes"/>
+      <point x="667" y="904"/>
+      <point x="705" y="886"/>
+      <point x="744" y="728" type="curve"/>
+      <point x="813" y="744" type="line"/>
+      <point x="810" y="1020" type="line"/>
+      <point x="746" y="1008"/>
+      <point x="699" y="1008"/>
+      <point x="639" y="1008" type="curve" smooth="yes"/>
+      <point x="52" y="1008" type="line"/>
+      <point x="52" y="967" type="line"/>
+      <point x="367" y="490" type="line"/>
+      <point x="35" y="40" type="line"/>
+      <point x="66" y="0" type="line"/>
+      <point x="823" y="0" type="line"/>
+      <point x="827" y="57"/>
+      <point x="839" y="226"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acircumflex" format="2">
+  <advance width="818"/>
+  <unicode hex="00E2"/>
+  <anchor x="334" y="0" name="H"/>
+  <anchor x="393" y="-80" name="L"/>
+  <anchor x="623" y="0" name="O"/>
+  <anchor x="818" y="720" name="R"/>
+  <anchor x="411" y="1200" name="U"/>
+  <outline>
+    <component base="a"/>
+    <component base="CombCircum" xOffset="842"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ntilde" format="2">
+  <advance width="952"/>
+  <unicode hex="00F1"/>
+  <anchor x="732" y="0" name="H"/>
+  <anchor x="485" y="-80" name="L"/>
+  <anchor x="485" y="1128" name="U"/>
+  <outline>
+    <component base="n"/>
+    <component base="CombTilde" xOffset="917"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

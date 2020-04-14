@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombCaron" format="2">
+  <anchor x="-411" y="1160" name="U"/>
+  <anchor x="-411" y="840" name="_U"/>
+  <outline>
+    <contour>
+      <point x="-368" y="856" type="line"/>
+      <point x="-158" y="1142" type="line"/>
+      <point x="-171" y="1164"/>
+      <point x="-174" y="1170"/>
+      <point x="-192" y="1180" type="curve"/>
+      <point x="-408" y="979" type="line"/>
+      <point x="-628" y="1180" type="line"/>
+      <point x="-646" y="1170"/>
+      <point x="-649" y="1164"/>
+      <point x="-664" y="1142" type="curve"/>
+      <point x="-453" y="856" type="line"/>
+    </contour>
+  </outline>
+</glyph>

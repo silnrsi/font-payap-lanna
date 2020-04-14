@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="igrave" format="2">
+  <advance width="444"/>
+  <unicode hex="00EC"/>
+  <anchor x="228" y="0" name="H"/>
+  <anchor x="228" y="-80" name="L"/>
+  <anchor x="268" y="0" name="O"/>
+  <anchor x="444" y="720" name="R"/>
+  <anchor x="228" y="1128" name="U"/>
+  <outline>
+    <component base="dotlessi"/>
+    <component base="CombGrave" xOffset="574"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

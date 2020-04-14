@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lozenge" format="2">
+  <advance width="544"/>
+  <unicode hex="25CA"/>
+  <outline>
+    <contour>
+      <point x="543" y="528" type="curve"/>
+      <point x="302" y="1017" type="line"/>
+      <point x="279" y="1007"/>
+      <point x="240" y="982"/>
+      <point x="220" y="963" type="curve"/>
+      <point x="0" y="501" type="line"/>
+      <point x="15" y="485" type="line"/>
+      <point x="32" y="492"/>
+      <point x="84" y="512"/>
+      <point x="101" y="528" type="curve"/>
+      <point x="256" y="862" type="line"/>
+      <point x="440" y="501" type="line"/>
+      <point x="464" y="485" type="line"/>
+      <point x="492" y="496"/>
+      <point x="524" y="512"/>
+    </contour>
+    <contour>
+      <point x="0" y="501" type="curve"/>
+      <point x="240" y="12" type="line"/>
+      <point x="264" y="23"/>
+      <point x="302" y="48"/>
+      <point x="324" y="67" type="curve"/>
+      <point x="543" y="528" type="line"/>
+      <point x="528" y="544" type="line"/>
+      <point x="511" y="538"/>
+      <point x="460" y="516"/>
+      <point x="442" y="501" type="curve"/>
+      <point x="288" y="167" type="line"/>
+      <point x="102" y="528" type="line"/>
+      <point x="80" y="544" type="line"/>
+      <point x="52" y="534"/>
+      <point x="20" y="516"/>
+    </contour>
+  </outline>
+</glyph>
