@@ -6,6 +6,8 @@ echo "Checking and normalizing Regular..."
 psfnormalize -p checkfix=fix source/masters/PayapLanna-Regular.ufo -p scrlevel=V
 psfnormalize -p checkfix=fix source/masters/PayapLanna-Bold.ufo -p scrlevel=V
 
+psfsetglyphorder -i source/glyph_data.csv source/masters/PayapLanna-Regular.ufo
+
 echo "Syncing glyph orders, psnames, and other metadata to other UFOs..."
 psfsyncmasters source/PayapLanna.designspace -p scrlevel=V
 
