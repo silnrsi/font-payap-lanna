@@ -289,8 +289,10 @@
     <string>u1A20</string>
     <string>u1A20.sub</string>
     <string>u1A21</string>
+    <string>u1A21.short</string>
     <string>u1A21.sub</string>
     <string>u1A22</string>
+    <string>u1A22.short</string>
     <string>u1A23</string>
     <string>u1A23.sub</string>
     <string>u1A24</string>
@@ -313,6 +315,7 @@
     <string>u1A2E</string>
     <string>u1A2E.sub</string>
     <string>u1A2F</string>
+    <string>u1A2F.short</string>
     <string>u1A2F.sub</string>
     <string>u1A30</string>
     <string>u1A30.sub</string>
@@ -330,6 +333,7 @@
     <string>u1A36</string>
     <string>u1A36.short</string>
     <string>u1A36.sub</string>
+    <string>u1A36.sub.short</string>
     <string>u1A36_u1A63</string>
     <string>u1A36_u1A63.short</string>
     <string>u1A37</string>
@@ -348,7 +352,9 @@
     <string>u1A3D</string>
     <string>u1A3D.sub</string>
     <string>u1A3E</string>
+    <string>u1A3E.short</string>
     <string>u1A3E.sub</string>
+    <string>u1A3E.sub.short</string>
     <string>u1A3E_u1A5B</string>
     <string>u1A3F</string>
     <string>u1A3F.sub</string>
@@ -369,6 +375,7 @@
     <string>u1A46</string>
     <string>u1A46.sub</string>
     <string>u1A47</string>
+    <string>u1A47.short</string>
     <string>u1A47.sub</string>
     <string>u1A47.sub.low</string>
     <string>u1A48</string>
