@@ -16,25 +16,25 @@ getufoinfo("source/masters/PayapLanna-Regular.ufo")
 BUILDLABEL = "alpha"
 fontfamily=APPNAME
 
-for weight in ('-Regular','-Bold') :
-    n = fontfamily + weight
-    font(target = n + ".ttf",
-         source = create("source/" + n + ".ufo", cmd("../tools/lannaaps -g 50 ${SRC} ${TGT}", "source/masters/" + n + ".ufo")),
-         graphite = gdl('generated/' + n + '.gdl',
+for dspace in ('',):
+    designspace('source/' + APPNAME + dspace + '.designspace',
+         target = '${DS:FILENAME_BASE}' + ".ttf",
+         # source = create("source/" + n + ".ufo", cmd("../tools/lannaaps -g 50 ${SRC} ${TGT}", "source/masters/" + n + ".ufo")),
+         graphite = gdl('generated/' + '${DS:FILENAME_BASE}' + '.gdl',
                         master='source/lanna.gdl',
                         make_params="-l lastcomp --autodefines",
-                        params='-v4 -d -q -e gdlerr' + weight + '.txt' ),
-         ap = 'source/' + n + '.xml',
-         opentype = fea("generated/" + n + ".fea",
+                        params='-v4 -d -q -e gdlerr' + '${DS:FILENAME_BASE}' + '.txt' ),
+         ap = 'source/' + '${DS:FILENAME_BASE}' + '.xml',
+         opentype = fea("generated/" + '${DS:FILENAME_BASE}' + ".fea",
                         master = "source/lanna.feax",
-                        params = "-m generated/"+n+".map",
+                        params = "-m generated/"+'${DS:FILENAME_BASE}'+".map",
                         make_params="-L lastcomp"),
          #ap_params = '-e "L=LD;U=UD;UR=URD"',       # LR != LRD
          #opentype = fea(create("srcs/{}.fea".format(f), cmd("psfmakefea -i ${SRC[2]} -c ${SRC[1]} -o ${TGT} ${SRC[0]}",
          #                                                   ['source/{}.xml'.format(f), 'source/khun_classes.xml', 'source/khun.feap'])),
          #               no_make=1),
          #        woff = woff(),
-         fret = fret(params='-r -a source/' + n + '.xml'),
+         fret = fret(params='-r -a source/' + '${DS:FILENAME_BASE}' + '.xml'),
          version = VERSION,
          script = 'lana',
          classes = 'source/lanna_classes.xml')
