@@ -41,6 +41,6 @@
       <point x="54" y="702"/>
       <point x="54" y="951"/>
     </contour>
-    <component base="u1A21"/>
+    <component base="u1A21.short" xOffset="4"/>
   </outline>
 </glyph>

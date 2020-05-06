@@ -35,7 +35,7 @@ http://scripts.sil.org/OFL
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2020/05/04 14:28:16</string>
+  <string>2020/05/06 13:26:03</string>
   <key>openTypeHheaAscender</key>
   <integer>1955</integer>
   <key>openTypeHheaDescender</key>
@@ -204,10 +204,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <string>PayapLanna-Bold</string>
   <key>postscriptFullName</key>
   <string>Lanna</string>
-  <key>postscriptStemSnapH</key>
-  <array/>
-  <key>postscriptStemSnapV</key>
-  <array/>
   <key>postscriptUnderlinePosition</key>
   <integer>-110</integer>
   <key>postscriptUnderlineThickness</key>
