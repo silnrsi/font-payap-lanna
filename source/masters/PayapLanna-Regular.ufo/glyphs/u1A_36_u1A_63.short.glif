@@ -75,11 +75,12 @@
       <point x="829" y="77"/>
       <point x="636" y="131"/>
       <point x="435" y="131" type="curve" smooth="yes"/>
-      <point x="335" y="131"/>
-      <point x="233" y="118"/>
-      <point x="142" y="94" type="curve"/>
-      <point x="138" y="425"/>
-      <point x="137" y="218"/>
+      <point x="325" y="131"/>
+      <point x="212" y="115"/>
+      <point x="115" y="86" type="curve"/>
+      <point x="143" y="23" type="line"/>
+      <point x="138" y="454"/>
+      <point x="137" y="196"/>
     </contour>
   </outline>
 </glyph>
