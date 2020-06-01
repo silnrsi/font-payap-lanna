@@ -8,4 +8,10 @@
     <component base="u1A3F.sub"/>
     <component base="u1A45.sub" xOffset="-559" yOffset="-946"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>
