@@ -4,8 +4,8 @@
   <anchor x="286" y="241" name="_BD"/>
   <anchor x="-436" y="241" name="_L"/>
   <outline>
-    <component base="u1A6C" xOffset="240" yOffset="70"/>
-    <component base="u1A3E.sub" xOffset="-100" yOffset="330"/>
+    <component base="u1A6C" xOffset="349" yOffset="81"/>
+    <component base="u1A3E.sub" xOffset="-458" yOffset="329"/>
   </outline>
   <lib>
     <dict>

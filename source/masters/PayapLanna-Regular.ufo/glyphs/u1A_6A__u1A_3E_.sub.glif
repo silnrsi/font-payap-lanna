@@ -4,7 +4,7 @@
   <anchor x="246" y="168" name="_BD"/>
   <anchor x="-366" y="168" name="_L"/>
   <outline>
-    <component base="u1A6A" xOffset="300"/>
+    <component base="u1A6A" xOffset="359"/>
     <component base="u1A3E.sub" xOffset="-30" yOffset="260"/>
   </outline>
   <lib>

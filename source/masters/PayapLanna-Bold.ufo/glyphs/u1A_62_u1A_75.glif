@@ -2,7 +2,7 @@
 <glyph name="u1A62_u1A75" format="2">
   <outline>
     <component base="u1A56"/>
-    <component base="u1A6C" xOffset="265" yOffset="-334"/>
+    <component base="u1A6C" xOffset="265" yOffset="-384"/>
   </outline>
   <lib>
     <dict>
