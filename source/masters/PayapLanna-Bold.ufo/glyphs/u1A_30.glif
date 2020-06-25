@@ -45,12 +45,12 @@
       <point x="1168" y="752"/>
       <point x="1145" y="761" type="curve"/>
       <point x="1140" y="758"/>
-      <point x="1135" y="752"/>
-      <point x="1132" y="744" type="curve"/>
-      <point x="1325" y="642"/>
-      <point x="1344" y="509"/>
-      <point x="1344" y="372" type="curve" smooth="yes"/>
-      <point x="1344" y="167"/>
+      <point x="1145" y="752"/>
+      <point x="1142" y="744" type="curve"/>
+      <point x="1295" y="642"/>
+      <point x="1354" y="509"/>
+      <point x="1354" y="372" type="curve" smooth="yes"/>
+      <point x="1354" y="167"/>
       <point x="1191" y="-8"/>
       <point x="996" y="-8" type="curve" smooth="yes"/>
       <point x="799" y="-8"/>
