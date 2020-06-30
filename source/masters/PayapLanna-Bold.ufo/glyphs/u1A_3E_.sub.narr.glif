@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A3E.sub.narr" format="2">
-  <advance width="836"/>
+  <advance width="712"/>
   <anchor x="586" y="-690" name="BD"/>
   <anchor x="586" y="-92" name="_BD"/>
   <anchor x="0" y="-92" name="_L"/>
   <outline>
     <contour>
-      <point x="1104" y="-487" type="curve"/>
-      <point x="1110" y="-496"/>
-      <point x="1111" y="-502"/>
-      <point x="1112" y="-512" type="curve"/>
-      <point x="976" y="-591"/>
-      <point x="724" y="-690"/>
-      <point x="436" y="-690" type="curve" smooth="yes"/>
-      <point x="251" y="-690"/>
-      <point x="0" y="-615"/>
+      <point x="954" y="-469" type="curve"/>
+      <point x="960" y="-478"/>
+      <point x="961" y="-484"/>
+      <point x="962" y="-494" type="curve"/>
+      <point x="805" y="-608"/>
+      <point x="567" y="-690"/>
+      <point x="368" y="-690" type="curve" smooth="yes"/>
+      <point x="164" y="-690"/>
+      <point x="0" y="-605"/>
       <point x="0" y="-405" type="curve" smooth="yes"/>
       <point x="0" y="-266"/>
       <point x="203" y="-102"/>
@@ -47,11 +47,11 @@
       <point x="231" y="-213"/>
       <point x="94" y="-253"/>
       <point x="94" y="-333" type="curve" smooth="yes"/>
-      <point x="94" y="-498"/>
-      <point x="287" y="-559"/>
-      <point x="519" y="-559" type="curve" smooth="yes"/>
-      <point x="723" y="-559"/>
-      <point x="933" y="-530"/>
+      <point x="94" y="-505"/>
+      <point x="259" y="-575"/>
+      <point x="466" y="-575" type="curve" smooth="yes"/>
+      <point x="622" y="-575"/>
+      <point x="802" y="-536"/>
     </contour>
   </outline>
   <lib>

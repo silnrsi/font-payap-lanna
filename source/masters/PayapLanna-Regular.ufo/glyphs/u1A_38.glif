@@ -2,9 +2,9 @@
 <glyph name="u1A38" format="2">
   <advance width="1082"/>
   <unicode hex="1A38"/>
-  <anchor x="566" y="852" name="A"/>
+  <anchor x="466" y="852" name="A"/>
   <anchor x="1082" y="852" name="AR"/>
-  <anchor x="566" y="1494" name="AT"/>
+  <anchor x="466" y="1494" name="AT"/>
   <anchor x="566" y="0" name="B"/>
   <anchor x="1082" y="852" name="BR"/>
   <anchor x="50" y="0" name="L"/>

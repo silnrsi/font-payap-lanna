@@ -8,8 +8,8 @@
   <anchor x="41" y="0" name="L"/>
   <anchor x="1338" y="0" name="R"/>
   <outline>
-    <component base="u1A36.sub" xOffset="7" yOffset="119"/>
-    <component base="u1A45.sub" xOffset="345" yOffset="-1028"/>
+    <component base="u1A36.sub" xOffset="387" yOffset="119"/>
+    <component base="u1A45.sub" xOffset="325" yOffset="-1028"/>
     <component base="u1A49"/>
   </outline>
   <lib>

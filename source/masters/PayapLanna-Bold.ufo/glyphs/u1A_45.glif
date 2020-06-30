@@ -5,9 +5,9 @@
   <anchor x="520" y="852" name="A"/>
   <anchor x="990" y="852" name="AR"/>
   <anchor x="520" y="0" name="B"/>
-  <anchor x="990" y="852" name="BR"/>
+  <anchor x="1088" y="852" name="BR"/>
   <anchor x="50" y="0" name="L"/>
-  <anchor x="940" y="0" name="R"/>
+  <anchor x="1004" y="0" name="R"/>
   <outline>
     <contour>
       <point x="522" y="-7" type="curve" smooth="yes"/>
