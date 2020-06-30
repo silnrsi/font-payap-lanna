@@ -47,12 +47,12 @@
       <point x="-33" y="-228"/>
       <point x="30" y="-210"/>
     </contour>
-    <component base="u1A36.sub" xOffset="-479"/>
+    <component base="u1A36.sub" xOffset="-131"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>400</integer>
+      <integer>867</integer>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

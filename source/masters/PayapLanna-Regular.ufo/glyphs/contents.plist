@@ -576,8 +576,8 @@
   <string>u1A_36.short.glif</string>
   <key>u1A36.sub</key>
   <string>u1A_36.sub.glif</string>
-  <key>u1A36.sub.short</key>
-  <string>u1A_36.sub.short.glif</string>
+  <key>u1A36.sub.narr</key>
+  <string>u1A_36.sub.narr.glif</string>
   <key>u1A36_u1A63</key>
   <string>u1A_36_u1A_63.glif</string>
   <key>u1A36_u1A63.short</key>
@@ -618,8 +618,8 @@
   <string>u1A_3E_.short.glif</string>
   <key>u1A3E.sub</key>
   <string>u1A_3E_.sub.glif</string>
-  <key>u1A3E.sub.short</key>
-  <string>u1A_3E_.sub.short.glif</string>
+  <key>u1A3E.sub.narr</key>
+  <string>u1A_3E_.sub.narr.glif</string>
   <key>u1A3E_u1A5B</key>
   <string>u1A_3E__u1A_5B_.glif</string>
   <key>u1A3F</key>
