@@ -6,9 +6,6 @@
   <anchor x="532" y="171" name="_BD"/>
   <outline>
     <contour>
-      <point x="261" y="-152" type="curve" smooth="yes"/>
-      <point x="353" y="-152"/>
-      <point x="417" y="-61"/>
       <point x="445" y="110" type="curve"/>
       <point x="539" y="26"/>
       <point x="648" y="-32"/>
@@ -56,6 +53,9 @@
       <point x="148" y="5" type="curve" smooth="yes"/>
       <point x="148" y="-78"/>
       <point x="161" y="-152"/>
+      <point x="261" y="-152" type="curve" smooth="yes"/>
+      <point x="353" y="-152"/>
+      <point x="417" y="-61"/>
     </contour>
   </outline>
   <lib>
