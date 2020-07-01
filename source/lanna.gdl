@@ -173,6 +173,11 @@ g1a49 g1a45_sub g1a36_sub > g1a49_1a36_sub_1a45_sub:(1 a b) _ _ / ^ _ opt2(cuDia
     (cno_thin cno_tall) > (cthin ctall) / _ ^ cTallLeft;
 #endif
 
+(g1a36_sub g1a3e_sub) > (g1a36_sub_narr g1a3e_sub_narr) / cConsNarrow opt3(cuDia) _;
+//cno_short > cshort / _ opt3(clDia) cTallLDias;
+cno_short > cshort / _ opt3((cDia cTone)) g200b? cTakesBDia opt3(cuDia) g1a6c;
+cno_short > cshort / _ opt3(cuDia) clDia;
+
 endpass;
 
 endtable;
@@ -194,14 +199,22 @@ cLDia {attach {to = @1; at = LS; with = LM}} / cTakesLDia opt4(cnTakesLDia) _;
 cATDia {attach {to = @1; at = ATS; with = ATM}} / cTakesATDia opt4((cnTakesATDia cTallLDias)) cADia opt4((cnTakesATDia cTallLDias)) _;
 endpass
 
+pass(2)
+
+// cTakesBDia {kern.x=@b.BS.x-(@s.BM.x-@s.boundingbox.left) + 50m} g1a6c / g1a2f opt3((cDia cTone)) g200b? _=b opt3(cuDia) _=s;
+cHangRightDia (cTallLeft cVowelPre) {kern.x=@d.boundingbox.right-@d.ARM.x} / _=d _=b;
+
+endpass
+
 #if 0
 #ifdef HAS_g1a48_sub_low
-pass(2)
+pass(3)
 crlow {shift.y = @d.position.y + @d.BRDS.y - @c.position.y - @c.BRS.y; \
       shift.x = (@d.position.x + @d.BRDS.x > @c.position.x + @c.BRS.x) ? (@d.position.x + @d.BRDS.x - @c.position.x - @c.BRS.x) : 0m} \
       / cCons=c opt4((cuDia clDia)) clDia=d opt4(cuDia) _ ;
 endpass
 #endif
 #endif
+
 
 endtable
