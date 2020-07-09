@@ -92,10 +92,10 @@
       <point x="1241" y="-12" type="curve"/>
       <point x="1277" y="-12"/>
       <point x="1402" y="21"/>
-      <point x="1515" y="111" type="curve"/>
-      <point x="1516" y="121"/>
-      <point x="1515" y="132"/>
-      <point x="1511" y="142" type="curve"/>
+      <point x="1525" y="89" type="curve"/>
+      <point x="1526" y="103"/>
+      <point x="1525" y="114"/>
+      <point x="1521" y="124" type="curve"/>
       <point x="1431" y="81"/>
       <point x="1327" y="53"/>
       <point x="1279" y="44" type="curve"/>
