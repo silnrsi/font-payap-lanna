@@ -10,14 +10,14 @@
   <anchor x="665" y="0" name="R"/>
   <outline>
     <contour>
-      <point x="64" y="744" type="curve" smooth="yes"/>
-      <point x="60" y="610"/>
-      <point x="60" y="516"/>
-      <point x="60" y="454" type="curve" smooth="yes"/>
-      <point x="60" y="374"/>
-      <point x="60" y="345"/>
-      <point x="62" y="267" type="curve" smooth="yes"/>
-      <point x="66" y="67"/>
+      <point x="57" y="744" type="curve" smooth="yes"/>
+      <point x="53" y="610"/>
+      <point x="53" y="516"/>
+      <point x="53" y="454" type="curve" smooth="yes"/>
+      <point x="53" y="374"/>
+      <point x="53" y="345"/>
+      <point x="55" y="267" type="curve" smooth="yes"/>
+      <point x="59" y="67"/>
       <point x="170" y="-1"/>
       <point x="301" y="-1" type="curve" smooth="yes"/>
       <point x="489" y="-1"/>
@@ -75,8 +75,8 @@
       <point x="584" y="1176"/>
       <point x="540" y="1179"/>
       <point x="499" y="1179" type="curve" smooth="yes"/>
-      <point x="131" y="1179"/>
-      <point x="69" y="891"/>
+      <point x="124" y="1179"/>
+      <point x="62" y="891"/>
     </contour>
   </outline>
 </glyph>

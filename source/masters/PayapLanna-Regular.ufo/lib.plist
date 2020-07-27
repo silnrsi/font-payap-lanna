@@ -13,7 +13,7 @@
     <array/>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>1342</string>
+  <string>1343</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/u1A26/u1A4A/u1A26/u1A37/u1A4F/u1A4F/u1A23/u1A2D/u1A2D/u1A3B/u1A3B/u1A53/u1A53/u1A32/u1A48/u1A4C/u1A49/u1A49/u1A55/u1A2D/u1A26/u1A37/u1A4F/u1A23/u1A2D/u1A3B/u1A53/u1A32/u1A48/u1A49/u1A55</string>
@@ -29,8 +29,9 @@
 /u1A3E.sub/u1A31.sub/u1A32.sub/u1A33.sub/u1A34.sub/u1A35.sub/u1A46.sub/u1A37.sub/u1A45.sub/u1A3B.sub/u1A49.sub/u1A3D.sub/u1A41.sub/u1A46.sub/u1A36.sub 
 /u1A38/u1A32/u1A38.sub/u1A39/u1A32/u1A39.sub/u1A32/u1A3F.sub/u1A32/u1A43.sub/u1A32/u1A47.sub/u1A32/u1A48.sub/u1A3D/u1A32/u1A57/space 
 /u1A48.sub_u1A45.sub/u1A49_u1A36.sub/u1A49_u1A3E.sub/u1A49_u1A36.sub_u1A45.sub</string>
-    <string>/u1A32/u1A36_u1A63/u1A80/u1A81/u1A82/u1A83/u1A84/u1A85/u1A86/u1A87/u1A88/u1A80/u1A89 
-/u1A45/u1A80/u1A80/u1A90/u1A91/u1A92/u1A93/u1A94/u1A95/u1A96/u1A97/u1A98/u1A99/u1A99/u1A31.sub/u1A2D.sub/u1A2D/u1A43</string>
+    <string>/u1A32/u1A36_u1A63/u1A80/u1A81/u1A82/u1A83/u1A84/u1A85/u1A86/u1A87/u1A89/u1A85/u1A88/u1A80/u1A89 
+/u1A45/u1A80/u1A90/u1A91/u1A92/u1A93/u1A94/u1A95/u1A96/u1A97/u1A98/u1A99/u1A99/u1A31.sub/u1A2D.sub/u1A2D 
+/u1A43/u1AA7/u1AA8/u1AA9/u1AAA/u1AAB/u1A32</string>
     <string>/u1AA5/u1AA3/u1AA4/u1AA0/u1A31/u1AA6/u1A48/u1AAC/u1A32/u1AAD/u0E5B/u1AA0/u1AA1/u1AA2</string>
     <string>/u1A2A/u1A3A/u1A3E_u1A5B/u1A3E_u1A5B/u1A36_u1A63/u1A42/u1A44/u1A4A/u1A4C 
 /u1A53/u1A4D/u1A4E/u1A4F/u1A50/u1A70</string>
