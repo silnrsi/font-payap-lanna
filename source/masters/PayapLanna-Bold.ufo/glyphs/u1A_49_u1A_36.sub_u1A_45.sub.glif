@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A49_u1A36.sub_u1A45.sub" format="2">
-  <advance width="1388"/>
-  <anchor x="714" y="852" name="A"/>
-  <anchor x="1388" y="852" name="AR"/>
-  <anchor x="751" y="-1354" name="B"/>
-  <anchor x="1388" y="852" name="BR"/>
-  <anchor x="41" y="0" name="L"/>
-  <anchor x="1338" y="0" name="R"/>
+  <advance width="1427"/>
+  <anchor x="727" y="852" name="A"/>
+  <anchor x="1431" y="852" name="AR"/>
+  <anchor x="764" y="-1354" name="B"/>
+  <anchor x="1431" y="852" name="BR"/>
+  <anchor x="0" y="0" name="L"/>
+  <anchor x="1424" y="0" name="R"/>
   <outline>
-    <component base="u1A36.sub" xOffset="367" yOffset="119"/>
-    <component base="u1A45.sub" xOffset="351" yOffset="-588"/>
-    <component base="u1A49"/>
+    <component base="u1A36.sub" xOffset="380" yOffset="119"/>
+    <component base="u1A45.sub" xOffset="364" yOffset="-588"/>
+    <component base="u1A49" xOffset="13"/>
   </outline>
   <lib>
     <dict>

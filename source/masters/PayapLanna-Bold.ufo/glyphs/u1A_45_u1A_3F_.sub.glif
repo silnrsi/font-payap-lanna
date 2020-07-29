@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A45_u1A3F.sub" format="2">
-  <advance width="372"/>
-  <anchor x="226" y="800" name="AR"/>
-  <anchor x="-145" y="-1376" name="BD"/>
-  <anchor x="282" y="0" name="_X"/>
+  <advance width="351"/>
+  <anchor x="354" y="800" name="AR"/>
+  <anchor x="-195" y="-1376" name="BD"/>
+  <anchor x="349" y="0" name="_X"/>
   <outline>
     <component base="u1A3F.sub"/>
-    <component base="u1A45.sub" xOffset="-509" yOffset="-1026"/>
+    <component base="u1A45.sub" xOffset="-619" yOffset="-606"/>
   </outline>
   <lib>
     <dict>

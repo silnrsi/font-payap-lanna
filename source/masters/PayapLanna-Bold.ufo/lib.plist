@@ -16,14 +16,8 @@
   <string>1343</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/u1A26/u1A4A/u1A26/u1A37/u1A4F/u1A4F/u1A23/u1A2D/u1A2D/u1A3B/u1A3B/u1A53/u1A53/u1A32/u1A48/u1A4C/u1A49/u1A49/u1A55/u1A2D/u1A26/u1A37/u1A4F/u1A23/u1A2D/u1A3B/u1A53/u1A32/u1A48/u1A49/u1A55</string>
-    <string>/u1A4D/u1A4E/u1A3B/u1A53/u1A3B/u1A26/u1A4D/u1A2B/u1A3F.sub/u1A26.sub/u1A29.sub/u1A33.sub/u1A29/u1A2A/u1A33/u1A4A/u1A26/u1A29/u1A55 
-</string>
-    <string>/u1A27/u1A27/u1A2B/u1A3E/u1A38/u1A40/u1A29.sub/u1A29/u1A2A/u1A2D/u1A2E/u1A44 
-/u1A2F/u1A4F/u1A29.sub/u1A47.sub/u1A4F/u1A48/u1A47/u1A2D/u1A4B/u1A37/u1A3E/space/u1A3E_u1A5B/u1A2D/u1A2E/u1A2E/u1A47.sub.low/u1A2A/u1A29/u1A2A/u1A3C/u1A3A/u1A2D/u1A3E_u1A5B/u1A42/u1A44/u1A4A/u1A4C/u1A3B_u1A5B/u1A53/u1A3B/u1A26.sub/u1A4D/u1A4E/u1A4F/u1A50/u1A70/u1A2D/u1A2E/u1A34/u1A34/u1A39/u1A2D/u1A3A/u1A40/u1A4B/u1A55/u1A52</string>
-    <string>/u1A32/u1A55/u1A4F/u1A70/u1A32/u1A71/u1A31/u1A72 ./u1A72/u1A4F/u1A55.tall/u1A70.thin ./u1A71.thin ./u1A72.thin/u1A51 
-/u1A4B/u1A61/u1A49/u1A4C/u1A3F/u1A34/u1A71/u1A2F 
-/u1A34/u1A27/u1A61/u1A71/u1A2F/u1A41/u1A38</string>
+    <string>/u1A26/u1A37/u1A4F/u1A23/u1A2D/u1A3B/u1A53/u1A32/u1A48/u1A49/u1A55 
+/u1A26/u1A37/u1A4F/u1A23/u1A2D/u1A3B/u1A53/u1A32/u1A48/u1A49/u1A55</string>
     <string>/u1A32/u1A38.sub.low/u1A32/u1A39.sub.low/u1A32/u1A3F.sub.low/u1A32/u1A43.sub.low/u1A45.sub.low/u1A32/u1A47.sub.low/u1A32/u1A48.sub.low/u1A20.sub/u1A21.sub/u1A23.sub/u1A32.sub 
 /u1A25/u1A32/u1A25.sub/u1A32/u1A2C.sub/u1A32/u1A30.sub/u1A26/u1A26.sub/u1A27.sub/u1A28.sub/u1A29.sub/u1A2D.sub/u1A26.sub/u1A2E.sub/u1A2F.sub 
 /u1A3E.sub/u1A31.sub/u1A32.sub/u1A33.sub/u1A34.sub/u1A35.sub/u1A46.sub/u1A37.sub/u1A45.sub/u1A3B.sub/u1A49.sub/u1A3D.sub/u1A41.sub/u1A46.sub/u1A36.sub 
@@ -33,18 +27,12 @@
 /u1A45/u1A80/u1A90/u1A91/u1A92/u1A93/u1A94/u1A95/u1A96/u1A97/u1A98/u1A99/u1A99/u1A31.sub/u1A2D.sub/u1A2D 
 /u1A43/u1AA7/u1AA8/u1AA9/u1AAA/u1AAB/u1A32</string>
     <string>/u1AA5/u1AA3/u1AA4/u1AA0/u1A31/u1AA6/u1A48/u1AAC/u1A32/u1AAD/u0E5B/u1AA0/u1AA1/u1AA2</string>
-    <string>/u1A2A/u1A3A/u1A3E_u1A5B/u1A3E_u1A5B/u1A36_u1A63/u1A42/u1A44/u1A4A/u1A4C 
-/u1A53/u1A4D/u1A4E/u1A4F/u1A50/u1A70</string>
     <string>/u1A63/u1A23/u1A64/u1A32/u1A24/u1A55/u1A3D 
 /u1A21.short/u1A21/u1A21.short/u1A22/u1A22.short/u1A2F/u1A2F.short/u1A3E/u1A3E.short 
 /u1A47/u1A48/u1A48/u1A47.short/u1A36/u1A36.short/u1A36_u1A63/u1A36_u1A63.short 
 /u1A36.sub/u1A36.sub.narr/u1A36.sub/u1A26/u1A23/u1A3E.sub.narr/u1A3E.sub</string>
-    <string>/u1A20/u1A20.sub/u1A21/u1A21.sub/u1A23/u1A23.sub/u1A26/u1A26.sub/u1A27/u1A27.sub/u1A28/u1A28.sub/u1A29/u1A29.sub/u1A2D/u1A2D.sub 
-/u1A2E/u1A2E.sub/u1A2F/u1A2F.sub/u1A31/u1A31.sub/u1A32/u1A32.sub/u1A33/u1A33.sub/u1A34/u1A34.sub/u1A35/u1A35.sub 
-/u1A37/u1A37.sub/u1A3B/u1A3B.sub/u1A3D/u1A3D.sub/u1A41/u1A41.sub/u1A45/u1A45.sub/u1A23/u1A46/u1A46.sub/u1A49/u1A49.sub</string>
     <string>/u1A3D/u1A20/u1A3B/u1A25/u1A2D/u1A4F/u1A2C/u1A2F 
 /u1A30/u1A31/u1A31_u1A2C/u1A49.sub/u1A49/u1A3F/u1A20/u1A31/u1A37/u1A49_u1A36.sub/u1A49_u1A36.sub_u1A45.sub/u1A49_u1A3E.sub/u1A41/u1A41/u1A41.alt/u1A43/u1A48/u1A54</string>
-    <string>/u1A27/u1A27.sub/u1A28/u1A32/u1A32.sub/u1A35/u1A35.sub/u1A3D/u1A3D.sub/u1A41/u1A41.alt/u1A43/u1A45/u1A45.sub/u1A45.sub.low/u1A47/u1A47.short/space/u1A47.sub/space/u1A47.sub.low/u1A48/u1A48.sub/space/u1A48.sub.low/space/u1A48.sub_u1A45.sub/u1A54/u1A63/u1A63_u1A74/u1A6E/u1A6F/u1AA2</string>
     <string>/u1A31.sub/u1A56/u1A58/u1A59/u1A5A/u1A5B/u1A5C/u1A5D/u1A5E/u1A60/u1A62/space/u1A62.large/space/u1A62_u1A75/space/u1A62_u1A76/space/u1A65/space/u1A65/space/u1A66/space/u1A67/space/u1A68/space/u1A69/space/u1A69.low/space/u1A6A/space/u1A6A.low/space/u1A6A_u1A36.sub/space/u1A6A_u1A3E.sub/space/u1A6B ./u1A6B/space/u1A6C/space/u1A6C.low/space/u1A6C_u1A36.sub/space/space/u1A38.sub/space/u1A38.sub.low/space/u1A6C_u1A38.sub/space/u1A6C/space/u1A2F/u1A63/u1A36.sub.narr/space/u1A63/u1A36.sub/space/u1A3E.sub.narr/space/u1A3E.sub/u1A36/space/u1A6C_u1A3E.sub/space/u1A6C/space/u1A3F.sub/space/u1A6C_u1A3F.sub/space/u1A73/space/u1A74/space/u1A74.high/space/u1A74_u1A76/space/u1A75/space/u1A75.high/space/u1A76/space/u1A76.high/space/u1A77/space/u1A78/space/u1A7A/u1A7A/space/u1A7A.high/space/u1A20/u1A7B/space/u1A7C/space/u1A7F</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>

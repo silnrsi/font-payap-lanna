@@ -4,8 +4,8 @@
   <anchor x="459" y="852" name="A"/>
   <anchor x="459" y="0" name="B"/>
   <anchor x="948" y="852" name="BR"/>
-  <anchor x="50" y="0" name="L"/>
-  <anchor x="958" y="0" name="R"/>
+  <anchor x="0" y="0" name="L"/>
+  <anchor x="938" y="0" name="R"/>
   <outline>
     <contour>
       <point x="685" y="802" type="curve" smooth="yes"/>

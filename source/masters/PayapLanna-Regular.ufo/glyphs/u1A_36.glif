@@ -2,11 +2,11 @@
 <glyph name="u1A36" format="2">
   <advance width="956"/>
   <unicode hex="1A36"/>
-  <anchor x="538" y="852" name="A"/>
-  <anchor x="1026" y="852" name="AR"/>
-  <anchor x="538" y="0" name="B"/>
-  <anchor x="1026" y="852" name="BR"/>
-  <anchor x="50" y="0" name="L"/>
+  <anchor x="488" y="852" name="A"/>
+  <anchor x="946" y="852" name="AR"/>
+  <anchor x="488" y="0" name="B"/>
+  <anchor x="956" y="852" name="BR"/>
+  <anchor x="0" y="0" name="L"/>
   <anchor x="1106" y="0" name="R"/>
   <outline>
     <contour>

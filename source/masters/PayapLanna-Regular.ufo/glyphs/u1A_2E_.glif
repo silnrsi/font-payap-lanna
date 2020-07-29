@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A2E" format="2">
-  <advance width="1129"/>
+  <advance width="1118"/>
   <unicode hex="1A2E"/>
   <anchor x="582" y="852" name="A"/>
   <anchor x="1106" y="852" name="AR"/>
   <anchor x="582" y="-665" name="B"/>
   <anchor x="1128" y="852" name="BR"/>
-  <anchor x="59" y="0" name="L"/>
-  <anchor x="1162" y="0" name="R"/>
+  <anchor x="9" y="0" name="L"/>
+  <anchor x="1112" y="0" name="R"/>
   <outline>
     <contour>
       <point x="1068" y="364" type="curve"/>

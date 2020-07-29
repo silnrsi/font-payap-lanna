@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A5B" format="2">
   <unicode hex="1A5B"/>
-  <anchor x="1096" y="364" name="AR"/>
+  <anchor x="1056" y="364" name="AR"/>
   <anchor x="563" y="-665" name="BD"/>
-  <anchor x="1096" y="414" name="_BR"/>
+  <anchor x="1056" y="364" name="_BR"/>
   <anchor x="0" y="0" name="_X"/>
   <outline>
     <contour>
@@ -52,7 +52,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>1136</integer>
+      <integer>1057</integer>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

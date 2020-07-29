@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A6C.low" format="2">
-  <anchor x="244" y="-628" name="BD"/>
-  <anchor x="244" y="-239" name="_B"/>
+  <anchor x="474" y="-628" name="BD"/>
+  <anchor x="474" y="-239" name="_B"/>
   <anchor x="244" y="-239" name="_BD"/>
   <outline>
     <component base="u1A6C" yOffset="-410"/>

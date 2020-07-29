@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A40" format="2">
-  <advance width="1142"/>
+  <advance width="1132"/>
   <unicode hex="1A40"/>
-  <anchor x="466" y="852" name="A"/>
+  <anchor x="536" y="852" name="A"/>
   <anchor x="1142" y="852" name="AR"/>
-  <anchor x="466" y="1494" name="AT"/>
+  <anchor x="526" y="1494" name="AT"/>
   <anchor x="596" y="0" name="B"/>
   <anchor x="1142" y="852" name="BR"/>
-  <anchor x="50" y="0" name="L"/>
-  <anchor x="1242" y="0" name="R"/>
+  <anchor x="0" y="0" name="L"/>
+  <anchor x="1132" y="0" name="R"/>
   <outline>
     <contour>
       <point x="1122" y="1494" type="curve" smooth="yes"/>
