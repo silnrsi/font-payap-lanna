@@ -1,0 +1,5 @@
+# Release Activities
+
+Things to do when we release this font:
+
+- Update the nod sldr ldml default font.
