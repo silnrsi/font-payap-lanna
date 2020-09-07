@@ -64,5 +64,17 @@
     u1A25.sub u1A2C.sub u1A30.sub u1A38.sub u1A3A.sub u1A3F.sub u1A3F.sub.low
     u1A43.sub u1A47.sub u1A48.sub u1A57 u1A5B u1A6D
 </class>
-</classes>
+
+<class name="cConsShort">
+    u1A20 u1A21       u1A23       u1A25 u1A26 u1A27 u1A28 u1A29       u1A2B       u1A2D       u1A2F
+    u1A30 u1A31 u1A32 u1A33 u1A34 u1A35       u1A37       u1A39       u1A3B       u1A3D u1A3E u1A3F
+          u1A41       u1A43       u1A45 u1A46 u1A47 u1A48 u1A49
+    u1A54
+</class>
+
+<class name="cTallRight">
+    u1A38 u1A40
+</class>
+
+</classes>  
 

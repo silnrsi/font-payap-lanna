@@ -201,9 +201,18 @@ endpass
 
 pass(2)
 
+#define clip(x) (x > 0m ? x : 0m)
 // cTakesBDia {kern.x=@b.BS.x-(@s.BM.x-@s.boundingbox.left) + 50m} g1a6c / g1a2f opt3((cDia cTone)) g200b? _=b opt3(cuDia) _=s;
 cHangRightDia (cTallLeft cVowelPre) {kern.x=@d.boundingbox.right-@d.ARM.x} / _=d _=b;
 
+// bring tall a left if it has a lower diacritic
+g1a64 {kern.x=-@d.BM.x} cBDia / cConsShort opt3(cuDia) _=a _=d;
+g1a64 {kern.x=@a.RS.x-@d.RM.x} cRDia / cConsShort opt3(cuDia) _=a _=d;
+
+endpass
+
+pass(3)
+g1a64 {kern.x += clip((-@a.boundingbox.left-@c.advance.x+@c.AS.x-@d.advance.x+@d.AM.x+30m))} / cConsShort=c cADia=d opt2(cuDia) _=a;
 endpass
 
 #if 0
