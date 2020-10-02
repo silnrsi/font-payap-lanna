@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A73" format="2">
   <unicode hex="1A73"/>
-  <anchor x="143" y="890" name="AD"/>
-  <anchor x="143" y="352" name="_A"/>
-  <anchor x="143" y="352" name="_AD"/>
-  <anchor x="143" y="352" name="_AT"/>
+  <anchor x="183" y="890" name="AD"/>
+  <anchor x="183" y="352" name="_A"/>
+  <anchor x="183" y="352" name="_AD"/>
+  <anchor x="183" y="352" name="_AT"/>
   <outline>
     <contour>
-      <point x="448" y="555"/>
-      <point x="317" y="660"/>
-      <point x="208" y="920" type="curve"/>
-      <point x="169" y="920"/>
-      <point x="117" y="905"/>
-      <point x="102" y="891" type="curve"/>
-      <point x="48" y="691"/>
-      <point x="-94" y="564"/>
-      <point x="-359" y="465" type="curve"/>
-      <point x="-326" y="402"/>
-      <point x="-272" y="382"/>
-      <point x="-222" y="387" type="curve"/>
-      <point x="-88" y="445"/>
-      <point x="142" y="615"/>
-      <point x="208" y="816" type="curve"/>
-      <point x="101" y="799" type="line"/>
-      <point x="153" y="642"/>
-      <point x="374" y="461"/>
-      <point x="528" y="373" type="curve"/>
-      <point x="576" y="375"/>
-      <point x="636" y="395"/>
-      <point x="671" y="451" type="curve"/>
+      <point x="488" y="555"/>
+      <point x="357" y="660"/>
+      <point x="248" y="920" type="curve"/>
+      <point x="209" y="920"/>
+      <point x="157" y="905"/>
+      <point x="142" y="891" type="curve"/>
+      <point x="88" y="691"/>
+      <point x="-54" y="564"/>
+      <point x="-319" y="465" type="curve"/>
+      <point x="-286" y="402"/>
+      <point x="-232" y="382"/>
+      <point x="-182" y="387" type="curve"/>
+      <point x="-48" y="445"/>
+      <point x="182" y="615"/>
+      <point x="248" y="816" type="curve"/>
+      <point x="141" y="799" type="line"/>
+      <point x="193" y="642"/>
+      <point x="414" y="461"/>
+      <point x="568" y="373" type="curve"/>
+      <point x="616" y="375"/>
+      <point x="676" y="395"/>
+      <point x="711" y="451" type="curve"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>300</integer>
+      <integer>380</integer>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

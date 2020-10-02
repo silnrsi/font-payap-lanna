@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A4D" format="2">
-  <advance width="1112"/>
+  <advance width="1172"/>
   <unicode hex="1A4D"/>
-  <anchor x="580" y="852" name="A"/>
-  <anchor x="1111" y="852" name="AR"/>
-  <anchor x="580" y="-704" name="B"/>
-  <anchor x="1111" y="852" name="BR"/>
-  <anchor x="-1" y="0" name="L"/>
-  <anchor x="1111" y="0" name="R"/>
+  <anchor x="610" y="852" name="A"/>
+  <anchor x="1141" y="852" name="AR"/>
+  <anchor x="610" y="-704" name="B"/>
+  <anchor x="1141" y="852" name="BR"/>
+  <anchor x="29" y="0" name="L"/>
+  <anchor x="1141" y="0" name="R"/>
   <outline>
     <component base="u1A3B"/>
     <component base="u1A26.sub" xOffset="134" yOffset="-385"/>

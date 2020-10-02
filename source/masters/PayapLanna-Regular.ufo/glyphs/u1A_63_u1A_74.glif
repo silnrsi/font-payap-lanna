@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A63_u1A74" format="2">
-  <advance width="790"/>
-  <anchor x="388" y="852" name="A"/>
-  <anchor x="388" y="0" name="B"/>
-  <anchor x="786" y="852" name="BR"/>
-  <anchor x="0" y="0" name="L"/>
-  <anchor x="790" y="0" name="R"/>
+  <advance width="850"/>
+  <anchor x="418" y="852" name="A"/>
+  <anchor x="418" y="0" name="B"/>
+  <anchor x="816" y="852" name="BR"/>
+  <anchor x="30" y="0" name="L"/>
+  <anchor x="820" y="0" name="R"/>
   <outline>
     <component base="u1A63"/>
     <component base="u1A74" xOffset="500" yOffset="474"/>

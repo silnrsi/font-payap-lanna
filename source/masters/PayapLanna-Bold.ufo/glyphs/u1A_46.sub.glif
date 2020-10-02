@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A46.sub" format="2">
-  <advance width="866"/>
-  <anchor x="435" y="-205" name="BD"/>
-  <anchor x="435" y="429" name="_B"/>
-  <anchor x="435" y="429" name="_BD"/>
+  <advance width="946"/>
+  <anchor x="475" y="-205" name="BD"/>
+  <anchor x="475" y="429" name="_B"/>
+  <anchor x="475" y="429" name="_BD"/>
   <outline>
     <contour>
-      <point x="423" y="186" type="curve"/>
-      <point x="695" y="244"/>
-      <point x="796" y="327"/>
-      <point x="952" y="549" type="curve"/>
-      <point x="957" y="541"/>
-      <point x="961" y="502"/>
-      <point x="959" y="493" type="curve"/>
-      <point x="869" y="356"/>
-      <point x="812" y="271"/>
-      <point x="705" y="193" type="curve" smooth="yes"/>
-      <point x="650" y="153"/>
-      <point x="574" y="117"/>
-      <point x="487" y="104" type="curve"/>
-      <point x="453" y="110"/>
-      <point x="422" y="151"/>
+      <point x="463" y="186" type="curve"/>
+      <point x="735" y="244"/>
+      <point x="836" y="327"/>
+      <point x="992" y="549" type="curve"/>
+      <point x="997" y="541"/>
+      <point x="1001" y="502"/>
+      <point x="999" y="493" type="curve"/>
+      <point x="909" y="356"/>
+      <point x="852" y="271"/>
+      <point x="745" y="193" type="curve" smooth="yes"/>
+      <point x="690" y="153"/>
+      <point x="614" y="117"/>
+      <point x="527" y="104" type="curve"/>
+      <point x="493" y="110"/>
+      <point x="462" y="151"/>
     </contour>
     <component base="u1A23.sub"/>
   </outline>

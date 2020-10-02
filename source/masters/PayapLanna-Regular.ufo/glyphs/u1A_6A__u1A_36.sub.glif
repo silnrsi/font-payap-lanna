@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A6A_u1A36.sub" format="2">
-  <anchor x="308" y="-690" name="BD"/>
-  <anchor x="308" y="-172" name="_BD"/>
-  <anchor x="882" y="-172" name="_R"/>
+  <anchor x="338" y="-690" name="BD"/>
+  <anchor x="338" y="-172" name="_BD"/>
+  <anchor x="912" y="-172" name="_R"/>
   <outline>
     <contour>
-      <point x="9" y="-360" type="curve" smooth="yes"/>
-      <point x="9" y="-398"/>
-      <point x="10" y="-456"/>
-      <point x="15" y="-506" type="curve"/>
-      <point x="-24" y="-506"/>
-      <point x="-57" y="-488"/>
-      <point x="-78" y="-463" type="curve"/>
-      <point x="-82" y="-391"/>
-      <point x="-82" y="-328"/>
-      <point x="-78" y="-267" type="curve"/>
-      <point x="-57" y="-242"/>
-      <point x="-24" y="-224"/>
-      <point x="15" y="-224" type="curve"/>
-      <point x="10" y="-274"/>
-      <point x="9" y="-332"/>
+      <point x="39" y="-360" type="curve" smooth="yes"/>
+      <point x="39" y="-398"/>
+      <point x="40" y="-456"/>
+      <point x="45" y="-506" type="curve"/>
+      <point x="6" y="-506"/>
+      <point x="-27" y="-488"/>
+      <point x="-48" y="-463" type="curve"/>
+      <point x="-52" y="-391"/>
+      <point x="-52" y="-328"/>
+      <point x="-48" y="-267" type="curve"/>
+      <point x="-27" y="-242"/>
+      <point x="6" y="-224"/>
+      <point x="45" y="-224" type="curve"/>
+      <point x="40" y="-274"/>
+      <point x="39" y="-332"/>
     </contour>
     <contour>
-      <point x="175" y="-224" type="curve"/>
-      <point x="170" y="-274"/>
-      <point x="167" y="-312"/>
-      <point x="167" y="-340" type="curve" smooth="yes"/>
-      <point x="167" y="-386"/>
-      <point x="180" y="-420"/>
-      <point x="207" y="-426" type="curve" smooth="yes"/>
-      <point x="269" y="-440"/>
-      <point x="347" y="-447"/>
-      <point x="523" y="-404" type="curve"/>
-      <point x="523" y="-414"/>
-      <point x="520" y="-427"/>
-      <point x="513" y="-436" type="curve"/>
-      <point x="398" y="-492"/>
-      <point x="284" y="-504"/>
-      <point x="225" y="-504" type="curve" smooth="yes"/>
-      <point x="126" y="-504"/>
-      <point x="90" y="-476"/>
-      <point x="82" y="-389" type="curve" smooth="yes"/>
-      <point x="78" y="-348"/>
-      <point x="78" y="-308"/>
-      <point x="82" y="-267" type="curve"/>
-      <point x="103" y="-242"/>
-      <point x="136" y="-224"/>
+      <point x="205" y="-224" type="curve"/>
+      <point x="200" y="-274"/>
+      <point x="197" y="-312"/>
+      <point x="197" y="-340" type="curve" smooth="yes"/>
+      <point x="197" y="-386"/>
+      <point x="210" y="-420"/>
+      <point x="237" y="-426" type="curve" smooth="yes"/>
+      <point x="299" y="-440"/>
+      <point x="377" y="-447"/>
+      <point x="553" y="-404" type="curve"/>
+      <point x="553" y="-414"/>
+      <point x="550" y="-427"/>
+      <point x="543" y="-436" type="curve"/>
+      <point x="428" y="-492"/>
+      <point x="314" y="-504"/>
+      <point x="255" y="-504" type="curve" smooth="yes"/>
+      <point x="156" y="-504"/>
+      <point x="120" y="-476"/>
+      <point x="112" y="-389" type="curve" smooth="yes"/>
+      <point x="108" y="-348"/>
+      <point x="108" y="-308"/>
+      <point x="112" y="-267" type="curve"/>
+      <point x="133" y="-242"/>
+      <point x="166" y="-224"/>
     </contour>
     <component base="u1A36.sub" xOffset="-83"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>885</integer>
+      <integer>945</integer>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

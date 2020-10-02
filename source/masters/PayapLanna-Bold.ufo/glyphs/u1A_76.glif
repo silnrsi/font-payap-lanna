@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A76" format="2">
   <unicode hex="1A76"/>
-  <anchor x="141" y="733" name="AD"/>
-  <anchor x="151" y="344" name="_A"/>
-  <anchor x="151" y="344" name="_AD"/>
-  <anchor x="151" y="344" name="_AT"/>
+  <anchor x="181" y="733" name="AD"/>
+  <anchor x="191" y="344" name="_A"/>
+  <anchor x="191" y="344" name="_AD"/>
+  <anchor x="191" y="344" name="_AT"/>
   <outline>
     <contour>
-      <point x="-27" y="670" type="curve"/>
-      <point x="-21" y="674"/>
-      <point x="7" y="689"/>
-      <point x="17" y="687" type="curve"/>
-      <point x="40" y="668"/>
-      <point x="67" y="637"/>
-      <point x="125" y="597" type="curve"/>
-      <point x="314" y="656"/>
-      <point x="529" y="793"/>
-      <point x="746" y="993" type="curve"/>
-      <point x="753" y="982"/>
-      <point x="760" y="960"/>
-      <point x="757" y="946" type="curve"/>
-      <point x="560" y="709"/>
-      <point x="279" y="492"/>
-      <point x="85" y="454" type="curve"/>
-      <point x="55" y="482"/>
-      <point x="-10" y="617"/>
+      <point x="13" y="670" type="curve"/>
+      <point x="19" y="674"/>
+      <point x="47" y="689"/>
+      <point x="57" y="687" type="curve"/>
+      <point x="80" y="668"/>
+      <point x="107" y="637"/>
+      <point x="165" y="597" type="curve"/>
+      <point x="354" y="656"/>
+      <point x="569" y="793"/>
+      <point x="786" y="993" type="curve"/>
+      <point x="793" y="982"/>
+      <point x="800" y="960"/>
+      <point x="797" y="946" type="curve"/>
+      <point x="600" y="709"/>
+      <point x="319" y="492"/>
+      <point x="125" y="454" type="curve"/>
+      <point x="95" y="482"/>
+      <point x="30" y="617"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>300</integer>
+      <integer>380</integer>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

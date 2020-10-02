@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A69.low" format="2">
-  <anchor x="148" y="-566" name="BD"/>
-  <anchor x="148" y="-236" name="_B"/>
-  <anchor x="148" y="-236" name="_BD"/>
+  <anchor x="188" y="-566" name="BD"/>
+  <anchor x="188" y="-236" name="_B"/>
+  <anchor x="188" y="-236" name="_BD"/>
   <outline>
     <component base="u1A69" yOffset="-400"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>300</integer>
+      <integer>380</integer>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

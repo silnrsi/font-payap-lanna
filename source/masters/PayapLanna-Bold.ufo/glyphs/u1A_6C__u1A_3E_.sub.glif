@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A6C_u1A3E.sub" format="2">
-  <anchor x="744" y="-360" name="BD"/>
-  <anchor x="744" y="241" name="_BD"/>
-  <anchor x="22" y="241" name="_L"/>
+  <anchor x="754" y="-450" name="BD"/>
+  <anchor x="784" y="241" name="_BD"/>
+  <anchor x="62" y="241" name="_L"/>
   <outline>
-    <component base="u1A6C" xOffset="468" yOffset="81"/>
-    <component base="u1A3E.sub" yOffset="329"/>
+    <component base="u1A6C" xOffset="468" yOffset="51"/>
+    <component base="u1A3E.sub" yOffset="289"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>1138</integer>
+      <integer>1218</integer>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

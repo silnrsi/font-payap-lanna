@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A5D" format="2">
   <unicode hex="1A5D"/>
-  <anchor x="387" y="1564" name="AD"/>
-  <anchor x="387" y="950" name="_A"/>
-  <anchor x="387" y="950" name="_AD"/>
-  <anchor x="387" y="950" name="_AT"/>
+  <anchor x="427" y="1564" name="AD"/>
+  <anchor x="427" y="950" name="_A"/>
+  <anchor x="427" y="950" name="_AD"/>
+  <anchor x="427" y="950" name="_AT"/>
   <outline>
     <component base="u1A37.sub" yOffset="1200"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>774</integer>
+      <integer>854</integer>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>
