@@ -170,7 +170,7 @@ g1a49 g1a45_sub g1a36_sub > g1a49_1a36_sub_1a45_sub:(1 a b) _ _ / ^ _ opt2(cuDia
 #endif
 
 #ifdef HAS_cthin
-    (cno_thin cno_tall) > (cthin ctall) / _ ^ cTallLeft;
+    (cno_thin) > (cthin) / _ ^ cTallLeft;
 #endif
 
 (g1a36_sub g1a3e_sub) > (g1a36_sub_narr g1a3e_sub_narr) / cConsNarrow opt3(cuDia) _;
