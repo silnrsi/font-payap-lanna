@@ -78,25 +78,5 @@
       <point x="1031" y="542"/>
       <point x="958" y="662"/>
     </contour>
-    <contour>
-      <point x="399" y="1070" type="curve"/>
-      <point x="405" y="1074"/>
-      <point x="413" y="1079"/>
-      <point x="423" y="1077" type="curve"/>
-      <point x="446" y="1058"/>
-      <point x="473" y="1027"/>
-      <point x="511" y="1007" type="curve"/>
-      <point x="700" y="1066"/>
-      <point x="910" y="1193"/>
-      <point x="1127" y="1393" type="curve"/>
-      <point x="1134" y="1382"/>
-      <point x="1136" y="1370"/>
-      <point x="1133" y="1356" type="curve"/>
-      <point x="936" y="1119"/>
-      <point x="645" y="942"/>
-      <point x="481" y="914" type="curve"/>
-      <point x="451" y="942"/>
-      <point x="416" y="1017"/>
-    </contour>
   </outline>
 </glyph>
