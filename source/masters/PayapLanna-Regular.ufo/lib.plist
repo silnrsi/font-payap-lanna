@@ -13,7 +13,7 @@
     <array/>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>1346</string>
+  <string>1349</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/u1A26/u1A37/u1A4F/u1A23/u1A2D/u1A3B/u1A53/u1A32/u1A48/u1A49/u1A55 
@@ -37,7 +37,13 @@
     <string>/u1A55/u1A3B/u1A55/u1A46/u1A47/space/u1A70/space/u1A70.thin/space/u1A71/space/u1A71.thin/space/u1A72/space/u1A72.thin 
 /u1A6E/u1A41/u1A6F/u1A6E/u1A2F/u1A6E/u1A3B/u1A6E/u1A43/u1A6E/u1A37/u1A6E/u1A3F 
 /u1A6E/u1A33/u1A6E/u1A38/u1A6E/u1A39/u1A6E/u1A4C/u1A6E/u1A6E</string>
-    <string>/u1A55</string>
+    <string>/u1A6B/u1A48</string>
+    <string>/u1A49_u1A36.sub_u1A45.sub</string>
+    <string>/u1A4C/u1A4C_u1A3E</string>
+    <string>/space/u1A37/u1A64/space/u1A37/u1A7B/space/u1A55/u1A3B/space</string>
+    <string>/u1A3F.sub/space/u1A49/u1A3F.sub.med/space/u1A3F.sub.low/space/space/u1A3F.sub.med/u1A69</string>
+    <string>/u1A48/u1A45.sub/u1A76/u1A7B</string>
+    <string>/u1A4C_u1A3E</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

@@ -628,6 +628,8 @@
   <string>u1A_3F_.sub.glif</string>
   <key>u1A3F.sub.low</key>
   <string>u1A_3F_.sub.low.glif</string>
+  <key>u1A3F.sub.med</key>
+  <string>u1A_3F_.sub.med.glif</string>
   <key>u1A40</key>
   <string>u1A_40.glif</string>
   <key>u1A41</key>
@@ -692,6 +694,8 @@
   <string>u1A_4B_.glif</string>
   <key>u1A4C</key>
   <string>u1A_4C_.glif</string>
+  <key>u1A4C_u1A3E</key>
+  <string>u1A_4C__u1A_3E_.glif</string>
   <key>u1A4D</key>
   <string>u1A_4D_.glif</string>
   <key>u1A4E</key>
