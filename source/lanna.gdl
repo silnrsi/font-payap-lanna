@@ -48,7 +48,9 @@ cSymbol {breakweight = BW_WORD};
 //cVowelPre = (g1a6e, g1a6f, g1a70, g1a71, g1a72)
 cCons = (cConsNarrow cConsWide cConsVowel cConsLig g_dottedcircle g1a36_1a63 g1a31_1a2c){breakweight = -BW_SYLL};
 cuDia = (cVowelUDia cConsUFinal cTone){breakweight = -BW_NEVER};
-clDia = (csub cVowelLDia cConsLFinal g1a56 clow){breakweight = -BW_NEVER};
+clDia = (csub cVowelLDia cConsLFinal g1a56 clow cnarr){breakweight = -BW_NEVER};
+clDiaMed = (cConsLFinal cVowelLDia);
+clDiaLow = (csub clow g1a56);
 cDia = (cuDia clDia g1a55 g1a5b g1a7b);
 cNarrow = (cConsNarrow g1a63);
 cSpace = (g_space){breakweight = BW_WORD};
@@ -161,6 +163,8 @@ g1a49 g1a45_sub g1a36_sub > g1a49_1a36_sub_1a45_sub:(1 a b) _ _ / ^ _ opt2(cuDia
     cno_high > chigh / cuDia opt3(clDia) _;
 #endif
 #ifdef HAS_clow
+    cno_med > cmed / clDiaMed ^ opt4(cuDia) _;
+    cno_med > cmed / _ opt2(cuDia) g1a6c;
     cno_low > clow / clDia ^ opt4(cuDia) _;
     cno_low > clow / cNeedsLow opt4(cuDia) _;
 #endif
@@ -217,7 +221,10 @@ g1a64 {kern.x=@a.RS.x-@d.RM.x} cRDia / cConsShort opt3(cuDia) _=a _=d;
 endpass
 
 pass(3)
+// move tall -aa vowel according to what it might not clash with
 g1a64 {kern.x += clip((-@a.boundingbox.left-@c.advance.x+@c.AS.x-@d.advance.x+@d.AM.x+30m))} / cConsShort=c cADia=d opt2(cuDia) _=a;
+
+cCons (g1a65 g1a66 g1a67 g1a68) {shift.x += @C.ARS.x - @C.AS.x - @L.boundingbox.right + @L.AM.x - @R.ARM.x + @R.boundingbox.left - 20m} cARDia / _=C opt4(clDia) _=L opt4((clDia cTone)) _=R;
 endpass
 
 #if 0

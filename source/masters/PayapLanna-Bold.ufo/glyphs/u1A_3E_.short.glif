@@ -2,7 +2,7 @@
 <glyph name="u1A3E.short" format="2">
   <advance width="1181"/>
   <anchor x="594" y="852" name="A"/>
-  <anchor x="40" y="852" name="AL"/>
+  <anchor x="80" y="852" name="AL"/>
   <anchor x="1097" y="852" name="AR"/>
   <anchor x="594" y="-20" name="B"/>
   <anchor x="1097" y="852" name="BR"/>

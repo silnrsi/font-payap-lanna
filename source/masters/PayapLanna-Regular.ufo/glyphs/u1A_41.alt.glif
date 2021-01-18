@@ -2,7 +2,7 @@
 <glyph name="u1A41.alt" format="2">
   <advance width="1039"/>
   <anchor x="544" y="852" name="A"/>
-  <anchor x="30" y="852" name="AL"/>
+  <anchor x="60" y="852" name="AL"/>
   <anchor x="1009" y="852" name="AR"/>
   <anchor x="554" y="-240" name="B"/>
   <anchor x="1009" y="852" name="BR"/>
