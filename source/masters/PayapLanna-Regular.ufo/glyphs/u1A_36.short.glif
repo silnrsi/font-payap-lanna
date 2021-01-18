@@ -2,6 +2,8 @@
 <glyph name="u1A36.short" format="2">
   <advance width="999"/>
   <anchor x="468" y="852" name="A"/>
+  <anchor x="30" y="852" name="AL"/>
+  <anchor x="956" y="852" name="AR"/>
   <anchor x="478" y="0" name="B"/>
   <anchor x="956" y="852" name="BR"/>
   <anchor x="30" y="0" name="L"/>

@@ -187,6 +187,7 @@ pass(1)
 
 //(clDia cuDia) {insert = 0};
 g1a74 {attach {to = @1; at = AS; with = AM}} / cTakesADia opt4(cnTakesADia) _ ^ opt(cTone) g1a63;
+cALDia {attach {to = @1; at = ALS; with = ALM}} / cTakesALDia opt4(cnTakesALDia) _;
 cBRDia {attach {to = @1; at = BRS; with = BRM}} / cTakesBRDia opt4((cnTakesBRDia cBRDia)) _;
 cARDia {attach {to = @1; at = ARS; with = ARM}} / cTakesARDia opt4(cnTakesARDia) _;
 cBDia {attach {to = @1; at = BS; with = BM}} / cTakesBDia opt4(cnTakesBDia) _;
