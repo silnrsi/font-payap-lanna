@@ -2,8 +2,8 @@
 <glyph name="u1A6B" format="2">
   <unicode hex="1A6B"/>
   <anchor x="168" y="729" name="AD"/>
-  <anchor x="30" y="305" name="_AL"/>
   <anchor x="168" y="305" name="_AD"/>
+  <anchor x="30" y="305" name="_AL"/>
   <anchor x="168" y="305" name="_AT"/>
   <outline>
     <contour>
@@ -46,7 +46,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>360</integer>
+      <integer>394</integer>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>
