@@ -26,9 +26,21 @@
 #define BW_CLIP     40
 #define BW_NEVER    50
 
+#define LG_USENG    1033
 #define ANY ANYGlyph
 
 Bidi = 0;
+
+table(feature)
+
+alt
+{
+    id = "altg";
+    name.LG_USENG = string("Alternate glyphs");
+    default = 0;
+}
+
+endtable;
 
 table(glyph);
 ANY = (glyphid(0 .. MAXGLYPH)){breakweight = -BW_CHAR};
