@@ -60,7 +60,7 @@ cSymbol {breakweight = BW_WORD};
 //cVowelPre = (g1a6e, g1a6f, g1a70, g1a71, g1a72)
 cCons = (cConsNarrow cConsWide cConsVowel cConsLig g_dottedcircle g1a36_1a63 g1a31_1a2c){breakweight = -BW_SYLL};
 cuDia = (cVowelUDia cConsUFinal cTone){breakweight = -BW_NEVER};
-clDia = (csub cVowelLDia cConsLFinal g1a56 clow cnarr){breakweight = -BW_NEVER};
+clDia = (csub cVowelLDia cConsLFinal g1a56 g1a56_1a6c clow cnarr){breakweight = -BW_NEVER};
 clDiaMed = (cConsLFinal cVowelLDia);
 clDiaLow = (csub clow g1a56);
 cDia = (cuDia clDia g1a55 g1a5b g1a7b);
@@ -163,6 +163,8 @@ g1a3e_sub g1a6c > g1a6c_1a3e_sub:(1 2) _ / _ _;
 reorder_lig(cligno_1A3E, clig1A3E, g1a3e_sub)
 #endif
 
+g1a56 g1a6c > g1a56_1a6c:(1 2) _ / _ _;
+
 #ifdef HAS_clig1A45_sub
 reorder_lig(cligno_1A45, clig1A45, g1a45_sub)
 #ifdef HAS_g1a49_1a36_sub_1a45_sub
@@ -200,23 +202,27 @@ endtable;
 
 table(positioning)
 pass(1)
-
+// attach upper diacritics
 //(clDia cuDia) {insert = 0};
 g1a74 {attach {to = @1; at = AS; with = AM}} / cTakesADia opt4(cnTakesADia) _ ^ opt(cTone) g1a63;
 cALDia {attach {to = @1; at = ALS; with = ALM}} / cTakesALDia opt4(cnTakesALDia) _;
-cBRDia {attach {to = @1; at = BRS; with = BRM}} / cTakesBRDia opt4((cnTakesBRDia cBRDia)) _;
 cARDia {attach {to = @1; at = ARS; with = ARM}} / cTakesARDia opt4(cnTakesARDia) _;
-cBDia {attach {to = @1; at = BS; with = BM}} / cTakesBDia opt4(cnTakesBDia) _;
 cADia {attach {to = @1; at = AS; with = AM}} / cTakesADia opt4((cnTakesADia cTallLDias)) _;
 cADDia {attach {to = @1; at = ADS; with = ADM}} / cTakesADDia opt4(cnTakesADDia) _;
-cBDDia {attach {to = @1; at = BDS; with = BDM}; advance.x=0m} / cTakesBDDia opt4(cnTakesBDDia) _;
-cRDia {attach {to = @1; at = RS; with = RM}} / cTakesRDia opt4(cSkipR) _;
 //cRDia {attach {to = @1; at = RS; with = RM}} / cTakesRDia opt4(cnTakesRDia) _;
-cLDia {attach {to = @1; at = LS; with = LM}} / cTakesLDia opt4(cnTakesLDia) _;
 cATDia {attach {to = @1; at = ATS; with = ATM}} / cTakesATDia opt4((cnTakesATDia cTallLDias)) cADia opt4((cnTakesATDia cTallLDias)) _;
 endpass
 
 pass(2)
+// attach lower diacritics
+cBRDia {attach {to = @1; at = BRS; with = BRM}} / cTakesBRDia opt4((cnTakesBRDia cBRDia)) _;
+cBDia {attach {to = @1; at = BS; with = BM}} / cTakesBDia opt4(cnTakesBDia) _;
+cBDDia {attach {to = @1; at = BDS; with = BDM}; advance.x=0m} / cTakesBDDia opt4(cnTakesBDDia) _;
+cLDia {attach {to = @1; at = LS; with = LM}} / cTakesLDia opt4(cnTakesLDia) _;
+cRDia {attach {to = @1; at = RS; with = RM}} / cTakesRDia opt4(cSkipR) _;
+endpass
+
+pass(3)
 
 #define clip(x) (x > 0m ? x : 0m)
 // cTakesBDia {kern.x=@b.BS.x-(@s.BM.x-@s.boundingbox.left) + 50m} g1a6c / g1a2f opt3((cDia cTone)) g200b? _=b opt3(cuDia) _=s;
@@ -232,9 +238,9 @@ g1a64 {kern.x=@a.RS.x-@d.RM.x} cRDia / cConsShort opt3(cuDia) _=a _=d;
 
 endpass
 
-pass(3)
+pass(4)
 // move tall -aa vowel according to what it might not clash with
-g1a64 {kern.x += clip((-@a.boundingbox.left-@c.advance.x+@c.AS.x-@d.advance.x+@d.AM.x+30m))} / cConsShort=c cADia=d opt2(cuDia) _=a;
+g1a64 {kern.x += clip((-@a.boundingbox.left-@c.advance.x+@c.AS.x-@d.advance.x+@d.AM.x+50m))} / cConsShort=c cADia=d opt2(cuDia) _=a;
 
 cCons (g1a65 g1a66 g1a67 g1a68) {shift.x += @C.ARS.x - @C.AS.x - @L.boundingbox.right + @L.AM.x - @R.ARM.x + @R.boundingbox.left - 20m} cARDia / _=C opt4(clDia) _=L opt4((clDia cTone)) _=R;
 endpass

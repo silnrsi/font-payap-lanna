@@ -3,6 +3,7 @@
   <advance width="431"/>
   <anchor x="391" y="800" name="AR"/>
   <anchor x="-312" y="-656" name="BD"/>
+  <anchor x="-312" y="-656" name="B"/>
   <anchor x="390" y="0" name="_X"/>
   <outline>
     <contour>
