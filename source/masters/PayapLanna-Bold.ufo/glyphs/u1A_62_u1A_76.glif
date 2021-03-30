@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A62_u1A76" format="2">
-  <anchor x="182" y="813" name="AD"/>
-  <anchor x="192" y="334" name="_A"/>
-  <anchor x="192" y="334" name="_AD"/>
+  <anchor x="372" y="913" name="AD"/>
+  <anchor x="372" y="334" name="_A"/>
+  <anchor x="372" y="334" name="_AD"/>
   <anchor x="192" y="334" name="_AT"/>
   <outline>
-    <component base="u1A62" xOffset="230" yOffset="-20"/>
+    <component base="u1A62" xOffset="110" yOffset="-20"/>
     <component base="u1A76" xOffset="-18" yOffset="90"/>
   </outline>
   <lib>

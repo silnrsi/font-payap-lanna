@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A76" format="2">
   <unicode hex="1A76"/>
-  <anchor x="171" y="733" name="AD"/>
-  <anchor x="171" y="404" name="_A"/>
-  <anchor x="171" y="404" name="_AD"/>
+  <anchor x="351" y="733" name="AD"/>
+  <anchor x="351" y="404" name="_A"/>
+  <anchor x="351" y="404" name="_AD"/>
   <anchor x="171" y="404" name="_AT"/>
   <outline>
     <contour>
