@@ -125,6 +125,9 @@ _ g1a55 > @r:r _ / _ ^ cCons opt5(cDia) _=r;
 // cno_small > csmall / cNarrow opt5(cDia) _;
 // cno_right > cright / cuDia opt5(cDia) _;
 
+g1a45_sub g1a3f_sub > g1a45_1a3f_sub_low:(a b) _ / clDia ^ _=a opt2(cuDia) _=b;
+g1a45_sub g1a3f_sub > g1a45_1a3f_sub:(a b) _ / ^ _=a opt2(cuDia) _=b;
+
 endpass;
 
 pass(pass_render);
@@ -191,7 +194,7 @@ g1a49 g1a45_sub g1a36_sub > g1a49_1a36_sub_1a45_sub:(1 a b) _ _ / ^ _ opt2(cuDia
     (cno_thin) > (cthin) / _ ^ cTallLeft;
 #endif
 
-(g1a36_sub g1a3e_sub) > (g1a36_sub_narr g1a3e_sub_narr) / cConsNarrow opt3(cuDia) _;
+(g1a36_sub g1a3e_sub) > (g1a36_sub_narr g1a3e_sub_narr) / (cConsNarrow g1a64) opt3(cuDia) _;
 //cno_short > cshort / _ opt3(clDia) cTallLDias;
 cno_short > cshort / _ opt3((cDia cTone)) g200b? cTakesBDia opt3(cuDia) g1a6c;
 cno_short > cshort / _ opt3(cuDia) clDia;
@@ -222,9 +225,9 @@ cLDia {attach {to = @1; at = LS; with = LM}} / cTakesLDia opt4(cnTakesLDia) _;
 cRDia {attach {to = @1; at = RS; with = RM}} / cTakesRDia opt4(cSkipR) _;
 endpass
 
+#define clip(x) (x > 0m ? x : 0m)
 pass(3)
 
-#define clip(x) (x > 0m ? x : 0m)
 // cTakesBDia {kern.x=@b.BS.x-(@s.BM.x-@s.boundingbox.left) + 50m} g1a6c / g1a2f opt3((cDia cTone)) g200b? _=b opt3(cuDia) _=s;
 cCons / _ opt5(cDia) cHangRightDia clDia;
 cCons / _ opt5(cDia) cHangRightDia cConsShort;
@@ -233,9 +236,13 @@ cCons {advance.x += @d.boundingbox.right-@d.ARM.x} / _ opt5(cDia) cHangRightDia=
 //cHangRightDia (cTallLeft cVowelPre) {kern.x=@d.boundingbox.right-@d.ARM.x + 50m} / _=d opt(g200b) _=b;
 
 // bring tall a left if it has a lower diacritic
-g1a64 {kern.x=-@d.BM.x} cBDia / cConsShort opt3(cuDia) _=a _=d;
+g1a64 {kern.x=@a.BS.x-@d.BM.x} cBDia / cConsShort opt3(cuDia) _=a _=d;
+g1a64 {kern.x=@a.LS.x-@d.LM.x} cLDia / cConsShort opt3(cuDia) _=a _=d;
 g1a64 {kern.x=@a.RS.x-@d.RM.x} cRDia / cConsShort opt3(cuDia) _=a _=d;
 
+cBDia {advance.x=0m} / cCons opt4(cuDia) ^ cTakesBDia opt4(cnTakesBDia) _;
+cBDia {advance.x=0m} / cVowelPre ^ cTakesBDia opt4(cnTakesBDia) _;
+cBDia {advance.x= (@c.boundingbox.right-@b.boundingbox.right+@c.BS.x-@b.BM.x > @d.boundingbox.left-boundingbox.left+@d.BS.x-BM.x) ? 0m : advance.x} / cTakesBDia=c opt3(cnTakesBDia) cBDia=b opt3(cnTakesBDia) ^ cTakesBDia=d opt3(cnTakesBDia) _;
 endpass
 
 pass(4)
@@ -243,6 +250,8 @@ pass(4)
 g1a64 {kern.x += clip((-@a.boundingbox.left-@c.advance.x+@c.AS.x-@d.advance.x+@d.AM.x+50m))} / cConsShort=c cADia=d opt2(cuDia) _=a;
 
 cCons (g1a65 g1a66 g1a67 g1a68) {shift.x += @C.ARS.x - @C.AS.x - @L.boundingbox.right + @L.AM.x - @R.ARM.x + @R.boundingbox.left - 20m} cARDia / _=C opt4(clDia) _=L opt4((clDia cTone)) _=R;
+g1a55 {advance.x += clip(@c.boundingbox.left-@d.boundingbox.left+@d.BM.x-@c.BS.x + 100m)} / _ cTakesBDia=c opt4(cnTakesBDia) cBDia=d;
+g1a55 {advance.x += clip(@c.boundingbox.left-@d.boundingbox.left+@d.LM.x-@c.LS.x + 100m)} / _ cTakesLDia=c opt4(cnTakesLDia) cLDia=d;
 endpass
 
 #if 0

@@ -24,7 +24,7 @@ for dspace in ('',):
          # source = create("source/" + n + ".ufo", cmd("../tools/lannaaps -g 50 ${SRC} ${TGT}", "source/masters/" + n + ".ufo")),
          graphite = gdl(generated + '${DS:FILENAME_BASE}.gdl',
                         master = 'source/lanna.gdl',
-                        make_params = '-l lastcomp --autodefines',
+                        make_params = '-l lastcomp --autodefines -m _X',
                         params = '-v4 -d -q -e gdlerr${DS:FILENAME_BASE}.txt'),
          ap = generated + '${DS:FILENAME_BASE}.xml',
          opentype = fea(generated + '${DS:FILENAME_BASE}.fea',

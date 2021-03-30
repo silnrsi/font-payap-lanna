@@ -2,13 +2,13 @@
 <glyph name="u1A49_u1A36.sub_u1A45.sub" format="2">
   <advance width="1507"/>
   <anchor x="767" y="852" name="A"/>
+  <anchor x="80" y="852" name="AL"/>
   <anchor x="1471" y="852" name="AR"/>
   <anchor x="804" y="-1354" name="B"/>
   <anchor x="994" y="-1115" name="BD"/>
   <anchor x="1471" y="852" name="BR"/>
   <anchor x="40" y="0" name="L"/>
   <anchor x="1464" y="0" name="R"/>
-  <anchor x="824" y="-537" name="_BD"/>
   <outline>
     <contour>
       <point x="138" y="-463" type="curve"/>

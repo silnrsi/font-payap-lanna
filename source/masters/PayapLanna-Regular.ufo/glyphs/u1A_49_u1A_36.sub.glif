@@ -2,6 +2,7 @@
 <glyph name="u1A49_u1A36.sub" format="2">
   <advance width="1421"/>
   <anchor x="746" y="852" name="A"/>
+  <anchor x="80" y="852" name="AL"/>
   <anchor x="1388" y="852" name="AR"/>
   <anchor x="768" y="-559" name="B"/>
   <anchor x="1388" y="852" name="BR"/>
