@@ -3,8 +3,8 @@
   <unicode hex="1A6B"/>
   <anchor x="168" y="729" name="AD"/>
   <anchor x="168" y="305" name="_AD"/>
-  <anchor x="30" y="305" name="_AL"/>
-  <anchor x="168" y="305" name="_AT"/>
+  <anchor x="17" y="350" name="_AL"/>
+  <anchor x="168" y="350" name="_AT"/>
   <outline>
     <contour>
       <point x="165" y="580" type="curve" smooth="yes"/>

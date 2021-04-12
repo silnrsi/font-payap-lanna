@@ -127,6 +127,7 @@ _ g1a55 > @r:r _ / _ ^ cCons opt5(cDia) _=r;
 
 g1a45_sub g1a3f_sub > g1a45_1a3f_sub_low:(a b) _ / clDia ^ _=a opt2(cuDia) _=b;
 g1a45_sub g1a3f_sub > g1a45_1a3f_sub:(a b) _ / ^ _=a opt2(cuDia) _=b;
+g1a3f_sub g1a6c > g1a6c_1a3f_sub:(1 2) _ / _ _;
 
 endpass;
 
