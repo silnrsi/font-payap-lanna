@@ -3,6 +3,7 @@
   <unicode hex="1A7C"/>
   <anchor x="255" y="344" name="_AR"/>
   <outline>
+    <component base="u1A7A"/>
     <contour>
       <point x="691" y="1111" type="curve"/>
       <point x="698" y="1105"/>
@@ -44,7 +45,6 @@
       <point x="607" y="1055"/>
       <point x="650" y="1086"/>
     </contour>
-    <component base="u1A7A"/>
   </outline>
   <lib>
     <dict>

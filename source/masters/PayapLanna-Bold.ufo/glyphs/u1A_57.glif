@@ -6,6 +6,7 @@
   <anchor x="-286" y="-728" name="BD"/>
   <anchor x="322" y="0" name="_X"/>
   <outline>
+    <component base="u1A43.sub"/>
     <contour>
       <point x="-79" y="-262" type="curve" smooth="yes"/>
       <point x="112" y="-262"/>
@@ -42,6 +43,5 @@
       <point x="-131" y="-266"/>
       <point x="-103" y="-262"/>
     </contour>
-    <component base="u1A43.sub"/>
   </outline>
 </glyph>

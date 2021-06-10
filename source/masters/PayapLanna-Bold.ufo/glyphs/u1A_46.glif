@@ -10,6 +10,7 @@
   <anchor x="40" y="0" name="L"/>
   <anchor x="1252" y="0" name="R"/>
   <outline>
+    <component base="u1A23"/>
     <contour>
       <point x="590" y="554" type="curve"/>
       <point x="979" y="638"/>
@@ -27,6 +28,5 @@
       <point x="637" y="474"/>
       <point x="589" y="509"/>
     </contour>
-    <component base="u1A23"/>
   </outline>
 </glyph>

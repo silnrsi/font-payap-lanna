@@ -10,6 +10,7 @@
   <anchor x="40" y="0" name="L"/>
   <anchor x="1464" y="0" name="R"/>
   <outline>
+    <component base="u1A49" xOffset="13"/>
     <contour>
       <point x="138" y="-463" type="curve"/>
       <point x="399" y="-628"/>
@@ -86,7 +87,6 @@
       <point x="555" y="-206"/>
       <point x="604" y="-149"/>
     </contour>
-    <component base="u1A49" xOffset="13"/>
   </outline>
   <lib>
     <dict>

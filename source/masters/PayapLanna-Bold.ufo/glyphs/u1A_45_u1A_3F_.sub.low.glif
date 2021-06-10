@@ -5,6 +5,7 @@
   <anchor x="-195" y="-1376" name="BD"/>
   <anchor x="349" y="0" name="_X"/>
   <outline>
+    <component base="u1A45.sub" xScale="0.90703" yScale="0.90703" xOffset="-698" yOffset="-615"/>
     <contour>
       <point x="118" y="479" type="curve" smooth="yes"/>
       <point x="136" y="303"/>
@@ -52,7 +53,6 @@
       <point x="103" y="595"/>
       <point x="107" y="582"/>
     </contour>
-    <component base="u1A45.sub" xScale="0.90703" yScale="0.90703" xOffset="-698" yOffset="-615"/>
   </outline>
   <lib>
     <dict>

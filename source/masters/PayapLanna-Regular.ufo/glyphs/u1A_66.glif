@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A66" format="2">
   <unicode hex="1A66"/>
-  <anchor x="170" y="782" name="AD"/>
+  <anchor x="160" y="782" name="AD"/>
   <anchor x="170" y="305" name="_A"/>
   <anchor x="170" y="305" name="_AD"/>
   <anchor x="170" y="305" name="_AT"/>
