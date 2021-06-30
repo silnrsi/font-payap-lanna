@@ -59,7 +59,7 @@ cSymbol {breakweight = BW_WORD};
 //cConsLFinal = (g1a5b, g1a5c, g1a5d, g1a5e)
 //cVowelPre = (g1a6e, g1a6f, g1a70, g1a71, g1a72)
 cCons = (cConsNarrow cConsWide cConsVowel cConsLig g_dottedcircle g1a36_1a63 g1a31_1a2c){breakweight = -BW_SYLL};
-cuDia = (cVowelUDia cConsUFinal cTone){breakweight = -BW_NEVER};
+cuDia = (cVowelUDia cConsUFinal cTone g1a74){breakweight = -BW_NEVER};
 clDia = (csub cVowelLDia cConsLFinal g1a56 g1a56_1a6c clow cnarr){breakweight = -BW_NEVER};
 clDiaMed = (cConsLFinal cVowelLDia);
 clDiaLow = (csub clow g1a56);
@@ -127,6 +127,8 @@ _ g1a55 > @r:r _ / _ ^ cCons opt5(cDia) _=r;
 
 g1a45_sub g1a3f_sub > g1a45_1a3f_sub_low:(a b) _ / clDia ^ _=a opt2(cuDia) _=b;
 g1a45_sub g1a3f_sub > g1a45_1a3f_sub:(a b) _ / ^ _=a opt2(cuDia) _=b;
+g1a3f_sub g1a45_sub > g1a45_1a3f_sub_low:(a b) _ / clDia ^ _=a opt2(cuDia) _=b;
+g1a3f_sub g1a45_sub > g1a45_1a3f_sub:(a b) _ / ^ _=a opt2(cuDia) _=b;
 g1a3f_sub g1a6c > g1a6c_1a3f_sub:(1 2) _ / _ _;
 
 endpass;
@@ -134,7 +136,8 @@ endpass;
 pass(pass_render);
 
 #ifdef HAS_clig1A76
-    cligno_1A76 g1a76 > _ clig1A76$1:1 / _ ^ opt3(clDia) _;
+//    cligno_1A76 g1a76 > _ clig1A76$1:1 / _ ^ opt3(clDia) _;
+    g1a62 g1a76 > _ g1a62_1a76$1:1 / _ ^ opt3(clDia) _;
 #endif
 
 _ g1a74 > @m:m _ / _ cTone? g1a63 _=m;
@@ -192,12 +195,13 @@ g1a49 g1a45_sub g1a36_sub > g1a49_1a36_sub_1a45_sub:(1 a b) _ _ / ^ _ opt2(cuDia
 #endif
 
 #ifdef HAS_cthin
-    (cno_thin) > (cthin) / _ ^ cTallLeft;
+    cno_thin > cthin / _ ^ cTallLeft;
+    cno_thin > cthin / _ ^ cCons opt2(clDia) cuDia;
 #endif
 
 (g1a36_sub g1a3e_sub) > (g1a36_sub_narr g1a3e_sub_narr) / (cConsNarrow g1a64) opt3(cuDia) _;
 //cno_short > cshort / _ opt3(clDia) cTallLDias;
-cno_short > cshort / _ opt3((cDia cTone)) g200b? cTakesBDia opt3(cuDia) g1a6c;
+cno_short > cshort / _ opt3((cDia cTone)) g200b? cTakesBDia opt3(cuDia) (g1a6c clDia);
 cno_short > cshort / _ opt3(cuDia) clDia;
 
 endpass;
