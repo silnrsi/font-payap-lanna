@@ -35,7 +35,7 @@ http://scripts.sil.org/OFL
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2021/06/10 12:07:05</string>
+  <string>2021/10/04 14:23:44</string>
   <key>openTypeHheaAscender</key>
   <integer>1955</integer>
   <key>openTypeHheaDescender</key>
@@ -129,6 +129,10 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>0</integer>
     <integer>0</integer>
   </array>
+  <key>openTypeOS2Selection</key>
+  <array>
+    <integer>7</integer>
+  </array>
   <key>openTypeOS2StrikeoutPosition</key>
   <integer>700</integer>
   <key>openTypeOS2StrikeoutSize</key>
@@ -189,8 +193,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>760</integer>
   <key>postscriptBlueValues</key>
   <array>
-    <integer>-760</integer>
-    <integer>-760</integer>
     <integer>-10</integer>
     <integer>0</integer>
     <integer>795</integer>

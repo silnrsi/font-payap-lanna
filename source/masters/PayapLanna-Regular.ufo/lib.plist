@@ -13,27 +13,7 @@
     <array/>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>1356</string>
-  <key>com.schriftgestaltung.customParameter.GSFont.Axis Mappings</key>
-  <dict>
-    <key>XXXX</key>
-    <dict>
-      <key>0</key>
-      <integer>0</integer>
-    </dict>
-    <key>wdth</key>
-    <dict>
-      <key>100</key>
-      <integer>100</integer>
-    </dict>
-    <key>wght</key>
-    <dict>
-      <key>400</key>
-      <integer>400</integer>
-      <key>700</key>
-      <integer>700</integer>
-    </dict>
-  </dict>
+  <string>3098</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/u1A26/u1A37/u1A4F/u1A23/u1A2D/u1A3B/u1A53/u1A32/u1A48/u1A49/u1A55 
@@ -47,20 +27,15 @@
 /u1A45/u1A80/u1A90/u1A91/u1A92/u1A93/u1A94/u1A95/u1A96/u1A97/u1A98/u1A99/u1A99/u1A31.sub/u1A2D.sub/u1A2D 
 /u1A43/u1AA7/u1AA8/u1AA9/u1AAA/u1AAB/u1A32</string>
     <string>/u1AA5/u1AA3/u1AA4/u1AA0/u1A31/u1AA6/u1A48/u1AAC/u1A32/u1AAD/u0E5B/u1AA0/u1AA1/u1AA2</string>
-    <string>/u1A63/u1A23/u1A45/u1A64/u1A32/u1A24/u1A55/u1A3D 
-/u1A21.short/u1A21/u1A21.short/u1A22/u1A22.short/u1A2F/u1A2F.short/u1A3E/u1A3E.short 
-/u1A47/u1A48/u1A48/u1A47.short/u1A36/u1A36.short/u1A36_u1A63/u1A36_u1A63.short 
-/u1A36.sub/u1A36.sub.narr/u1A36.sub/u1A26/u1A23/u1A3E.sub.narr/u1A3E.sub</string>
-    <string>/u1A3D/u1A20/u1A3B/u1A25/u1A2D/u1A4F/u1A2C/u1A2F 
-/u1A30/u1A31/u1A31_u1A2C/u1A49.sub/u1A49/u1A3F/u1A20/u1A31/u1A37/u1A49_u1A36.sub/u1A49_u1A36.sub_u1A45.sub/u1A49_u1A3E.sub/u1A41/u1A41/u1A41.alt/u1A43/u1A48/u1A54</string>
     <string>/u1A31.sub/u1A56/u1A58/u1A59/u1A5A/u1A5B/u1A5C/u1A5D/u1A5E/u1A60/u1A62/space/u1A62.large/space/u1A56_u1A6C/space/u1A62_u1A76/space/u1A65/space/u1A65/space/u1A66/space/u1A67/space/u1A68/space/u1A69/space/u1A69.low/space/u1A6A/space/u1A6A.low/space/u1A6A_u1A36.sub/space/u1A6A_u1A3E.sub/space/u1A6B ./u1A6B/space/u1A6C/space/u1A6C.low/space/u1A6C_u1A36.sub/space/space/u1A38.sub/space/u1A38.sub.low/space/u1A6C_u1A38.sub/space/u1A6C/space/u1A2F/u1A63/u1A36.sub.narr/space/u1A63/u1A36.sub/space/u1A3E.sub.narr/space/u1A3E.sub/u1A36/space/u1A6C_u1A3E.sub/space/u1A6C/space/u1A3F.sub/space/u1A6C_u1A3F.sub/space/u1A73/space/u1A74/space/u1A74.high/space/u1A74_u1A76/space/u1A75/space/u1A75.high/space/u1A76/space/u1A76.high/space/u1A77/space/u1A78/space/u1A7A/u1A7A/space/u1A7A.high/space/u1A20/u1A7B/space/u1A7C/space/u1A7F/space/u1A6B/u1A75/u1A6B.alt/u1A75/space/u1A65/space</string>
-    <string>/u1A43.sub.low/space/space/u1A29/u1A43.sub/u1A3F.sub.low/u1A45.sub/u1A34.sub/u1A37.sub/u1A65/space/u1A66/space/space/u1A67/space/space/u1A68/space</string>
-    <string>/u1A43.sub/u1A4B/u1A43.sub</string>
+    <string>/u1A43.sub.low/space/space/u1A65/space/space/u1A66/space/space/u1A67/space/space/u1A68/space</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
   <true/>
+  <key>com.schriftgestaltung.customParameter.GSFont.uniqueID</key>
+  <string>SIL International: Payap Lanna Regular: 2021</string>
   <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
   <integer>0</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
