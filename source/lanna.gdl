@@ -199,10 +199,10 @@ g1a49 g1a45_sub g1a36_sub > g1a49_1a36_sub_1a45_sub:(1 a b) _ _ / ^ _ opt2(cuDia
     cno_thin > cthin / _ ^ cCons opt2(clDia) cuDia;
 #endif
 
-(g1a36_sub g1a3e_sub) > (g1a36_sub_narr g1a3e_sub_narr) / (cConsNarrow g1a64) opt3(cuDia) _;
+//(g1a36_sub g1a3e_sub) > (g1a36_sub_narr g1a3e_sub_narr) / (cConsNarrow g1a64) opt3(cuDia) _;
 //cno_short > cshort / _ opt3(clDia) cTallLDias;
-cno_short > cshort / _ opt3((cDia cTone)) g200b? cTakesBDia opt3(cuDia) (g1a6c clDia);
-cno_short > cshort / _ opt3(cuDia) clDia;
+//cno_short > cshort / _ opt3((cDia cTone)) g200b? cTakesBDia opt3(cuDia) (g1a6c clDia);
+//cno_short > cshort / _ opt3(cuDia) clDia;
 
 endpass;
 
