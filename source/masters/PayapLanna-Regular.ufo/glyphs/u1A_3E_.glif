@@ -4,6 +4,7 @@
   <unicode hex="1A3E"/>
   <anchor x="584" y="852" name="A"/>
   <anchor x="1087" y="852" name="AR"/>
+  <anchor x="60" y="852" name="AL"/>
   <anchor x="584" y="0" name="B"/>
   <anchor x="1087" y="852" name="BR"/>
   <anchor x="30" y="0" name="L"/>
