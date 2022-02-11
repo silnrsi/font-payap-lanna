@@ -110,7 +110,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Payap Lanna Regular: 2022</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.000</string>
+  <string>Version 0.930</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -221,9 +221,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>unitsPerEm</key>
   <integer>2048</integer>
   <key>versionMajor</key>
-  <integer>1</integer>
-  <key>versionMinor</key>
   <integer>0</integer>
+  <key>versionMinor</key>
+  <integer>930</integer>
   <key>xHeight</key>
   <integer>802</integer>
 </dict>

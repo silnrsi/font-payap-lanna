@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1A6C_u1A3E.sub" format="2">
+  <advance width="342"/>
   <anchor x="686" y="-360" name="BD"/>
   <anchor x="686" y="241" name="_BD"/>
   <anchor x="-36" y="241" name="_L"/>

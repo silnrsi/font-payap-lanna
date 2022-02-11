@@ -259,7 +259,7 @@ g1a64 {kern.x += clip((-@a.boundingbox.left-@c.advance.x+@c.AS.x-@d.advance.x+@d
 cCons (g1a65 g1a66 g1a67 g1a68) {shift.x += @C.ARS.x - @C.AS.x - @L.boundingbox.right + @L.AM.x - @R.ARM.x + @R.boundingbox.left - 20m} cARDia / _=C opt4(clDia) _=L opt4((clDia cTone)) _=R;
 g1a55 {advance.x += clip(@c.boundingbox.left-@d.boundingbox.left+@d.BM.x-@c.BS.x + 100m)} / _ cTakesBDia=c opt4(cnTakesBDia) cBDia=d;
 g1a55 {advance.x += clip(@c.boundingbox.left-@d.boundingbox.left+@d.LM.x-@c.LS.x + 100m)} / _ cTakesLDia=c opt4(cnTakesLDia) cLDia=d;
-g1a76_high {attach {to=@b; at=ADS; with=ADM}} / cTallRight opt4(clDia) g1a6b=b opt4(clDia) _;
+g1a76_high {attach {to=@b; at=ADS; with=ADM}} / g1a6b=b opt4(clDia) _;
 endpass
 
 #if 0
