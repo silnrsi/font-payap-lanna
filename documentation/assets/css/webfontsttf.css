@@ -1,0 +1,16 @@
+/*
+This file is from the SIL Fontdocs project (https://github.com/silnrsi/fontdocs).
+Copyright (c) 2021 SIL International (http://www.sil.org/). This Font Software is
+released under the MIT license (http://opensource.org/licenses/MIT).
+*/
+@font-face {
+    font-family: PayapLanna-R;
+    src: url("../../../results/PayapLanna-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: PayapLanna-B;
+    src: url("../../../results/PayapLanna-Bold.ttf") format("truetype");
+}
+
+.payaplanna-R { font-family: PayapLanna-R; }
+.payaplanna-B { font-family: PayapLanna-R; }

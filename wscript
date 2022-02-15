@@ -14,7 +14,7 @@ TEXTSIZE = 20
 
 getufoinfo("source/masters/PayapLanna-Regular.ufo")
 BUILDLABEL = "alpha"
-fontfamily=APPNAME
+familyname=APPNAME
 
 generated = 'generated/'
 
@@ -37,6 +37,8 @@ for dspace in ('',):
          #                                                   ['source/{}.xml'.format(f), 'source/khun_classes.xml', 'source/khun.feap'])),
          #               no_make=1),
          #        woff = woff(),
+        woff = woff('web/${DS:FILENAME_BASE}.woff',
+            metadata=f'../source/{familyname}-WOFF-metadata.xml'),
          fret = fret(params='-r -a ' + generated + '${DS:FILENAME_BASE}.xml'),
          version = VERSION,
          script = 'lana',
