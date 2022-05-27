@@ -4,14 +4,4 @@
 # Produce individual UFOs from Glyphs file
 psfglyphs2ufo --nofea source/masters/PayapLanna.glyphs source/masters
 
-echo "Checking and normalizing Regular..."
-# Do this before meta sync so we minimize problems in the Bold
-psfnormalize -p checkfix=fix source/masters/PayapLanna-Regular.ufo -p scrlevel=V
-psfnormalize -p checkfix=fix source/masters/PayapLanna-Bold.ufo -p scrlevel=V
-
-psfsetglyphorder -i source/glyph_data.csv source/masters/PayapLanna-Regular.ufo
-
-echo "Syncing glyph orders, psnames, and other metadata to other UFOs..."
-psfsyncmasters source/PayapLannaGlyphs.designspace -p scrlevel=V
-
-echo "preflight completed!"
+./preflight
