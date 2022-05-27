@@ -1,6 +1,6 @@
 ---
 title: Payap Lanna - Resources
-fontversion: 0.930
+fontversion: 1.000
 ---
 
 ## Requirements
@@ -19,7 +19,7 @@ See [Character set support](charset.md) for details of the Unicode characters su
 
 ## Rendering and application support
 
-These fonts support both OpenType and Graphite shaping. The Graphite shaping should be correct, in the application supports Graphite. OpenType shaping might have some issues, but will work for the most part on more applications than applications supporting Graphite.
+These fonts support both OpenType and Graphite shaping. The Graphite shaping should be correct if the application supports Graphite. OpenType shaping might have some issues, but will work for the most part on more applications than currently support Graphite.
 
 ## Web fonts
 

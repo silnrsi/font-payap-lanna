@@ -1,12 +1,8 @@
 ---
 title: Payap Lanna - Version History
-fontversion: 0.930
+fontversion: 1.000
 ---
 
-### 11 February 2022 version 0.930
+### 6 June 2022 (SIL WSTech Team) Payap Lanna version 1.000
 
-Most functionality complete
-
-### 12 June 2019 version 0.001
-
-Initial design foundations
+First official release.

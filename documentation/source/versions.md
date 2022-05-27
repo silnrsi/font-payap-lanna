@@ -1,6 +1,6 @@
 ---
 title: Payap Lanna - Versions and Changes
-fontversion: 0.930
+fontversion: 1.000
 ---
 
 ## Announcement list
@@ -11,7 +11,7 @@ Our font announcements are also available through Twitter [@silfonts](http://twi
 
 ## Current versions
 
-The latest version of the fonts is always available from the [Payap Lanna download page](https://software.sil.org/payaplanna/#downloads) as a .zip archive for all major platforms.
+The latest version of the fonts is always available from the [Payap Lanna download page](https://software.sil.org/payaplanna/) as a .zip archive for all major platforms.
 
 ## Change history
 

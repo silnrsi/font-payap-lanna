@@ -1,19 +1,20 @@
-# font-payap-lanna
+# Payap Lanna [![Build Status](http://build.palaso.org/app/rest/builds/buildType:Fonts_PayapLanna/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_PayapLanna&guest=1)
 
-Payap Lanna is a Unicode font family that supports Tai Tham in the Lanna style.
+This project is intended to provide a free and open font family for all current languages and writing systems that use Tai Tham script of Northern Thailand. This font supports the Tai Tham script plus a range of useful Latin characters.
 
-### Project status [![Build Status](http://build.palaso.org/app/rest/builds/buildType:Fonts_PayapLanna/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_PayapLanna&guest=1)
+The design is inspired by, but not based on, the CR Udom fonts designed by Charin Jamjitt. It has been produced with help from [Payap's Linguistic Institute](http://li.payap.ac.th).
 
-*Font design and engineering is still going on so this font is not yet ready for use or distribution yet.*
+To download the fonts visit the [Payap Lanna site](https://software.sil.org/payaplanna/) or the [Github releases page](https://github.com/silnrsi/font-payap-lanna/releases).
 
-It is inspired but not derived from the Udom font family by Charin Jamjitt. 
-It is an original design named after and produced with help from [Payap's Linguistic Institute](http://li.payap.ac.th).
+For more information on using and developing the fonts see the full project documentation. This is available in three forms:
 
-The font source is available in [UFO version 3](http://unifiedfontobject.org/versions/ufo3/index.html).
-The project is built using the Smith build system according to the specs in [wscript](wscript).
+- *local HTML* - Download the release or source package and open the file `documentation/index.html` in a browser
+- *local PDF* - Download the release or source package and open the file `documentation/pdf/index.pdf`
+- *Web site* - Visit the [Payap Lanna site](https://software.sil.org/payaplanna/) 
+
+For a complete list of changes in this version see the [FONTLOG.txt](FONTLOG.txt).
 
 For copyright and licensing information - including any Reserved Font Names - see [OFL.txt](OFL.txt).
 
 For practical information about using, modifying and redistributing this font see [OFL-FAQ.txt](OFL-FAQ.txt).
 
-For more details about this project, including changelog and acknowledgements see [FONTLOG.txt](FONTLOG.txt) and [README.txt](README.txt).

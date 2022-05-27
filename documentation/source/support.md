@@ -1,6 +1,6 @@
 ---
 title: Payap Lanna - Support
-fontversion: 0.930
+fontversion: 1.000
 ---
 
 ## Support options
@@ -15,7 +15,7 @@ For person-to-person support visit the [SIL Language Software Community](https:/
 
 ## Reporting bugs and feature requests
 
-If you have a bug to report or a suggestion for how we could improve the fonts please create an issue in the [Payap Lanna  Github repository](https://github.com/silnrsi/font-payap-lanna/issues) or contact us directly.
+If you have a bug to report or a suggestion for how we could improve the fonts please create an issue in the [Payap Lanna Github repository](https://github.com/silnrsi/font-payap-lanna/issues) or contact us directly.
 
 ## Contact form
 

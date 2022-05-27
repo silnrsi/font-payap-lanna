@@ -1,6 +1,6 @@
 ---
 title: Payap Lanna - Character Set Support
-fontversion: 0.930
+fontversion: 1.000
 ---
 
 This font supports the Tai Tham script plus a range of useful Latin characters.

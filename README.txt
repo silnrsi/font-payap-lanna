@@ -1,46 +1,22 @@
+README
+Payap Lanna
+===========
 
-Thank you for your interest in the Payap Lanna fonts.
-We hope you find them useful!
+This project is intended to provide a free and open font family for all current languages and writing systems that use Tai Tham script of Northern Thailand. This font supports the Tai Tham script plus a range of useful Latin characters.
 
-The Payap Lanna fonts are Unicode fonts that provide support for the Tai Tham script.
+The design is inspired by, but not based on, the CR Udom fonts designed by Charin Jamjitt. It has been produced with help from [Payap's Linguistic Institute](http://li.payap.ac.th).
 
-The Payap Lanna fonts are released under the SIL Open Font License.
-See OFL.txt and OFL-FAQ.txt files for details of the SIL Open Font License.
-See FONTLOG.txt for information on this and previous releases.
+To download the fonts visit the [Payap Lanna site](https://software.sil.org/payaplanna/) or the [Github releases page](https://github.com/silnrsi/font-payap-lanna/releases).
 
-For further information about this font, including Unicode ranges
-supported, Graphite and OpenType font features and how to use them, 
-and licensing, please see the documentation on the website 
-(... ) or in the documentation/ subfolder.
+For more information on using and developing the fonts see the full project documentation. This is available in three forms:
 
-TIPS
-====
+- *local HTML* - Download the release or source package and open the file `documentation/index.html` in a browser
+- *local PDF* - Download the release or source package and open the file `documentation/pdf/index.pdf`
+- *Web site* - Visit the [Payap Lanna site](https://software.sil.org/payaplanna/) 
 
-We cannot afford to offer no-cost technical support.
-But the font has been tested and shown to work on ...
+For a complete list of changes in this version see the [FONTLOG.txt](FONTLOG.txt).
 
-If you do find a problem, please do report it to ... . We can't 
-guarantee any direct response, but will try to fix reported bugs in future 
-versions.
+For copyright and licensing information - including any Reserved Font Names - see [OFL.txt](OFL.txt).
 
-Many problems can be solved, or at least explained, through an understanding
-of the encoding and use of the fonts. Here are some basic hints:
+For practical information about using, modifying and redistributing this font see [OFL-FAQ.txt](OFL-FAQ.txt).
 
-Encoding: 
-The fonts are encoded according to Unicode, so your application must support
-Unicode text in order to access letters other than the standard alphabet.
-Most Windows applications provide basic Unicode support. You will, however,
-need some way of entering Unicode text into your document.
-
-Keyboarding: 
-Foo does not include any keyboarding helps or utilities. If you 
-cannot use the built-in keyboards of the operating system, you should 
-install the appropriate keyboard and input method for the characters of the 
-language you wish to use. You will need to install the appropriate keyboard and 
-input method for the characters of the language you wish to use. 
-
-Rendering:
-This font is designed to work with two advanced font technologies, 
-Graphite and OpenType. To take advantage of the advanced typographic 
-capabilities of this font, you must be using applications that provide an
-adequate level of support for Graphite or OpenType.

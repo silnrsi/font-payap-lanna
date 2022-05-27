@@ -1,6 +1,6 @@
 ---
 title: Payap Lanna - Developer information
-fontversion: 0.930
+fontversion: 1.000
 ---
 
 ## Welcome font developers!
@@ -13,7 +13,7 @@ SIL’s fonts are licensed according to the terms of the [SIL Open Font License]
 
 ## Building the fonts from source code
 
-The full source code is available on the [Payap Lanna  Github repository](https://github.com/silnrsi/font-payap-lanna).
+The full source code is available on the [Payap Lanna Github repository](https://github.com/silnrsi/font-payap-lanna).
 
 Font sources are in the [UFO3](http://unifiedfontobject.org/versions/ufo3/) format with font family structures defined using [designspace](https://github.com/fonttools/fonttools/tree/master/Doc/source/designspaceLib). OpenType source code is stored in the [.fea](https://adobe-type-tools.github.io/afdko/OpenTypeFeatureFileSpecification.html) format in the UFO (features.fea) but is maintained in a separate file using the more efficient and powerful [.feax](https://github.com/silnrsi/pysilfont/blob/master/docs/feaextensions.rawmd) format. Graphite source code is stored in [Graphite Description Language](https://graphite.sil.org).
 

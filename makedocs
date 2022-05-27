@@ -14,8 +14,6 @@ echo "     > about.html"
 pandoc -s -f markdown-smart --template documentation/source/template.html documentation/source/about.md -o documentation/about.html --lua-filter=documentation/source/pandocfilters/filter-html.lua
 echo "     > charset.html"
 pandoc -s -f markdown-smart --template documentation/source/template.html documentation/source/charset.md -o documentation/charset.html --lua-filter=documentation/source/pandocfilters/filter-html.lua
-echo "     > design.html"
-pandoc -s -f markdown-smart --template documentation/source/template.html documentation/source/design.md -o documentation/design.html --lua-filter=documentation/source/pandocfilters/filter-html.lua
 echo "     > developer.html"
 pandoc -s -f markdown-smart --template documentation/source/template.html documentation/source/developer.md -o documentation/developer.html --lua-filter=documentation/source/pandocfilters/filter-html.lua
 echo "     > faq.html"
@@ -40,9 +38,6 @@ weasyprint documentation/source/pdftemp/about.html documentation/pdf/about.pdf
 echo "     > charset.html > charset.pdf"
 pandoc -s -f markdown-smart --template documentation/source/templatepdf.html documentation/source/charset.md -o documentation/source/pdftemp/charset.html --lua-filter=documentation/source/pandocfilters/filter-pdf.lua
 weasyprint documentation/source/pdftemp/charset.html documentation/pdf/charset.pdf
-echo "     > design.html > design.pdf"
-pandoc -s -f markdown-smart --template documentation/source/templatepdf.html documentation/source/design.md -o documentation/source/pdftemp/design.html --lua-filter=documentation/source/pandocfilters/filter-pdf.lua
-weasyprint documentation/source/pdftemp/design.html documentation/pdf/design.pdf
 echo "     > developer.html > developer.pdf"
 pandoc -s -f markdown-smart --template documentation/source/templatepdf.html documentation/source/developer.md -o documentation/source/pdftemp/developer.html --lua-filter=documentation/source/pandocfilters/filter-pdf.lua
 weasyprint documentation/source/pdftemp/developer.html documentation/pdf/developer.pdf

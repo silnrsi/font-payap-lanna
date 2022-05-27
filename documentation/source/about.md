@@ -1,13 +1,13 @@
 ---
 title: Payap Lanna - About
-fontversion: 0.930
+fontversion: 1.000
 ---
 
 ## About this project
 
-This project is intended to provide a free and open font family for all current languages and writing systems that use Tai Tham script.
+This project is intended to provide a free and open font family for all current languages and writing systems that use Tai Tham script of Northern Thailand.
 
-For more information on the visual characteristics of the font family see [Design](design.md).
+It has been produced with help from [Payap's Linguistic Institute](http://li.payap.ac.th).
 
 ## Future plans
 
@@ -18,8 +18,6 @@ The highest priorities for future additions and enhancements are mainly driven b
 - New additions to [The Unicode Standard](https://unicode.org/)
 - Requests from language communities using the fonts
 - Needs of the linguistic and academic community
-
-Although some expert typographic features are supported (e.g. small caps), those are a lesser priority.
 
 Please send us your requests using the [form on the SIL software website](https://software.sil.org/support/). If you are interested in helping us make the fonts better see the [Developer](developer.md) page.
 
