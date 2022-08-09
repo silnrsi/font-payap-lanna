@@ -36,7 +36,7 @@
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDescription</key>
-  <string>Lanna style Tai Tham font.</string>
+  <string>Lanna style Tai Tham font</string>
   <key>openTypeNameDesigner</key>
   <string>Becca Hirsbrunner Spalinger</string>
   <key>openTypeNameDesignerURL</key>
@@ -97,8 +97,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <string>Payap Lanna</string>
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Bold</string>
-  <key>openTypeNameSampleText</key>
-  <string>sampletext to be added</string>
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Payap Lanna Bold: 2022</string>
   <key>openTypeNameVersion</key>
