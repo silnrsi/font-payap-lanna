@@ -8,11 +8,11 @@ This file provides detailed information on the Payap Lanna Font Software. This i
 
 This project is intended to provide a free and open font family for all current languages and writing systems that use Tai Tham script of Northern Thailand. This font supports the Tai Tham script plus a range of useful Latin characters.
 
-The design is inspired by, but not based on, the CR Udom fonts designed by Charin Jamjitt. It has been produced with help from [Payap's Linguistic Institute](http://li.payap.ac.th).
+The design is inspired by, but not based on, the CR Udom fonts designed by Charin Jamjitt. It has been produced with help from [Payap's Linguistics Institute](http://li.payap.ac.th).
 
 ## ChangeLog
 
-### 6 June 2022 (SIL WSTech Team) Payap Lanna version 1.000
+### 19 August 2022 (SIL WSTech Team) Payap Lanna version 1.000
 
 First official release.
 

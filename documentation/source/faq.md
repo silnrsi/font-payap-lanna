@@ -10,7 +10,7 @@ Many questions can be answered by consulting the following FAQ pages. Here are a
     - *How can I use font features?*
     - *Will you add support for character...?*
     - *Will you add support for script...?*
-    - *WIll you help me...?*
+    - *Will you help me...?*
 
 - [The SIL Open Font License (OFL-FAQ)](https://scripts.sil.org/OFL-FAQ_web)
     - *Can I use this font for...?*
@@ -20,7 +20,10 @@ Many questions can be answered by consulting the following FAQ pages. Here are a
 
 Here are a few of the most frequently asked questions specifically regarding Payap Lanna:
 
-#### *Why does this character sequence work in Graphite but not OpenType?*
+#### *Why does this font only support Graphite?*
 
-Because of the differences in Graphite and OpenType technologies some character sequences may render differently, although the Graphite is most likely to render them correctly. Applications may also differ in their OpenType support. Please let us know if there is a sequence that is not rendering properly so we can try and fix it. Some bugs may be in the shaping systems rather than in the font and may be out of our control.
+The current OpenType and shaping engine support for Tai Tham (Lanna) does not correctly handle some sequences, and there is no workaround. Graphite provides proper rendering for those sequences, but requires an application that supports Graphite.
 
+#### *Will you support OpenType in the future?*
+
+Yes, we expect to fully support OpenType once changes to the shaping engines make that possible.

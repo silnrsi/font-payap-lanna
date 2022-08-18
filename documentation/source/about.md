@@ -7,7 +7,7 @@ fontversion: 1.000
 
 This project is intended to provide a free and open font family for all current languages and writing systems that use Tai Tham script of Northern Thailand.
 
-It has been produced with help from [Payap's Linguistic Institute](http://li.payap.ac.th).
+The design is inspired by, but not based on, the CR Udom fonts designed by Charin Jamjitt. It has been produced with help from [Payap's Linguistics Institute](http://li.payap.ac.th).
 
 ## Future plans
 
