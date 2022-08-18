@@ -13,7 +13,7 @@ DESC_SHORT = "A font for the Lanna script."
 TEXTSIZE = 20
 
 getufoinfo("source/masters/PayapLanna-Regular.ufo")
-BUILDLABEL = "alpha"
+# BUILDLABEL = "alpha"
 familyname=APPNAME
 
 generated = 'generated/'
