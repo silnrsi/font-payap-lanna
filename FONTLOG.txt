@@ -20,7 +20,7 @@ First official release.
 
 We welcome other developers who wish to get involved in supporting and enhancing these fonts or who want to modify them.
 
-SIL’s fonts are licensed according to the terms of the SIL Open Font License (https://scripts.sil.org/OFL). The OFL allows the fonts to be used, studied, modified and redistributed freely as long as they are not sold by themselves. For details see the OFL.txt and OFL-FAQ.txt files in the package.
+SIL’s fonts are licensed according to the terms of the SIL Open Font License (https://openfontlicense.org/). The OFL allows the fonts to be used, studied, modified and redistributed freely as long as they are not sold by themselves. For details see the OFL.txt and OFL-FAQ.txt files in the package.
 
 Full sources are included in this package. For information on the source formats or how the fonts are built see documentation/developer.html.
 
