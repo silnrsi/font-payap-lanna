@@ -9,7 +9,7 @@ Install the fonts by decompressing the .zip archive and installing the fonts usi
 
 ## Keyboarding and character set support
 
-These fonts do not include keyboards or other software for entering text. To type the symbols in these fonts use the keyboarding systems provided in your OS or use a separate utility. SIL’s [Keyman](https://keyman.com/) provides keyboards for over 2000 languages and works on all major desktop and mobile platforms. For information on other keyboarding options see the overview at [Keyboard Systems Overview (ScriptSource)](https://scriptsource.org/entry/ytr8g8n6sw).
+These fonts do not include keyboards or other software for entering text. To type the symbols in these fonts use the keyboarding systems provided in your OS or use a separate utility. SIL’s [Keyman](https://keyman.com/) provides keyboards for over 2000 languages and works on all major desktop and mobile platforms. For information on other keyboarding options see [Keyboard tools (Writing Systems Technical Resources)](https://writingsystems.info/topics/input/keyboards-and-tools/#keyboard-tools).
 
 See [Character set support](charset) for details of the Unicode support provided by these fonts.
 
@@ -25,4 +25,5 @@ Web font versions of these fonts (in WOFF and WOFF2 formats) are available in th
 
 These fonts are encoded according to [The Unicode Standard](http://unicode.org). There may be future changes to Unicode that regularize the encoding for Tai Tham (Lanna). This project will be updated to track those changes.
 
-If you have text that uses a legacy, non-Unicode encoding there are tools that can help you convert that text for use with Unicode fonts. See [Introduction to Text Conversion and Transliteration](https://scriptsource.org/entry/xlzd6n5aqt).
+If you have text that uses a legacy, non-Unicode encoding there are tools that can help you convert that text for use with Unicode fonts. See [Encoding Conversion (Writing Systems Technical Resources)](https://writingsystems.info/topics/encoding/encoding-conversion/).
+
